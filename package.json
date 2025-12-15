@@ -1,0 +1,51 @@
+{
+  "name": "sample-mcp",
+  "version": "1.0.0",
+  "description": "Sample MCP",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build && npm test",
+    "setup:hooks": "chmod +x scripts/pre-commit.js && git config core.hooksPath scripts",
+    "build": "tsc && tscpaths -p tsconfig.json -s ./src -o ./dist/src",
+    "build:watch": "tsc --watch",
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\" \"tests/**/*.ts\"",
+    "cli": "ts-node -r tsconfig-paths/register src/presentation/cli/main.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "@aws-sdk/client-bedrock-runtime": "^3.913.0",
+    "@aws-sdk/credential-providers": "^3.709.0",
+    "@google-cloud/local-auth": "^2.1.0",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "fuse.js": "^7.1.0",
+    "google-auth-library": "^10.4.0",
+    "googleapis": "^105.0.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/dotenv": "^6.1.1",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "glob": "^11.0.3",
+    "jest": "^30.2.0",
+    "lru-cache": "^10.4.3",
+    "ts-jest": "^29.4.4",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.16",
+    "tsconfig-paths": "^4.2.0",
+    "tscpaths": "^0.0.9",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,383 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "buffett code logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "buffett code logo" [ref=e5]
+      - link "バフェット・コード" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: バフェット・コード
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e14]
+            - textbox "会社名やキーワードや銘柄コードで検索" [active] [ref=e16]
+          - generic:
+            - list
+        - generic [ref=e18]:
+          - link "料金プラン" [ref=e19] [cursor=pointer]:
+            - /url: /pricing
+          - link "法人プラン" [ref=e20] [cursor=pointer]:
+            - /url: https://business.buffett-code.com/?utm_source=web_ui_nav
+      - generic [ref=e21]:
+        - link "マイページ" [ref=e22] [cursor=pointer]:
+          - /url: /users
+        - link "無料トライアル" [ref=e23] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/trial?utm_source=web_ui_nav
+        - link "資料ダウンロード" [ref=e24] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/resources/3min_paper?utm_source=web_ui_nav
+        - link "お問い合わせ" [ref=e25] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/contact?utm_source=web_ui_nav
+      - text: 
+  - text:             
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - link " 条件検索" [ref=e29] [cursor=pointer]:
+        - /url: /global_screening
+        - generic [ref=e30]: 
+        - generic [ref=e31]: 条件検索
+      - link " M&A検索" [ref=e32] [cursor=pointer]:
+        - /url: /ma_search
+        - generic [ref=e33]: 
+        - generic [ref=e34]: M&A検索
+      - link " 株主検索" [ref=e35] [cursor=pointer]:
+        - /url: /shareholder_search
+        - generic [ref=e36]: 
+        - generic [ref=e37]: 株主検索
+      - link " 企業比較" [ref=e38] [cursor=pointer]:
+        - /url: /comps
+        - generic [ref=e39]: 
+        - generic [ref=e40]: 企業比較
+      - link " 資料検索" [ref=e41] [cursor=pointer]:
+        - /url: /documents
+        - generic [ref=e42]: 
+        - generic [ref=e43]: 資料検索
+      - link " スライド検索" [ref=e44] [cursor=pointer]:
+        - /url: /slides/search
+        - generic [ref=e45]: 
+        - generic [ref=e46]: スライド検索
+      - link " 適時開示" [ref=e47] [cursor=pointer]:
+        - /url: /disclosures/financial_statements
+        - generic [ref=e48]: 
+        - generic [ref=e49]: 適時開示
+      - link " 決算予定" [ref=e50] [cursor=pointer]:
+        - /url: /calendar
+        - generic [ref=e51]: 
+        - generic [ref=e52]: 決算予定
+      - link " 株価DL" [ref=e53] [cursor=pointer]:
+        - /url: /download
+        - generic [ref=e54]: 
+        - generic [ref=e55]: 株価DL
+      - link " 登記簿" [ref=e56] [cursor=pointer]:
+        - /url: /registries
+        - generic [ref=e57]: 
+        - generic [ref=e58]: 登記簿
+      - generic [ref=e60]:
+        - generic [ref=e61]: 
+        - generic [ref=e62]: About
+    - generic [ref=e64]:
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - link "TOP" [ref=e67] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e68]:
+          - text: /
+          - link "日米銘柄スクリーニング" [ref=e69] [cursor=pointer]:
+            - /url: /global_screening
+        - listitem [ref=e70]: / 検索結果
+      - generic [ref=e71]:
+        - text: 財務数値や株価指標などの条件を指定すると、条件に合致した上場企業を選出できます。 選択できる項目や、検索結果の表示件数はプランに応じて増加します。 詳しくは
+        - link "こちら" [ref=e72] [cursor=pointer]:
+          - /url: /pricing
+        - text: 。
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic [ref=e80]: 検索対象
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - radio "日本" [checked] [ref=e83]
+              - generic [ref=e84]: 日本
+            - generic [ref=e85]:
+              - radio "米国" [ref=e86]
+              - generic [ref=e87]: 米国
+            - generic [ref=e88]:
+              - radio "日/米" [ref=e89]
+              - generic [ref=e90]: 日/米
+            - generic [ref=e91]:
+              - radio "国内未上場" [ref=e92]
+              - generic [ref=e93]: 国内未上場
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - generic [ref=e98]: 条件
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - log [ref=e103]
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: 時価総額
+                    - combobox [ref=e108]
+                  - img [ref=e112]
+              - combobox [ref=e114]:
+                - option "≧(以上)"
+                - option "≦(以下)" [selected]
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e115]: "50000"
+              - generic [ref=e116]: 百万円
+              - button "削除" [ref=e117] [cursor=pointer]:
+                - img [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - log [ref=e123]
+                - generic [ref=e124]:
+                  - generic [ref=e125]:
+                    - generic [ref=e126]: 営業利益率
+                    - combobox [ref=e128]
+                  - img [ref=e132]
+              - combobox [ref=e134]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e135]: "70"
+              - generic [ref=e136]: "%"
+              - button "削除" [ref=e137] [cursor=pointer]:
+                - img [ref=e138]
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - log [ref=e143]
+                - generic [ref=e144]:
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: PBR
+                    - combobox [ref=e148]
+                  - img [ref=e152]
+              - combobox [ref=e154]:
+                - option "≧(以上)"
+                - option "≦(以下)" [selected]
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e155]: "10"
+              - generic [ref=e156]: 倍
+              - button "削除" [ref=e157] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - log [ref=e163]
+                - generic [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic [ref=e166]: PER(会予)
+                    - combobox [ref=e168]
+                  - img [ref=e172]
+              - combobox [ref=e174]:
+                - option "≧(以上)"
+                - option "≦(以下)" [selected]
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e175]: "1"
+              - generic [ref=e176]: 倍
+              - button "削除" [ref=e177] [cursor=pointer]:
+                - img [ref=e178]
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - log [ref=e183]
+                - generic [ref=e184]:
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: 自己資本比率
+                    - combobox [ref=e188]
+                  - img [ref=e192]
+              - combobox [ref=e194]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e195]: "8"
+              - generic [ref=e196]: "%"
+              - button "削除" [ref=e197] [cursor=pointer]:
+                - img [ref=e198]
+            - generic [ref=e200]:
+              - generic [ref=e201]:
+                - log [ref=e203]
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: ROE
+                    - combobox [ref=e208]
+                  - img [ref=e212]
+              - combobox [ref=e214]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e215]: "5"
+              - generic [ref=e216]: "%"
+              - button "削除" [ref=e217] [cursor=pointer]:
+                - img [ref=e218]
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - log [ref=e223]
+                - generic [ref=e224]:
+                  - generic [ref=e225]:
+                    - generic [ref=e226]: 配当利回り(実績)
+                    - combobox [ref=e228]
+                  - img [ref=e232]
+              - combobox [ref=e234]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e235]: "1"
+              - generic [ref=e236]: "%"
+              - button "削除" [ref=e237] [cursor=pointer]:
+                - img [ref=e238]
+            - button "+条件を追加" [ref=e241] [cursor=pointer]
+        - generic [ref=e242]:
+          - generic [ref=e243]:
+            - img [ref=e244]
+            - generic [ref=e246]: 表示科目
+            - button "変更" [ref=e247] [cursor=pointer]:
+              - generic [ref=e248]:
+                - img [ref=e249]
+                - generic [ref=e251]: 変更
+          - generic [ref=e252]:
+            - button "ROE" [ref=e253] [cursor=pointer]
+            - button "時価総額" [ref=e254] [cursor=pointer]
+            - button "PER(会予)" [ref=e255] [cursor=pointer]
+            - button "PBR" [ref=e256] [cursor=pointer]
+            - button "営業利益率" [ref=e257] [cursor=pointer]
+            - button "自己資本比率" [ref=e258] [cursor=pointer]
+            - button "配当利回り(実績)" [ref=e259] [cursor=pointer]
+        - generic [ref=e260]:
+          - img [ref=e261]
+          - generic [ref=e263]: その他条件
+        - generic [ref=e264]:
+          - button "優先市場を選択する" [ref=e266] [cursor=pointer]:
+            - generic [ref=e267]:
+              - img [ref=e268]
+              - generic [ref=e270]: 優先市場を選択する
+          - button "業種を選択する" [ref=e272] [cursor=pointer]:
+            - generic [ref=e273]:
+              - img [ref=e274]
+              - generic [ref=e276]: 業種を選択する
+          - button "会計基準を選択する" [ref=e278] [cursor=pointer]:
+            - generic [ref=e279]:
+              - img [ref=e280]
+              - generic [ref=e282]: 会計基準を選択する
+          - button "都道府県を選択する" [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]:
+              - img [ref=e286]
+              - generic [ref=e288]: 都道府県を選択する
+        - generic [ref=e289]:
+          - generic [ref=e290]:
+            - img [ref=e291]
+            - generic [ref=e293]: 検索対象
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - radio "3年前" [ref=e296]
+              - generic [ref=e297]: 3年前
+            - generic [ref=e298]:
+              - radio "現在" [checked] [ref=e299]
+              - generic [ref=e300]: 現在
+        - button "検索" [ref=e302] [cursor=pointer]:
+          - generic [ref=e303]:
+            - img [ref=e304]
+            - text: 検索
+      - generic [ref=e306]:
+        - generic [ref=e308]: 検索条件にマッチする企業はありませんでした。
+        - generic [ref=e309]:
+          - button "条件を保存する" [ref=e311] [cursor=pointer]:
+            - generic [ref=e312]:
+              - generic [ref=e313]: 
+              - text: 条件を保存する
+          - button "ダウンロード" [ref=e315] [cursor=pointer]:
+            - generic [ref=e316]:
+              - generic [ref=e317]: 
+              - text: ダウンロード
+      - button "比較を実行" [disabled] [ref=e318]:
+        - generic [ref=e319]: 比較を実行
+      - generic [ref=e321]:
+        - generic [ref=e322]:
+          - generic [ref=e324]:
+            - combobox "entries per page" [ref=e325]:
+              - option "10"
+              - option "25"
+              - option "50" [selected]
+              - option "100"
+            - generic [ref=e326]: entries per page
+          - generic [ref=e328]:
+            - generic [ref=e329]: "Search:"
+            - searchbox "Search:" [ref=e330]
+        - table [ref=e333]:
+          - rowgroup [ref=e350]:
+            - 'row "比較する 会社名: Activate to sort 銘柄コード: Activate to sort 業種: Activate to sort 優先市場: Activate to sort 決算月: Activate to sort 会計基準: Activate to sort 都道府県: Activate to sort ROE: Activate to sort 時価総額: Activate to remove sorting PER(会予): Activate to sort PBR: Activate to sort 営業利益率: Activate to sort 自己資本比率: Activate to sort 配当利回り(実績): Activate to sort" [ref=e351]':
+              - columnheader "比較する" [ref=e352]: 比較する
+              - 'columnheader "会社名: Activate to sort" [ref=e353] [cursor=pointer]':
+                - button "会社名" [ref=e354]
+              - 'columnheader "銘柄コード: Activate to sort" [ref=e356] [cursor=pointer]':
+                - button "銘柄コード" [ref=e357]
+              - 'columnheader "業種: Activate to sort" [ref=e359] [cursor=pointer]':
+                - button "業種" [ref=e360]
+              - 'columnheader "優先市場: Activate to sort" [ref=e362] [cursor=pointer]':
+                - button "優先市場" [ref=e363]
+              - 'columnheader "決算月: Activate to sort" [ref=e365] [cursor=pointer]':
+                - button "決算月" [ref=e366]
+              - 'columnheader "会計基準: Activate to sort" [ref=e368] [cursor=pointer]':
+                - button "会計基準" [ref=e369]
+              - 'columnheader "都道府県: Activate to sort" [ref=e371] [cursor=pointer]':
+                - button "都道府県" [ref=e372]
+              - 'columnheader "ROE: Activate to sort" [ref=e374] [cursor=pointer]':
+                - button "ROE" [ref=e375]
+              - 'columnheader "時価総額: Activate to remove sorting" [ref=e377] [cursor=pointer]':
+                - button "時価総額" [ref=e378]
+              - 'columnheader "PER(会予): Activate to sort" [ref=e380] [cursor=pointer]':
+                - button "PER(会予)" [ref=e381]
+              - 'columnheader "PBR: Activate to sort" [ref=e383] [cursor=pointer]':
+                - button "PBR" [ref=e384]
+              - 'columnheader "営業利益率: Activate to sort" [ref=e386] [cursor=pointer]':
+                - button "営業利益率" [ref=e387]
+              - 'columnheader "自己資本比率: Activate to sort" [ref=e389] [cursor=pointer]':
+                - button "自己資本比率" [ref=e390]
+              - 'columnheader "配当利回り(実績): Activate to sort" [ref=e392] [cursor=pointer]':
+                - button "配当利回り(実績)" [ref=e393]
+          - rowgroup [ref=e395]:
+            - row "No data available in table" [ref=e396]:
+              - cell "No data available in table" [ref=e397]
+          - rowgroup
+        - generic [ref=e398]:
+          - status [ref=e400]: Showing 0 to 0 of 0 entries
+          - navigation "pagination" [ref=e403]:
+            - list [ref=e404]:
+              - listitem [ref=e405]:
+                - generic "First": «
+              - listitem [ref=e406]:
+                - generic "Previous": ‹
+              - listitem [ref=e407]:
+                - generic "Next": ›
+              - listitem [ref=e408]:
+                - generic "Last": »
+      - generic [ref=e409]:
+        - generic [ref=e411]: 検索条件にマッチする企業はありませんでした。
+        - generic [ref=e412]:
+          - button "条件を保存する" [ref=e414] [cursor=pointer]:
+            - generic [ref=e415]:
+              - generic [ref=e416]: 
+              - text: 条件を保存する
+          - button "ダウンロード" [ref=e418] [cursor=pointer]:
+            - generic [ref=e419]:
+              - generic [ref=e420]: 
+              - text: ダウンロード
+  - generic [ref=e422]:
+    - link "お問い合わせ" [ref=e423] [cursor=pointer]:
+      - /url: /contacts
+    - link "採用" [ref=e424] [cursor=pointer]:
+      - /url: https://career.buffett-code.com/
+    - link "ブログ" [ref=e425] [cursor=pointer]:
+      - /url: https://blog.buffett-code.com/
+    - link "規約一覧" [ref=e426] [cursor=pointer]:
+      - /url: /legal
+    - link "" [ref=e427] [cursor=pointer]:
+      - /url: https://twitter.com/buffett_code
+      - generic [ref=e428]: 

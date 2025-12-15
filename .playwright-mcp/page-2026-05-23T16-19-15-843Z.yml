@@ -1,0 +1,228 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "buffett code logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "buffett code logo" [ref=e5]
+      - link "バフェット・コード" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: バフェット・コード
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e14]
+            - textbox "会社名やキーワードや銘柄コードで検索" [active] [ref=e16]
+          - generic:
+            - list
+        - generic [ref=e18]:
+          - link "料金プラン" [ref=e19] [cursor=pointer]:
+            - /url: /pricing
+          - link "法人プラン" [ref=e20] [cursor=pointer]:
+            - /url: https://business.buffett-code.com/?utm_source=web_ui_nav
+      - generic [ref=e21]:
+        - link "マイページ" [ref=e22] [cursor=pointer]:
+          - /url: /users
+        - link "無料トライアル" [ref=e23] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/trial?utm_source=web_ui_nav
+        - link "資料ダウンロード" [ref=e24] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/resources/3min_paper?utm_source=web_ui_nav
+        - link "お問い合わせ" [ref=e25] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/contact?utm_source=web_ui_nav
+      - text: 
+  - text:             
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - link " 条件検索" [ref=e29] [cursor=pointer]:
+        - /url: /global_screening
+        - generic [ref=e30]: 
+        - generic [ref=e31]: 条件検索
+      - link " M&A検索" [ref=e32] [cursor=pointer]:
+        - /url: /ma_search
+        - generic [ref=e33]: 
+        - generic [ref=e34]: M&A検索
+      - link " 株主検索" [ref=e35] [cursor=pointer]:
+        - /url: /shareholder_search
+        - generic [ref=e36]: 
+        - generic [ref=e37]: 株主検索
+      - link " 企業比較" [ref=e38] [cursor=pointer]:
+        - /url: /comps
+        - generic [ref=e39]: 
+        - generic [ref=e40]: 企業比較
+      - link " 資料検索" [ref=e41] [cursor=pointer]:
+        - /url: /documents
+        - generic [ref=e42]: 
+        - generic [ref=e43]: 資料検索
+      - link " スライド検索" [ref=e44] [cursor=pointer]:
+        - /url: /slides/search
+        - generic [ref=e45]: 
+        - generic [ref=e46]: スライド検索
+      - link " 適時開示" [ref=e47] [cursor=pointer]:
+        - /url: /disclosures/financial_statements
+        - generic [ref=e48]: 
+        - generic [ref=e49]: 適時開示
+      - link " 決算予定" [ref=e50] [cursor=pointer]:
+        - /url: /calendar
+        - generic [ref=e51]: 
+        - generic [ref=e52]: 決算予定
+      - link " 株価DL" [ref=e53] [cursor=pointer]:
+        - /url: /download
+        - generic [ref=e54]: 
+        - generic [ref=e55]: 株価DL
+      - link " 登記簿" [ref=e56] [cursor=pointer]:
+        - /url: /registries
+        - generic [ref=e57]: 
+        - generic [ref=e58]: 登記簿
+      - generic [ref=e60]:
+        - generic [ref=e61]: 
+        - generic [ref=e62]: About
+    - generic [ref=e64]:
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - link "TOP" [ref=e67] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e68]: / 日米銘柄スクリーニング
+      - heading "日米銘柄スクリーニング（条件検索）" [level=1] [ref=e69]
+      - generic [ref=e70]:
+        - text: 財務数値や株価指標などの条件を指定すると、条件に合致した上場企業を選出できます。 選択できる項目や、検索結果の表示件数はプランに応じて増加します。
+        - link "プランの詳細はこちら" [ref=e71] [cursor=pointer]:
+          - /url: /pricing
+        - text: 。
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - img [ref=e77]
+            - generic [ref=e79]: 検索対象
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - radio "日本" [checked] [ref=e82]
+              - generic [ref=e83]: 日本
+            - generic [ref=e84]:
+              - radio "米国" [ref=e85]
+              - generic [ref=e86]: 米国
+            - generic [ref=e87]:
+              - radio "日/米" [ref=e88]
+              - generic [ref=e89]: 日/米
+            - generic [ref=e90]:
+              - radio "国内未上場" [ref=e91]
+              - generic [ref=e92]: 国内未上場
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - img [ref=e95]
+            - generic [ref=e97]: 条件
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - log [ref=e102]
+                - generic [ref=e103]:
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: 売上高
+                    - combobox [ref=e107]
+                  - img [ref=e111]
+              - combobox [ref=e113]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e114]
+              - generic [ref=e115]: 百万円
+              - button "削除" [ref=e116] [cursor=pointer]:
+                - img [ref=e117]
+            - button "+条件を追加" [ref=e120] [cursor=pointer]
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - img [ref=e123]
+            - generic [ref=e125]: 表示科目
+            - button "変更" [ref=e126] [cursor=pointer]:
+              - generic [ref=e127]:
+                - img [ref=e128]
+                - generic [ref=e130]: 変更
+          - generic [ref=e131]:
+            - button "時価総額" [ref=e132] [cursor=pointer]
+            - button "PBR" [ref=e133] [cursor=pointer]
+            - button "売上高" [ref=e134] [cursor=pointer]
+            - button "営業利益" [ref=e135] [cursor=pointer]
+            - button "営業利益率" [ref=e136] [cursor=pointer]
+            - button "当期純利益" [ref=e137] [cursor=pointer]
+            - button "純利益率" [ref=e138] [cursor=pointer]
+            - button "ROE" [ref=e139] [cursor=pointer]
+            - button "自己資本比率" [ref=e140] [cursor=pointer]
+            - button "従業員数(連結優先)" [ref=e141] [cursor=pointer]
+        - generic [ref=e142]:
+          - img [ref=e143]
+          - generic [ref=e145]: その他条件
+        - generic [ref=e146]:
+          - button "優先市場を選択する" [ref=e148] [cursor=pointer]:
+            - generic [ref=e149]:
+              - img [ref=e150]
+              - generic [ref=e152]: 優先市場を選択する
+          - button "業種を選択する" [ref=e154] [cursor=pointer]:
+            - generic [ref=e155]:
+              - img [ref=e156]
+              - generic [ref=e158]: 業種を選択する
+          - button "会計基準を選択する" [ref=e160] [cursor=pointer]:
+            - generic [ref=e161]:
+              - img [ref=e162]
+              - generic [ref=e164]: 会計基準を選択する
+          - button "都道府県を選択する" [ref=e166] [cursor=pointer]:
+            - generic [ref=e167]:
+              - img [ref=e168]
+              - generic [ref=e170]: 都道府県を選択する
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - img [ref=e173]
+            - generic [ref=e175]: 検索対象
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - radio "3年前" [ref=e178]
+              - generic [ref=e179]: 3年前
+            - generic [ref=e180]:
+              - radio "現在" [checked] [ref=e181]
+              - generic [ref=e182]: 現在
+        - button "検索" [ref=e184] [cursor=pointer]:
+          - generic [ref=e185]:
+            - img [ref=e186]
+            - text: 検索
+      - generic [ref=e188]:
+        - generic [ref=e189]: ピックアップ
+        - generic [ref=e190]: 運営メンバーおすすめの条件検索の銘柄をご紹介します。
+        - generic [ref=e191]:
+          - link "バフェット銘柄" [ref=e192] [cursor=pointer]:
+            - /url: /global_screening/search?as=1%2C2%2C3&c=28%2C51%2C56%2C68&i=14%2C89%2C92%2C94%2C95%2C97%2C98%2C99%2C100%2C101%2C102%2C103%2C104%2C249%2C250%2C251%2C105%2C106%2C107%2C252%2C253%2C254%2C108%2C109%2C110%2C111%2C112%2C113%2C255%2C256%2C257%2C174%2C114%2C184%2C185%2C186%2C187%2C188%2C189%2C190%2C191%2C192%2C193%2C194%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C195%2C196%2C197%2C198%2C199%2C200%2C201%2C202%2C203%2C204%2C206%2C207%2C208%2C209%2C286%2C287%2C288%2C210%2C211%2C289%2C212%2C290%2C213%2C214%2C291%2C292%2C215%2C216%2C293%2C217%2C45%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C67%2C244%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%2C77%2C78%2C245%2C246%2C247%2C248%2C79%2C80%2C81%2C82%2C83%2C84%2C85%2C86%2C90%2C91%2C93%2C132%2C228%2C229%2C230%2C231%2C88%2C115%2C116%2C268%2C124%2C125%2C126%2C127%2C128%2C129%2C130%2C131%2C133%2C134%2C269%2C270%2C135%2C136%2C137%2C138%2C139%2C140%2C271%2C141%2C142%2C143%2C144%2C145%2C146%2C147%2C148%2C149%2C272%2C273%2C232%2C233%2C234%2C235%2C150%2C274%2C275%2C276%2C151%2C152%2C277%2C278%2C279%2C280%2C155%2C156%2C157%2C158%2C159%2C160%2C161%2C282%2C162%2C163%2C164%2C165%2C166%2C167%2C168%2C169%2C283%2C170%2C171%2C172%2C173%2C175%2C176%2C177%2C178%2C284%2C285%2C179%2C180%2C181%2C182%2C183%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C240%2C35%2C36%2C37%2C38%2C39%2C40%2C41%2C42%2C43%2C44%2C46%2C96%2C241%2C54%2C55%2C242%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C243%2C65%2C66%2C258%2C259%2C117%2C260%2C118%2C261%2C119%2C120%2C121%2C262%2C263%2C264%2C122%2C123%2C265%2C266%2C267%2C218%2C219%2C220%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C281%2C153%2C154%2C236%2C237%2C238%2C239&id=1&m=tp%2Cts%2Ctg%2Cto%2Cm1%2Cm2%2Cms&name=buffett&q%5B0%5D%5B%5D=28&q%5B0%5D%5B%5D=40&q%5B0%5D%5B%5D=gteq&q%5B1%5D%5B%5D=51&q%5B1%5D%5B%5D=20&q%5B1%5D%5B%5D=gteq&q%5B2%5D%5B%5D=56&q%5B2%5D%5B%5D=12&q%5B2%5D%5B%5D=gteq&q%5B3%5D%5B%5D=68&q%5B3%5D%5B%5D=40&q%5B3%5D%5B%5D=lteq&r=jp
+            - generic [ref=e193]:
+              - img [ref=e194]
+              - generic [ref=e195]: バフェット銘柄
+          - link "グレアム銘柄" [ref=e196] [cursor=pointer]:
+            - /url: /global_screening/search?as=1%2C2%2C3&c=56%2C68%2C52%2C69%2C24&i=14%2C89%2C92%2C94%2C95%2C97%2C98%2C99%2C100%2C101%2C102%2C103%2C104%2C249%2C250%2C251%2C105%2C106%2C107%2C252%2C253%2C254%2C108%2C109%2C110%2C111%2C112%2C113%2C255%2C256%2C257%2C174%2C114%2C184%2C185%2C186%2C187%2C188%2C189%2C190%2C191%2C192%2C193%2C194%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C195%2C196%2C197%2C198%2C199%2C200%2C201%2C202%2C203%2C204%2C206%2C207%2C208%2C209%2C286%2C287%2C288%2C210%2C211%2C289%2C212%2C290%2C213%2C214%2C291%2C292%2C215%2C216%2C293%2C217%2C45%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C67%2C244%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%2C77%2C78%2C245%2C246%2C247%2C248%2C79%2C80%2C81%2C82%2C83%2C84%2C85%2C86%2C90%2C91%2C93%2C132%2C228%2C229%2C230%2C231%2C88%2C115%2C116%2C268%2C124%2C125%2C126%2C127%2C128%2C129%2C130%2C131%2C133%2C134%2C269%2C270%2C135%2C136%2C137%2C138%2C139%2C140%2C271%2C141%2C142%2C143%2C144%2C145%2C146%2C147%2C148%2C149%2C272%2C273%2C232%2C233%2C234%2C235%2C150%2C274%2C275%2C276%2C151%2C152%2C277%2C278%2C279%2C280%2C155%2C156%2C157%2C158%2C159%2C160%2C161%2C282%2C162%2C163%2C164%2C165%2C166%2C167%2C168%2C169%2C283%2C170%2C171%2C172%2C173%2C175%2C176%2C177%2C178%2C284%2C285%2C179%2C180%2C181%2C182%2C183%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C240%2C35%2C36%2C37%2C38%2C39%2C40%2C41%2C42%2C43%2C44%2C46%2C96%2C241%2C54%2C55%2C242%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C243%2C65%2C66%2C258%2C259%2C117%2C260%2C118%2C261%2C119%2C120%2C121%2C262%2C263%2C264%2C122%2C123%2C265%2C266%2C267%2C218%2C219%2C220%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C281%2C153%2C154%2C236%2C237%2C238%2C239&id=2&m=tp%2Cts%2Ctg%2Cto%2Cm1%2Cm2%2Cms&name=graham&q%5B0%5D%5B%5D=68&q%5B0%5D%5B%5D=15&q%5B0%5D%5B%5D=lteq&q%5B1%5D%5B%5D=52&q%5B1%5D%5B%5D=1&q%5B1%5D%5B%5D=lteq&q%5B2%5D%5B%5D=69&q%5B2%5D%5B%5D=22&q%5B2%5D%5B%5D=lteq&q%5B3%5D%5B%5D=56&q%5B3%5D%5B%5D=12&q%5B3%5D%5B%5D=gteq&q%5B4%5D%5B%5D=24&q%5B4%5D%5B%5D=50&q%5B4%5D%5B%5D=gteq&r=jp
+            - generic [ref=e197]:
+              - img [ref=e198]
+              - generic [ref=e199]: グレアム銘柄
+          - link "高配当銘柄" [ref=e200] [cursor=pointer]:
+            - /url: /global_screening/search?as=1%2C2%2C3&c=68%2C77%2C24&i=14%2C89%2C92%2C94%2C95%2C97%2C98%2C99%2C100%2C101%2C102%2C103%2C104%2C249%2C250%2C251%2C105%2C106%2C107%2C252%2C253%2C254%2C108%2C109%2C110%2C111%2C112%2C113%2C255%2C256%2C257%2C174%2C114%2C184%2C185%2C186%2C187%2C188%2C189%2C190%2C191%2C192%2C193%2C194%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C195%2C196%2C197%2C198%2C199%2C200%2C201%2C202%2C203%2C204%2C206%2C207%2C208%2C209%2C286%2C287%2C288%2C210%2C211%2C289%2C212%2C290%2C213%2C214%2C291%2C292%2C215%2C216%2C293%2C217%2C45%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C67%2C244%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%2C77%2C78%2C245%2C246%2C247%2C248%2C79%2C80%2C81%2C82%2C83%2C84%2C85%2C86%2C90%2C91%2C93%2C132%2C228%2C229%2C230%2C231%2C88%2C115%2C116%2C268%2C124%2C125%2C126%2C127%2C128%2C129%2C130%2C131%2C133%2C134%2C269%2C270%2C135%2C136%2C137%2C138%2C139%2C140%2C271%2C141%2C142%2C143%2C144%2C145%2C146%2C147%2C148%2C149%2C272%2C273%2C232%2C233%2C234%2C235%2C150%2C274%2C275%2C276%2C151%2C152%2C277%2C278%2C279%2C280%2C155%2C156%2C157%2C158%2C159%2C160%2C161%2C282%2C162%2C163%2C164%2C165%2C166%2C167%2C168%2C169%2C283%2C170%2C171%2C172%2C173%2C175%2C176%2C177%2C178%2C284%2C285%2C179%2C180%2C181%2C182%2C183%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C240%2C35%2C36%2C37%2C38%2C39%2C40%2C41%2C42%2C43%2C44%2C46%2C96%2C241%2C54%2C55%2C242%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C243%2C65%2C66%2C258%2C259%2C117%2C260%2C118%2C261%2C119%2C120%2C121%2C262%2C263%2C264%2C122%2C123%2C265%2C266%2C267%2C218%2C219%2C220%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C281%2C153%2C154%2C236%2C237%2C238%2C239&id=3&m=tp%2Cts%2Ctg%2Cto%2Cm1%2Cm2%2Cms&name=high_rate&q%5B0%5D%5B%5D=77&q%5B0%5D%5B%5D=4&q%5B0%5D%5B%5D=gteq&q%5B1%5D%5B%5D=24&q%5B1%5D%5B%5D=50&q%5B1%5D%5B%5D=gteq&q%5B2%5D%5B%5D=68&q%5B2%5D%5B%5D=20&q%5B2%5D%5B%5D=lteq&r=jp
+            - generic [ref=e201]:
+              - img [ref=e202]
+              - generic [ref=e203]: 高配当銘柄
+          - link "優良小型株" [ref=e204] [cursor=pointer]:
+            - /url: /global_screening/search?as=1%2C2%2C3&c=56%2C37%2C68%2C24&i=14%2C89%2C92%2C94%2C95%2C97%2C98%2C99%2C100%2C101%2C102%2C103%2C104%2C249%2C250%2C251%2C105%2C106%2C107%2C252%2C253%2C254%2C108%2C109%2C110%2C111%2C112%2C113%2C255%2C256%2C257%2C174%2C114%2C184%2C185%2C186%2C187%2C188%2C189%2C190%2C191%2C192%2C193%2C194%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C195%2C196%2C197%2C198%2C199%2C200%2C201%2C202%2C203%2C204%2C206%2C207%2C208%2C209%2C286%2C287%2C288%2C210%2C211%2C289%2C212%2C290%2C213%2C214%2C291%2C292%2C215%2C216%2C293%2C217%2C45%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C67%2C244%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%2C77%2C78%2C245%2C246%2C247%2C248%2C79%2C80%2C81%2C82%2C83%2C84%2C85%2C86%2C90%2C91%2C93%2C132%2C228%2C229%2C230%2C231%2C88%2C115%2C116%2C268%2C124%2C125%2C126%2C127%2C128%2C129%2C130%2C131%2C133%2C134%2C269%2C270%2C135%2C136%2C137%2C138%2C139%2C140%2C271%2C141%2C142%2C143%2C144%2C145%2C146%2C147%2C148%2C149%2C272%2C273%2C232%2C233%2C234%2C235%2C150%2C274%2C275%2C276%2C151%2C152%2C277%2C278%2C279%2C280%2C155%2C156%2C157%2C158%2C159%2C160%2C161%2C282%2C162%2C163%2C164%2C165%2C166%2C167%2C168%2C169%2C283%2C170%2C171%2C172%2C173%2C175%2C176%2C177%2C178%2C284%2C285%2C179%2C180%2C181%2C182%2C183%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C240%2C35%2C36%2C37%2C38%2C39%2C40%2C41%2C42%2C43%2C44%2C46%2C96%2C241%2C54%2C55%2C242%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C243%2C65%2C66%2C258%2C259%2C117%2C260%2C118%2C261%2C119%2C120%2C121%2C262%2C263%2C264%2C122%2C123%2C265%2C266%2C267%2C218%2C219%2C220%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C281%2C153%2C154%2C236%2C237%2C238%2C239&id=4&m=tp%2Cts%2Ctg%2Cto%2Cm1%2Cm2%2Cms&name=pocket&q%5B0%5D%5B%5D=37&q%5B0%5D%5B%5D=10000000000&q%5B0%5D%5B%5D=lteq&q%5B1%5D%5B%5D=24&q%5B1%5D%5B%5D=60&q%5B1%5D%5B%5D=gteq&q%5B2%5D%5B%5D=68&q%5B2%5D%5B%5D=30&q%5B2%5D%5B%5D=lteq&q%5B3%5D%5B%5D=56&q%5B3%5D%5B%5D=12&q%5B3%5D%5B%5D=gteq&r=jp
+            - generic [ref=e205]:
+              - img [ref=e206]
+              - generic [ref=e207]: 優良小型株
+          - link "株主還元 しそうな銘柄" [ref=e208] [cursor=pointer]:
+            - /url: /global_screening/search?as=1%2C2%2C3&c=56%2C8%2C7&i=14%2C89%2C92%2C94%2C95%2C97%2C98%2C99%2C100%2C101%2C102%2C103%2C104%2C249%2C250%2C251%2C105%2C106%2C107%2C252%2C253%2C254%2C108%2C109%2C110%2C111%2C112%2C113%2C255%2C256%2C257%2C174%2C114%2C184%2C185%2C186%2C187%2C188%2C189%2C190%2C191%2C192%2C193%2C194%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C195%2C196%2C197%2C198%2C199%2C200%2C201%2C202%2C203%2C204%2C206%2C207%2C208%2C209%2C286%2C287%2C288%2C210%2C211%2C289%2C212%2C290%2C213%2C214%2C291%2C292%2C215%2C216%2C293%2C217%2C45%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C67%2C244%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%2C77%2C78%2C245%2C246%2C247%2C248%2C79%2C80%2C81%2C82%2C83%2C84%2C85%2C86%2C90%2C91%2C93%2C132%2C228%2C229%2C230%2C231%2C88%2C115%2C116%2C268%2C124%2C125%2C126%2C127%2C128%2C129%2C130%2C131%2C133%2C134%2C269%2C270%2C135%2C136%2C137%2C138%2C139%2C140%2C271%2C141%2C142%2C143%2C144%2C145%2C146%2C147%2C148%2C149%2C272%2C273%2C232%2C233%2C234%2C235%2C150%2C274%2C275%2C276%2C151%2C152%2C277%2C278%2C279%2C280%2C155%2C156%2C157%2C158%2C159%2C160%2C161%2C282%2C162%2C163%2C164%2C165%2C166%2C167%2C168%2C169%2C283%2C170%2C171%2C172%2C173%2C175%2C176%2C177%2C178%2C284%2C285%2C179%2C180%2C181%2C182%2C183%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C240%2C35%2C36%2C37%2C38%2C39%2C40%2C41%2C42%2C43%2C44%2C46%2C96%2C241%2C54%2C55%2C242%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C243%2C65%2C66%2C258%2C259%2C117%2C260%2C118%2C261%2C119%2C120%2C121%2C262%2C263%2C264%2C122%2C123%2C265%2C266%2C267%2C218%2C219%2C220%2C221%2C222%2C223%2C224%2C225%2C226%2C227%2C281%2C153%2C154%2C236%2C237%2C238%2C239&id=5&m=tp%2Cts%2Ctg%2Cto%2Cm1%2Cm2%2Cms&name=return&q%5B0%5D%5B%5D=8&q%5B0%5D%5B%5D=12&q%5B0%5D%5B%5D=gteq&q%5B1%5D%5B%5D=7&q%5B1%5D%5B%5D=50&q%5B1%5D%5B%5D=gteq&q%5B2%5D%5B%5D=56&q%5B2%5D%5B%5D=8&q%5B2%5D%5B%5D=lteq&r=jp
+            - generic [ref=e209]:
+              - img [ref=e210]
+              - generic [ref=e211]:
+                - text: 株主還元
+                - text: しそうな銘柄
+  - generic [ref=e213]:
+    - link "お問い合わせ" [ref=e214] [cursor=pointer]:
+      - /url: /contacts
+    - link "採用" [ref=e215] [cursor=pointer]:
+      - /url: https://career.buffett-code.com/
+    - link "ブログ" [ref=e216] [cursor=pointer]:
+      - /url: https://blog.buffett-code.com/
+    - link "規約一覧" [ref=e217] [cursor=pointer]:
+      - /url: /legal
+    - link "" [ref=e218] [cursor=pointer]:
+      - /url: https://twitter.com/buffett_code
+      - generic [ref=e219]: 

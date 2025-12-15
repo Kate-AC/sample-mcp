@@ -1,0 +1,1363 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "buffett code logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "buffett code logo" [ref=e5]
+      - link "バフェット・コード" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: バフェット・コード
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e14]
+            - textbox "会社名やキーワードや銘柄コードで検索" [active] [ref=e16]
+          - generic:
+            - list
+        - generic [ref=e18]:
+          - link "料金プラン" [ref=e19] [cursor=pointer]:
+            - /url: /pricing
+          - link "法人プラン" [ref=e20] [cursor=pointer]:
+            - /url: https://business.buffett-code.com/?utm_source=web_ui_nav
+      - generic [ref=e21]:
+        - link "マイページ" [ref=e22] [cursor=pointer]:
+          - /url: /users
+        - link "無料トライアル" [ref=e23] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/trial?utm_source=web_ui_nav
+        - link "資料ダウンロード" [ref=e24] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/resources/3min_paper?utm_source=web_ui_nav
+        - link "お問い合わせ" [ref=e25] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/contact?utm_source=web_ui_nav
+      - text: 
+  - text:             
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - link " 条件検索" [ref=e29] [cursor=pointer]:
+        - /url: /global_screening
+        - generic [ref=e30]: 
+        - generic [ref=e31]: 条件検索
+      - link " M&A検索" [ref=e32] [cursor=pointer]:
+        - /url: /ma_search
+        - generic [ref=e33]: 
+        - generic [ref=e34]: M&A検索
+      - link " 株主検索" [ref=e35] [cursor=pointer]:
+        - /url: /shareholder_search
+        - generic [ref=e36]: 
+        - generic [ref=e37]: 株主検索
+      - link " 企業比較" [ref=e38] [cursor=pointer]:
+        - /url: /comps
+        - generic [ref=e39]: 
+        - generic [ref=e40]: 企業比較
+      - link " 資料検索" [ref=e41] [cursor=pointer]:
+        - /url: /documents
+        - generic [ref=e42]: 
+        - generic [ref=e43]: 資料検索
+      - link " スライド検索" [ref=e44] [cursor=pointer]:
+        - /url: /slides/search
+        - generic [ref=e45]: 
+        - generic [ref=e46]: スライド検索
+      - link " 適時開示" [ref=e47] [cursor=pointer]:
+        - /url: /disclosures/financial_statements
+        - generic [ref=e48]: 
+        - generic [ref=e49]: 適時開示
+      - link " 決算予定" [ref=e50] [cursor=pointer]:
+        - /url: /calendar
+        - generic [ref=e51]: 
+        - generic [ref=e52]: 決算予定
+      - link " 株価DL" [ref=e53] [cursor=pointer]:
+        - /url: /download
+        - generic [ref=e54]: 
+        - generic [ref=e55]: 株価DL
+      - link " 登記簿" [ref=e56] [cursor=pointer]:
+        - /url: /registries
+        - generic [ref=e57]: 
+        - generic [ref=e58]: 登記簿
+      - generic [ref=e60]:
+        - generic [ref=e61]: 
+        - generic [ref=e62]: About
+    - generic [ref=e64]:
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - link "TOP" [ref=e67] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e68]:
+          - text: /
+          - link "日米銘柄スクリーニング" [ref=e69] [cursor=pointer]:
+            - /url: /global_screening
+        - listitem [ref=e70]: / 検索結果
+      - generic [ref=e71]:
+        - text: 財務数値や株価指標などの条件を指定すると、条件に合致した上場企業を選出できます。 選択できる項目や、検索結果の表示件数はプランに応じて増加します。 詳しくは
+        - link "こちら" [ref=e72] [cursor=pointer]:
+          - /url: /pricing
+        - text: 。
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic [ref=e80]: 検索対象
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - radio "日本" [checked] [ref=e83]
+              - generic [ref=e84]: 日本
+            - generic [ref=e85]:
+              - radio "米国" [ref=e86]
+              - generic [ref=e87]: 米国
+            - generic [ref=e88]:
+              - radio "日/米" [ref=e89]
+              - generic [ref=e90]: 日/米
+            - generic [ref=e91]:
+              - radio "国内未上場" [ref=e92]
+              - generic [ref=e93]: 国内未上場
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - generic [ref=e98]: 条件
+          - generic [ref=e99]:
+            - generic [ref=e100]:
+              - generic [ref=e101]:
+                - log [ref=e103]
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - generic [ref=e106]: 時価総額
+                    - combobox [ref=e108]
+                  - img [ref=e112]
+              - combobox [ref=e114]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e115]: "12001"
+              - generic [ref=e116]: 百万円
+              - button "削除" [ref=e117] [cursor=pointer]:
+                - img [ref=e118]
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - log [ref=e123]
+                - generic [ref=e124]:
+                  - generic [ref=e125]:
+                    - generic [ref=e126]: 時価総額
+                    - combobox [ref=e128]
+                  - img [ref=e132]
+              - combobox [ref=e134]:
+                - option "≧(以上)"
+                - option "≦(以下)" [selected]
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e135]: "25000"
+              - generic [ref=e136]: 百万円
+              - button "削除" [ref=e137] [cursor=pointer]:
+                - img [ref=e138]
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - log [ref=e143]
+                - generic [ref=e144]:
+                  - generic [ref=e145]:
+                    - generic [ref=e146]: 自己資本比率
+                    - combobox [ref=e148]
+                  - img [ref=e152]
+              - combobox [ref=e154]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e155]: "40"
+              - generic [ref=e156]: "%"
+              - button "削除" [ref=e157] [cursor=pointer]:
+                - img [ref=e158]
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - log [ref=e163]
+                - generic [ref=e164]:
+                  - generic [ref=e165]:
+                    - generic [ref=e166]: PER(会予)
+                    - combobox [ref=e168]
+                  - img [ref=e172]
+              - combobox [ref=e174]:
+                - option "≧(以上)"
+                - option "≦(以下)" [selected]
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e175]: "22"
+              - generic [ref=e176]: 倍
+              - button "削除" [ref=e177] [cursor=pointer]:
+                - img [ref=e178]
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - log [ref=e183]
+                - generic [ref=e184]:
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: PBR
+                    - combobox [ref=e188]
+                  - img [ref=e192]
+              - combobox [ref=e194]:
+                - option "≧(以上)"
+                - option "≦(以下)" [selected]
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e195]: "2"
+              - generic [ref=e196]: 倍
+              - button "削除" [ref=e197] [cursor=pointer]:
+                - img [ref=e198]
+            - generic [ref=e200]:
+              - generic [ref=e201]:
+                - log [ref=e203]
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: ROE
+                    - combobox [ref=e208]
+                  - img [ref=e212]
+              - combobox [ref=e214]:
+                - option "≧(以上)" [selected]
+                - option "≦(以下)"
+                - option "他の科目と比較 ≧(以上)"
+                - option "他の科目と比較 ≦(以下)"
+              - spinbutton [ref=e215]: "3"
+              - generic [ref=e216]: "%"
+              - button "削除" [ref=e217] [cursor=pointer]:
+                - img [ref=e218]
+            - button "+条件を追加" [ref=e221] [cursor=pointer]
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - img [ref=e224]
+            - generic [ref=e226]: 表示科目
+            - button "変更" [ref=e227] [cursor=pointer]:
+              - generic [ref=e228]:
+                - img [ref=e229]
+                - generic [ref=e231]: 変更
+          - generic [ref=e232]:
+            - button "ROE" [ref=e233] [cursor=pointer]
+            - button "時価総額" [ref=e234] [cursor=pointer]
+            - button "PER(会予)" [ref=e235] [cursor=pointer]
+            - button "PBR" [ref=e236] [cursor=pointer]
+            - button "営業利益率" [ref=e237] [cursor=pointer]
+            - button "自己資本比率" [ref=e238] [cursor=pointer]
+            - button "配当利回り(実績)" [ref=e239] [cursor=pointer]
+            - button "売上総利益率" [ref=e240] [cursor=pointer]
+        - generic [ref=e241]:
+          - img [ref=e242]
+          - generic [ref=e244]: その他条件
+        - generic [ref=e245]:
+          - button "優先市場を選択する" [ref=e247] [cursor=pointer]:
+            - generic [ref=e248]:
+              - img [ref=e249]
+              - generic [ref=e251]: 優先市場を選択する
+          - button "業種を選択する" [ref=e253] [cursor=pointer]:
+            - generic [ref=e254]:
+              - img [ref=e255]
+              - generic [ref=e257]: 業種を選択する
+          - button "会計基準を選択する" [ref=e259] [cursor=pointer]:
+            - generic [ref=e260]:
+              - img [ref=e261]
+              - generic [ref=e263]: 会計基準を選択する
+          - button "都道府県を選択する" [ref=e265] [cursor=pointer]:
+            - generic [ref=e266]:
+              - img [ref=e267]
+              - generic [ref=e269]: 都道府県を選択する
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - img [ref=e272]
+            - generic [ref=e274]: 検索対象
+          - generic [ref=e275]:
+            - generic [ref=e276]:
+              - radio "3年前" [ref=e277]
+              - generic [ref=e278]: 3年前
+            - generic [ref=e279]:
+              - radio "現在" [checked] [ref=e280]
+              - generic [ref=e281]: 現在
+        - button "検索" [ref=e283] [cursor=pointer]:
+          - generic [ref=e284]:
+            - img [ref=e285]
+            - text: 検索
+      - generic [ref=e289]:
+        - text: 検索結果 全220件（現在のプランでは上位100件のみ表示）
+        - link "アップグレードする" [ref=e290] [cursor=pointer]:
+          - /url: /pricing
+      - button "比較を実行" [disabled] [ref=e291]:
+        - generic [ref=e292]: 比較を実行
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - generic [ref=e297]:
+            - combobox "entries per page" [ref=e298]:
+              - option "10"
+              - option "25"
+              - option "50" [selected]
+              - option "100"
+            - generic [ref=e299]: entries per page
+          - generic [ref=e301]:
+            - generic [ref=e302]: "Search:"
+            - searchbox "Search:" [ref=e303]
+        - table [ref=e306]:
+          - rowgroup [ref=e324]:
+            - 'row "比較する 会社名: Activate to sort 銘柄コード: Activate to sort 業種: Activate to sort 優先市場: Activate to sort 決算月: Activate to sort 会計基準: Activate to sort 都道府県: Activate to sort ROE: Activate to sort 時価総額: Activate to remove sorting PER(会予): Activate to sort PBR: Activate to sort 営業利益率: Activate to sort 自己資本比率: Activate to sort 配当利回り(実績): Activate to sort 売上総利益率: Activate to sort" [ref=e325]':
+              - columnheader "比較する" [ref=e326]: 比較する
+              - 'columnheader "会社名: Activate to sort" [ref=e327] [cursor=pointer]':
+                - button "会社名" [ref=e328]
+              - 'columnheader "銘柄コード: Activate to sort" [ref=e330] [cursor=pointer]':
+                - button "銘柄コード" [ref=e331]
+              - 'columnheader "業種: Activate to sort" [ref=e333] [cursor=pointer]':
+                - button "業種" [ref=e334]
+              - 'columnheader "優先市場: Activate to sort" [ref=e336] [cursor=pointer]':
+                - button "優先市場" [ref=e337]
+              - 'columnheader "決算月: Activate to sort" [ref=e339] [cursor=pointer]':
+                - button "決算月" [ref=e340]
+              - 'columnheader "会計基準: Activate to sort" [ref=e342] [cursor=pointer]':
+                - button "会計基準" [ref=e343]
+              - 'columnheader "都道府県: Activate to sort" [ref=e345] [cursor=pointer]':
+                - button "都道府県" [ref=e346]
+              - 'columnheader "ROE: Activate to sort" [ref=e348] [cursor=pointer]':
+                - button "ROE" [ref=e349]
+              - 'columnheader "時価総額: Activate to remove sorting" [ref=e351] [cursor=pointer]':
+                - button "時価総額" [ref=e352]
+              - 'columnheader "PER(会予): Activate to sort" [ref=e354] [cursor=pointer]':
+                - button "PER(会予)" [ref=e355]
+              - 'columnheader "PBR: Activate to sort" [ref=e357] [cursor=pointer]':
+                - button "PBR" [ref=e358]
+              - 'columnheader "営業利益率: Activate to sort" [ref=e360] [cursor=pointer]':
+                - button "営業利益率" [ref=e361]
+              - 'columnheader "自己資本比率: Activate to sort" [ref=e363] [cursor=pointer]':
+                - button "自己資本比率" [ref=e364]
+              - 'columnheader "配当利回り(実績): Activate to sort" [ref=e366] [cursor=pointer]':
+                - button "配当利回り(実績)" [ref=e367]
+              - 'columnheader "売上総利益率: Activate to sort" [ref=e369] [cursor=pointer]':
+                - button "売上総利益率" [ref=e370]
+          - rowgroup [ref=e372]:
+            - row "SPK 7466 卸売業 プライム 3月 Japan GAAP 大阪府 9.2% 24,999 9.2倍 0.9倍 4.8% 61.0% 2.9% 19.2%" [ref=e373]:
+              - cell [ref=e374]:
+                - checkbox [ref=e375]
+              - cell "SPK" [ref=e376]:
+                - link "SPK" [ref=e377] [cursor=pointer]:
+                  - /url: /company/7466/
+              - cell "7466" [ref=e378]
+              - cell "卸売業" [ref=e379]
+              - cell "プライム" [ref=e380]
+              - cell "3月" [ref=e381]
+              - cell "Japan GAAP" [ref=e382]
+              - cell "大阪府" [ref=e383]
+              - cell "9.2%" [ref=e384]
+              - cell "24,999" [ref=e385]
+              - cell "9.2倍" [ref=e386]
+              - cell "0.9倍" [ref=e387]
+              - cell "4.8%" [ref=e388]
+              - cell "61.0%" [ref=e389]
+              - cell "2.9%" [ref=e390]
+              - cell "19.2%" [ref=e391]
+            - row "マツオカコーポレーション 3611 繊維製品 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 広島県 7.8% 24,986 7.3倍 0.6倍 2.9% 53.1% 4.2% 11.8%" [ref=e392]:
+              - cell [ref=e393]:
+                - checkbox [ref=e394]
+              - cell "マツオカコーポレーション" [ref=e395]:
+                - link "マツオカコーポレーション" [ref=e396] [cursor=pointer]:
+                  - /url: /company/3611/
+              - cell "3611" [ref=e397]
+              - cell "繊維製品" [ref=e398]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e399]
+              - cell "3月" [ref=e400]
+              - cell "Japan GAAP" [ref=e401]
+              - cell "広島県" [ref=e402]
+              - cell "7.8%" [ref=e403]
+              - cell "24,986" [ref=e404]
+              - cell "7.3倍" [ref=e405]
+              - cell "0.6倍" [ref=e406]
+              - cell "2.9%" [ref=e407]
+              - cell "53.1%" [ref=e408]
+              - cell "4.2%" [ref=e409]
+              - cell "11.8%" [ref=e410]
+            - row "ユアサ･フナショク 8006 卸売業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 千葉県 5.2% 24,886 10.0倍 0.6倍 2.3% 61.1% 2.3% 7.9%" [ref=e411]:
+              - cell [ref=e412]:
+                - checkbox [ref=e413]
+              - cell "ユアサ･フナショク" [ref=e414]:
+                - link "ユアサ･フナショク" [ref=e415] [cursor=pointer]:
+                  - /url: /company/8006/
+              - cell "8006" [ref=e416]
+              - cell "卸売業" [ref=e417]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e418]
+              - cell "3月" [ref=e419]
+              - cell "Japan GAAP" [ref=e420]
+              - cell "千葉県" [ref=e421]
+              - cell "5.2%" [ref=e422]
+              - cell "24,886" [ref=e423]
+              - cell "10.0倍" [ref=e424]
+              - cell "0.6倍" [ref=e425]
+              - cell "2.3%" [ref=e426]
+              - cell "61.1%" [ref=e427]
+              - cell "2.3%" [ref=e428]
+              - cell "7.9%" [ref=e429]
+            - row "エンビプロ･HD 5698 鉄鋼 ｽﾀﾝﾀﾞｰﾄﾞ 6月 Japan GAAP 静岡県 6.5% 24,852 13.8倍 1.4倍 2.0% 54.4% 1.7% 17.2%" [ref=e430]:
+              - cell [ref=e431]:
+                - checkbox [ref=e432]
+              - cell "エンビプロ･HD" [ref=e433]:
+                - link "エンビプロ･HD" [ref=e434] [cursor=pointer]:
+                  - /url: /company/5698/
+              - cell "5698" [ref=e435]
+              - cell "鉄鋼" [ref=e436]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e437]
+              - cell "6月" [ref=e438]
+              - cell "Japan GAAP" [ref=e439]
+              - cell "静岡県" [ref=e440]
+              - cell "6.5%" [ref=e441]
+              - cell "24,852" [ref=e442]
+              - cell "13.8倍" [ref=e443]
+              - cell "1.4倍" [ref=e444]
+              - cell "2.0%" [ref=e445]
+              - cell "54.4%" [ref=e446]
+              - cell "1.7%" [ref=e447]
+              - cell "17.2%" [ref=e448]
+            - row "ソーダニッカ 8158 卸売業 プライム 3月 Japan GAAP 東京都 7.0% 24,809 10.1倍 0.7倍 3.7% 43.4% 4.0% 14.4%" [ref=e449]:
+              - cell [ref=e450]:
+                - checkbox [ref=e451]
+              - cell "ソーダニッカ" [ref=e452]:
+                - link "ソーダニッカ" [ref=e453] [cursor=pointer]:
+                  - /url: /company/8158/
+              - cell "8158" [ref=e454]
+              - cell "卸売業" [ref=e455]
+              - cell "プライム" [ref=e456]
+              - cell "3月" [ref=e457]
+              - cell "Japan GAAP" [ref=e458]
+              - cell "東京都" [ref=e459]
+              - cell "7.0%" [ref=e460]
+              - cell "24,809" [ref=e461]
+              - cell "10.1倍" [ref=e462]
+              - cell "0.7倍" [ref=e463]
+              - cell "3.7%" [ref=e464]
+              - cell "43.4%" [ref=e465]
+              - cell "4.0%" [ref=e466]
+              - cell "14.4%" [ref=e467]
+            - row "中越パルプ工業 3877 パルプ・紙 プライム 3月 Japan GAAP 東京都 4.1% 24,728 15.5倍 0.4倍 2.5% 50.3% 4.6% 13.5%" [ref=e468]:
+              - cell [ref=e469]:
+                - checkbox [ref=e470]
+              - cell "中越パルプ工業" [ref=e471]:
+                - link "中越パルプ工業" [ref=e472] [cursor=pointer]:
+                  - /url: /company/3877/
+              - cell "3877" [ref=e473]
+              - cell "パルプ・紙" [ref=e474]
+              - cell "プライム" [ref=e475]
+              - cell "3月" [ref=e476]
+              - cell "Japan GAAP" [ref=e477]
+              - cell "東京都" [ref=e478]
+              - cell "4.1%" [ref=e479]
+              - cell "24,728" [ref=e480]
+              - cell "15.5倍" [ref=e481]
+              - cell "0.4倍" [ref=e482]
+              - cell "2.5%" [ref=e483]
+              - cell "50.3%" [ref=e484]
+              - cell "4.6%" [ref=e485]
+              - cell "13.5%" [ref=e486]
+            - row "扶桑電通 7505 卸売業 ｽﾀﾝﾀﾞｰﾄﾞ 9月 Japan GAAP 東京都 14.1% 24,422 9.4倍 1.4倍 6.3% 41.7% 4.2% 19.2%" [ref=e487]:
+              - cell [ref=e488]:
+                - checkbox [ref=e489]
+              - cell "扶桑電通" [ref=e490]:
+                - link "扶桑電通" [ref=e491] [cursor=pointer]:
+                  - /url: /company/7505/
+              - cell "7505" [ref=e492]
+              - cell "卸売業" [ref=e493]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e494]
+              - cell "9月" [ref=e495]
+              - cell "Japan GAAP" [ref=e496]
+              - cell "東京都" [ref=e497]
+              - cell "14.1%" [ref=e498]
+              - cell "24,422" [ref=e499]
+              - cell "9.4倍" [ref=e500]
+              - cell "1.4倍" [ref=e501]
+              - cell "6.3%" [ref=e502]
+              - cell "41.7%" [ref=e503]
+              - cell "4.2%" [ref=e504]
+              - cell "19.2%" [ref=e505]
+            - row "三光合成 7888 化学 プライム 5月 Japan GAAP 富山県 10.7% 24,417 6.1倍 0.7倍 6.2% 43.7% 3.0% 16.5%" [ref=e506]:
+              - cell [ref=e507]:
+                - checkbox [ref=e508]
+              - cell "三光合成" [ref=e509]:
+                - link "三光合成" [ref=e510] [cursor=pointer]:
+                  - /url: /company/7888/
+              - cell "7888" [ref=e511]
+              - cell "化学" [ref=e512]
+              - cell "プライム" [ref=e513]
+              - cell "5月" [ref=e514]
+              - cell "Japan GAAP" [ref=e515]
+              - cell "富山県" [ref=e516]
+              - cell "10.7%" [ref=e517]
+              - cell "24,417" [ref=e518]
+              - cell "6.1倍" [ref=e519]
+              - cell "0.7倍" [ref=e520]
+              - cell "6.2%" [ref=e521]
+              - cell "43.7%" [ref=e522]
+              - cell "3.0%" [ref=e523]
+              - cell "16.5%" [ref=e524]
+            - row "伊勢湾海運 9359 倉庫・運輸関連業 名証2 3月 Japan GAAP 愛知県 5.3% 24,015 10.0倍 0.5倍 5.9% 78.3% 3.8% 23.6%" [ref=e525]:
+              - cell [ref=e526]:
+                - checkbox [ref=e527]
+              - cell "伊勢湾海運" [ref=e528]:
+                - link "伊勢湾海運" [ref=e529] [cursor=pointer]:
+                  - /url: /company/9359/
+              - cell "9359" [ref=e530]
+              - cell "倉庫・運輸関連業" [ref=e531]
+              - cell "名証2" [ref=e532]
+              - cell "3月" [ref=e533]
+              - cell "Japan GAAP" [ref=e534]
+              - cell "愛知県" [ref=e535]
+              - cell "5.3%" [ref=e536]
+              - cell "24,015" [ref=e537]
+              - cell "10.0倍" [ref=e538]
+              - cell "0.5倍" [ref=e539]
+              - cell "5.9%" [ref=e540]
+              - cell "78.3%" [ref=e541]
+              - cell "3.8%" [ref=e542]
+              - cell "23.6%" [ref=e543]
+            - row "新家工業 7305 鉄鋼 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 大阪府 4.4% 23,910 14.1倍 0.7倍 4.7% 57.8% 6.4% 20.6%" [ref=e544]:
+              - cell [ref=e545]:
+                - checkbox [ref=e546]
+              - cell "新家工業" [ref=e547]:
+                - link "新家工業" [ref=e548] [cursor=pointer]:
+                  - /url: /company/7305/
+              - cell "7305" [ref=e549]
+              - cell "鉄鋼" [ref=e550]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e551]
+              - cell "3月" [ref=e552]
+              - cell "Japan GAAP" [ref=e553]
+              - cell "大阪府" [ref=e554]
+              - cell "4.4%" [ref=e555]
+              - cell "23,910" [ref=e556]
+              - cell "14.1倍" [ref=e557]
+              - cell "0.7倍" [ref=e558]
+              - cell "4.7%" [ref=e559]
+              - cell "57.8%" [ref=e560]
+              - cell "6.4%" [ref=e561]
+              - cell "20.6%" [ref=e562]
+            - row "ミスターマックス･HD 8203 小売業 プライム 2月 Japan GAAP 福岡県 7.1% 23,894 7.7倍 0.6倍 3.0% 44.2% 3.8% 21.1%" [ref=e563]:
+              - cell [ref=e564]:
+                - checkbox [ref=e565]
+              - cell "ミスターマックス･HD" [ref=e566]:
+                - link "ミスターマックス･HD" [ref=e567] [cursor=pointer]:
+                  - /url: /company/8203/
+              - cell "8203" [ref=e568]
+              - cell "小売業" [ref=e569]
+              - cell "プライム" [ref=e570]
+              - cell "2月" [ref=e571]
+              - cell "Japan GAAP" [ref=e572]
+              - cell "福岡県" [ref=e573]
+              - cell "7.1%" [ref=e574]
+              - cell "23,894" [ref=e575]
+              - cell "7.7倍" [ref=e576]
+              - cell "0.6倍" [ref=e577]
+              - cell "3.0%" [ref=e578]
+              - cell "44.2%" [ref=e579]
+              - cell "3.8%" [ref=e580]
+              - cell "21.1%" [ref=e581]
+            - row "遠州トラック 9057 陸運業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 静岡県 9.1% 23,840 11.4倍 1.0倍 6.2% 62.2% 3.0% 8.8%" [ref=e582]:
+              - cell [ref=e583]:
+                - checkbox [ref=e584]
+              - cell "遠州トラック" [ref=e585]:
+                - link "遠州トラック" [ref=e586] [cursor=pointer]:
+                  - /url: /company/9057/
+              - cell "9057" [ref=e587]
+              - cell "陸運業" [ref=e588]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e589]
+              - cell "3月" [ref=e590]
+              - cell "Japan GAAP" [ref=e591]
+              - cell "静岡県" [ref=e592]
+              - cell "9.1%" [ref=e593]
+              - cell "23,840" [ref=e594]
+              - cell "11.4倍" [ref=e595]
+              - cell "1.0倍" [ref=e596]
+              - cell "6.2%" [ref=e597]
+              - cell "62.2%" [ref=e598]
+              - cell "3.0%" [ref=e599]
+              - cell "8.8%" [ref=e600]
+            - row "神姫バス 9083 陸運業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 兵庫県 5.9% 23,799 10.8倍 0.4倍 7.6% 71.9% 2.5% 25.0%" [ref=e601]:
+              - cell [ref=e602]:
+                - checkbox [ref=e603]
+              - cell "神姫バス" [ref=e604]:
+                - link "神姫バス" [ref=e605] [cursor=pointer]:
+                  - /url: /company/9083/
+              - cell "9083" [ref=e606]
+              - cell "陸運業" [ref=e607]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e608]
+              - cell "3月" [ref=e609]
+              - cell "Japan GAAP" [ref=e610]
+              - cell "兵庫県" [ref=e611]
+              - cell "5.9%" [ref=e612]
+              - cell "23,799" [ref=e613]
+              - cell "10.8倍" [ref=e614]
+              - cell "0.4倍" [ref=e615]
+              - cell "7.6%" [ref=e616]
+              - cell "71.9%" [ref=e617]
+              - cell "2.5%" [ref=e618]
+              - cell "25.0%" [ref=e619]
+            - row "なとり 2922 食料品 プライム 3月 Japan GAAP 東京都 4.9% 23,667 16.2倍 0.9倍 3.9% 65.0% 1.4% 21.3%" [ref=e620]:
+              - cell [ref=e621]:
+                - checkbox [ref=e622]
+              - cell "なとり" [ref=e623]:
+                - link "なとり" [ref=e624] [cursor=pointer]:
+                  - /url: /company/2922/
+              - cell "2922" [ref=e625]
+              - cell "食料品" [ref=e626]
+              - cell "プライム" [ref=e627]
+              - cell "3月" [ref=e628]
+              - cell "Japan GAAP" [ref=e629]
+              - cell "東京都" [ref=e630]
+              - cell "4.9%" [ref=e631]
+              - cell "23,667" [ref=e632]
+              - cell "16.2倍" [ref=e633]
+              - cell "0.9倍" [ref=e634]
+              - cell "3.9%" [ref=e635]
+              - cell "65.0%" [ref=e636]
+              - cell "1.4%" [ref=e637]
+              - cell "21.3%" [ref=e638]
+            - row "三晃金属工業 1972 建設業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 東京都 9.6% 23,634 9.6倍 0.9倍 8.0% 68.1% 5.6% 20.7%" [ref=e639]:
+              - cell [ref=e640]:
+                - checkbox [ref=e641]
+              - cell "三晃金属工業" [ref=e642]:
+                - link "三晃金属工業" [ref=e643] [cursor=pointer]:
+                  - /url: /company/1972/
+              - cell "1972" [ref=e644]
+              - cell "建設業" [ref=e645]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e646]
+              - cell "3月" [ref=e647]
+              - cell "Japan GAAP" [ref=e648]
+              - cell "東京都" [ref=e649]
+              - cell "9.6%" [ref=e650]
+              - cell "23,634" [ref=e651]
+              - cell "9.6倍" [ref=e652]
+              - cell "0.9倍" [ref=e653]
+              - cell "8.0%" [ref=e654]
+              - cell "68.1%" [ref=e655]
+              - cell "5.6%" [ref=e656]
+              - cell "20.7%" [ref=e657]
+            - row "田辺工業 1828 建設業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 新潟県 12.3% 23,411 8.7倍 0.8倍 9.1% 59.3% 4.5% 19.4%" [ref=e658]:
+              - cell [ref=e659]:
+                - checkbox [ref=e660]
+              - cell "田辺工業" [ref=e661]:
+                - link "田辺工業" [ref=e662] [cursor=pointer]:
+                  - /url: /company/1828/
+              - cell "1828" [ref=e663]
+              - cell "建設業" [ref=e664]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e665]
+              - cell "3月" [ref=e666]
+              - cell "Japan GAAP" [ref=e667]
+              - cell "新潟県" [ref=e668]
+              - cell "12.3%" [ref=e669]
+              - cell "23,411" [ref=e670]
+              - cell "8.7倍" [ref=e671]
+              - cell "0.8倍" [ref=e672]
+              - cell "9.1%" [ref=e673]
+              - cell "59.3%" [ref=e674]
+              - cell "4.5%" [ref=e675]
+              - cell "19.4%" [ref=e676]
+            - row "タキヒヨー 9982 卸売業 ｽﾀﾝﾀﾞｰﾄﾞ 2月 Japan GAAP 愛知県 5.0% 23,349 14.4倍 0.7倍 3.0% 63.8% 1.6% 21.0%" [ref=e677]:
+              - cell [ref=e678]:
+                - checkbox [ref=e679]
+              - cell "タキヒヨー" [ref=e680]:
+                - link "タキヒヨー" [ref=e681] [cursor=pointer]:
+                  - /url: /company/9982/
+              - cell "9982" [ref=e682]
+              - cell "卸売業" [ref=e683]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e684]
+              - cell "2月" [ref=e685]
+              - cell "Japan GAAP" [ref=e686]
+              - cell "愛知県" [ref=e687]
+              - cell "5.0%" [ref=e688]
+              - cell "23,349" [ref=e689]
+              - cell "14.4倍" [ref=e690]
+              - cell "0.7倍" [ref=e691]
+              - cell "3.0%" [ref=e692]
+              - cell "63.8%" [ref=e693]
+              - cell "1.6%" [ref=e694]
+              - cell "21.0%" [ref=e695]
+            - row "フォーカスシステムズ 4662 情報・通信業 プライム 3月 Japan GAAP 東京都 15.2% 23,335 9.5倍 1.5倍 8.5% 64.6% 4.0% 14.7%" [ref=e696]:
+              - cell [ref=e697]:
+                - checkbox [ref=e698]
+              - cell "フォーカスシステムズ" [ref=e699]:
+                - link "フォーカスシステムズ" [ref=e700] [cursor=pointer]:
+                  - /url: /company/4662/
+              - cell "4662" [ref=e701]
+              - cell "情報・通信業" [ref=e702]
+              - cell "プライム" [ref=e703]
+              - cell "3月" [ref=e704]
+              - cell "Japan GAAP" [ref=e705]
+              - cell "東京都" [ref=e706]
+              - cell "15.2%" [ref=e707]
+              - cell "23,335" [ref=e708]
+              - cell "9.5倍" [ref=e709]
+              - cell "1.5倍" [ref=e710]
+              - cell "8.5%" [ref=e711]
+              - cell "64.6%" [ref=e712]
+              - cell "4.0%" [ref=e713]
+              - cell "14.7%" [ref=e714]
+            - row "シマダヤ 250A 食料品 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 東京都 14.1% 23,302 9.0倍 1.3倍 9.2% 71.0% 3.2% 30.0%" [ref=e715]:
+              - cell [ref=e716]:
+                - checkbox [ref=e717]
+              - cell "シマダヤ" [ref=e718]:
+                - link "シマダヤ" [ref=e719] [cursor=pointer]:
+                  - /url: /company/250A/
+              - cell "250A" [ref=e720]
+              - cell "食料品" [ref=e721]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e722]
+              - cell "3月" [ref=e723]
+              - cell "Japan GAAP" [ref=e724]
+              - cell "東京都" [ref=e725]
+              - cell "14.1%" [ref=e726]
+              - cell "23,302" [ref=e727]
+              - cell "9.0倍" [ref=e728]
+              - cell "1.3倍" [ref=e729]
+              - cell "9.2%" [ref=e730]
+              - cell "71.0%" [ref=e731]
+              - cell "3.2%" [ref=e732]
+              - cell "30.0%" [ref=e733]
+            - row "積水化成品工業 4228 化学 プライム 3月 Japan GAAP 大阪府 4.3% 23,300 9.3倍 0.5倍 2.2% 41.0% 2.9% 23.3%" [ref=e734]:
+              - cell [ref=e735]:
+                - checkbox [ref=e736]
+              - cell "積水化成品工業" [ref=e737]:
+                - link "積水化成品工業" [ref=e738] [cursor=pointer]:
+                  - /url: /company/4228/
+              - cell "4228" [ref=e739]
+              - cell "化学" [ref=e740]
+              - cell "プライム" [ref=e741]
+              - cell "3月" [ref=e742]
+              - cell "Japan GAAP" [ref=e743]
+              - cell "大阪府" [ref=e744]
+              - cell "4.3%" [ref=e745]
+              - cell "23,300" [ref=e746]
+              - cell "9.3倍" [ref=e747]
+              - cell "0.5倍" [ref=e748]
+              - cell "2.2%" [ref=e749]
+              - cell "41.0%" [ref=e750]
+              - cell "2.9%" [ref=e751]
+              - cell "23.3%" [ref=e752]
+            - row "やまや 9994 小売業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 宮城県 5.6% 23,070 11.0倍 0.6倍 2.2% 57.1% 3.5% 28.8%" [ref=e753]:
+              - cell [ref=e754]:
+                - checkbox [ref=e755]
+              - cell "やまや" [ref=e756]:
+                - link "やまや" [ref=e757] [cursor=pointer]:
+                  - /url: /company/9994/
+              - cell "9994" [ref=e758]
+              - cell "小売業" [ref=e759]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e760]
+              - cell "3月" [ref=e761]
+              - cell "Japan GAAP" [ref=e762]
+              - cell "宮城県" [ref=e763]
+              - cell "5.6%" [ref=e764]
+              - cell "23,070" [ref=e765]
+              - cell "11.0倍" [ref=e766]
+              - cell "0.6倍" [ref=e767]
+              - cell "2.2%" [ref=e768]
+              - cell "57.1%" [ref=e769]
+              - cell "3.5%" [ref=e770]
+              - cell "28.8%" [ref=e771]
+            - row "新田ゼラチン 4977 化学 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 大阪府 13.5% 22,274 9.3倍 0.9倍 12.3% 56.6% 2.5% 28.9%" [ref=e772]:
+              - cell [ref=e773]:
+                - checkbox [ref=e774]
+              - cell "新田ゼラチン" [ref=e775]:
+                - link "新田ゼラチン" [ref=e776] [cursor=pointer]:
+                  - /url: /company/4977/
+              - cell "4977" [ref=e777]
+              - cell "化学" [ref=e778]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e779]
+              - cell "3月" [ref=e780]
+              - cell "Japan GAAP" [ref=e781]
+              - cell "大阪府" [ref=e782]
+              - cell "13.5%" [ref=e783]
+              - cell "22,274" [ref=e784]
+              - cell "9.3倍" [ref=e785]
+              - cell "0.9倍" [ref=e786]
+              - cell "12.3%" [ref=e787]
+              - cell "56.6%" [ref=e788]
+              - cell "2.5%" [ref=e789]
+              - cell "28.9%" [ref=e790]
+            - row "協立電機 6874 電気機器 ｽﾀﾝﾀﾞｰﾄﾞ 6月 Japan GAAP 静岡県 9.8% 22,068 9.0倍 1.0倍 8.8% 63.5% 2.6% 20.9%" [ref=e791]:
+              - cell [ref=e792]:
+                - checkbox [ref=e793]
+              - cell "協立電機" [ref=e794]:
+                - link "協立電機" [ref=e795] [cursor=pointer]:
+                  - /url: /company/6874/
+              - cell "6874" [ref=e796]
+              - cell "電気機器" [ref=e797]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e798]
+              - cell "6月" [ref=e799]
+              - cell "Japan GAAP" [ref=e800]
+              - cell "静岡県" [ref=e801]
+              - cell "9.8%" [ref=e802]
+              - cell "22,068" [ref=e803]
+              - cell "9.0倍" [ref=e804]
+              - cell "1.0倍" [ref=e805]
+              - cell "8.8%" [ref=e806]
+              - cell "63.5%" [ref=e807]
+              - cell "2.6%" [ref=e808]
+              - cell "20.9%" [ref=e809]
+            - row "OUGHD 8041 卸売業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 大阪府 13.0% 22,022 6.9倍 0.5倍 1.7% 42.8% 4.1% 9.4%" [ref=e810]:
+              - cell [ref=e811]:
+                - checkbox [ref=e812]
+              - cell "OUGHD" [ref=e813]:
+                - link "OUGHD" [ref=e814] [cursor=pointer]:
+                  - /url: /company/8041/
+              - cell "8041" [ref=e815]
+              - cell "卸売業" [ref=e816]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e817]
+              - cell "3月" [ref=e818]
+              - cell "Japan GAAP" [ref=e819]
+              - cell "大阪府" [ref=e820]
+              - cell "13.0%" [ref=e821]
+              - cell "22,022" [ref=e822]
+              - cell "6.9倍" [ref=e823]
+              - cell "0.5倍" [ref=e824]
+              - cell "1.7%" [ref=e825]
+              - cell "42.8%" [ref=e826]
+              - cell "4.1%" [ref=e827]
+              - cell "9.4%" [ref=e828]
+            - row "極東貿易 8093 卸売業 プライム 3月 Japan GAAP 東京都 5.7% 22,011 9.0倍 0.7倍 4.0% 53.5% 4.0% 18.4%" [ref=e829]:
+              - cell [ref=e830]:
+                - checkbox [ref=e831]
+              - cell "極東貿易" [ref=e832]:
+                - link "極東貿易" [ref=e833] [cursor=pointer]:
+                  - /url: /company/8093/
+              - cell "8093" [ref=e834]
+              - cell "卸売業" [ref=e835]
+              - cell "プライム" [ref=e836]
+              - cell "3月" [ref=e837]
+              - cell "Japan GAAP" [ref=e838]
+              - cell "東京都" [ref=e839]
+              - cell "5.7%" [ref=e840]
+              - cell "22,011" [ref=e841]
+              - cell "9.0倍" [ref=e842]
+              - cell "0.7倍" [ref=e843]
+              - cell "4.0%" [ref=e844]
+              - cell "53.5%" [ref=e845]
+              - cell "4.0%" [ref=e846]
+              - cell "18.4%" [ref=e847]
+            - row "北陸瓦斯 9537 電気・ガス業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 新潟県 5.9% 21,857 11.9倍 0.4倍 5.9% 74.9% 1.7% 38.9%" [ref=e848]:
+              - cell [ref=e849]:
+                - checkbox [ref=e850]
+              - cell "北陸瓦斯" [ref=e851]:
+                - link "北陸瓦斯" [ref=e852] [cursor=pointer]:
+                  - /url: /company/9537/
+              - cell "9537" [ref=e853]
+              - cell "電気・ガス業" [ref=e854]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e855]
+              - cell "3月" [ref=e856]
+              - cell "Japan GAAP" [ref=e857]
+              - cell "新潟県" [ref=e858]
+              - cell "5.9%" [ref=e859]
+              - cell "21,857" [ref=e860]
+              - cell "11.9倍" [ref=e861]
+              - cell "0.4倍" [ref=e862]
+              - cell "5.9%" [ref=e863]
+              - cell "74.9%" [ref=e864]
+              - cell "1.7%" [ref=e865]
+              - cell "38.9%" [ref=e866]
+            - row "メタルアート 5644 鉄鋼 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 滋賀県 10.3% 21,756 15.9倍 0.8倍 8.6% 56.3% 2.0% 14.3%" [ref=e867]:
+              - cell [ref=e868]:
+                - checkbox [ref=e869]
+              - cell "メタルアート" [ref=e870]:
+                - link "メタルアート" [ref=e871] [cursor=pointer]:
+                  - /url: /company/5644/
+              - cell "5644" [ref=e872]
+              - cell "鉄鋼" [ref=e873]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e874]
+              - cell "3月" [ref=e875]
+              - cell "Japan GAAP" [ref=e876]
+              - cell "滋賀県" [ref=e877]
+              - cell "10.3%" [ref=e878]
+              - cell "21,756" [ref=e879]
+              - cell "15.9倍" [ref=e880]
+              - cell "0.8倍" [ref=e881]
+              - cell "8.6%" [ref=e882]
+              - cell "56.3%" [ref=e883]
+              - cell "2.0%" [ref=e884]
+              - cell "14.3%" [ref=e885]
+            - row "サンテック 1960 建設業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 東京都 8.3% 21,542 9.4倍 0.6倍 4.9% 55.3% 4.6% 14.9%" [ref=e886]:
+              - cell [ref=e887]:
+                - checkbox [ref=e888]
+              - cell "サンテック" [ref=e889]:
+                - link "サンテック" [ref=e890] [cursor=pointer]:
+                  - /url: /company/1960/
+              - cell "1960" [ref=e891]
+              - cell "建設業" [ref=e892]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e893]
+              - cell "3月" [ref=e894]
+              - cell "Japan GAAP" [ref=e895]
+              - cell "東京都" [ref=e896]
+              - cell "8.3%" [ref=e897]
+              - cell "21,542" [ref=e898]
+              - cell "9.4倍" [ref=e899]
+              - cell "0.6倍" [ref=e900]
+              - cell "4.9%" [ref=e901]
+              - cell "55.3%" [ref=e902]
+              - cell "4.6%" [ref=e903]
+              - cell "14.9%" [ref=e904]
+            - row "六甲バター 2266 食料品 プライム 12月 Japan GAAP 兵庫県 4.4% 21,080 14.1倍 0.6倍 3.3% 54.6% 1.8% 19.4%" [ref=e905]:
+              - cell [ref=e906]:
+                - checkbox [ref=e907]
+              - cell "六甲バター" [ref=e908]:
+                - link "六甲バター" [ref=e909] [cursor=pointer]:
+                  - /url: /company/2266/
+              - cell "2266" [ref=e910]
+              - cell "食料品" [ref=e911]
+              - cell "プライム" [ref=e912]
+              - cell "12月" [ref=e913]
+              - cell "Japan GAAP" [ref=e914]
+              - cell "兵庫県" [ref=e915]
+              - cell "4.4%" [ref=e916]
+              - cell "21,080" [ref=e917]
+              - cell "14.1倍" [ref=e918]
+              - cell "0.6倍" [ref=e919]
+              - cell "3.3%" [ref=e920]
+              - cell "54.6%" [ref=e921]
+              - cell "1.8%" [ref=e922]
+              - cell "19.4%" [ref=e923]
+            - row "サックスバーHD 9990 小売業 プライム 3月 Japan GAAP 東京都 6.2% 21,065 10.0倍 0.7倍 6.2% 74.1% 4.8% 49.5%" [ref=e924]:
+              - cell [ref=e925]:
+                - checkbox [ref=e926]
+              - cell "サックスバーHD" [ref=e927]:
+                - link "サックスバーHD" [ref=e928] [cursor=pointer]:
+                  - /url: /company/9990/
+              - cell "9990" [ref=e929]
+              - cell "小売業" [ref=e930]
+              - cell "プライム" [ref=e931]
+              - cell "3月" [ref=e932]
+              - cell "Japan GAAP" [ref=e933]
+              - cell "東京都" [ref=e934]
+              - cell "6.2%" [ref=e935]
+              - cell "21,065" [ref=e936]
+              - cell "10.0倍" [ref=e937]
+              - cell "0.7倍" [ref=e938]
+              - cell "6.2%" [ref=e939]
+              - cell "74.1%" [ref=e940]
+              - cell "4.8%" [ref=e941]
+              - cell "49.5%" [ref=e942]
+            - row "ナック 9788 サービス業 プライム 3月 Japan GAAP 東京都 7.1% 20,997 12.4倍 0.9倍 4.2% 59.5% 4.4% 48.2%" [ref=e943]:
+              - cell [ref=e944]:
+                - checkbox [ref=e945]
+              - cell "ナック" [ref=e946]:
+                - link "ナック" [ref=e947] [cursor=pointer]:
+                  - /url: /company/9788/
+              - cell "9788" [ref=e948]
+              - cell "サービス業" [ref=e949]
+              - cell "プライム" [ref=e950]
+              - cell "3月" [ref=e951]
+              - cell "Japan GAAP" [ref=e952]
+              - cell "東京都" [ref=e953]
+              - cell "7.1%" [ref=e954]
+              - cell "20,997" [ref=e955]
+              - cell "12.4倍" [ref=e956]
+              - cell "0.9倍" [ref=e957]
+              - cell "4.2%" [ref=e958]
+              - cell "59.5%" [ref=e959]
+              - cell "4.4%" [ref=e960]
+              - cell "48.2%" [ref=e961]
+            - row "トリニティ工業 6382 機械 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 愛知県 7.8% 20,751 10.6倍 0.6倍 8.2% 78.5% 5.2% 22.0%" [ref=e962]:
+              - cell [ref=e963]:
+                - checkbox [ref=e964]
+              - cell "トリニティ工業" [ref=e965]:
+                - link "トリニティ工業" [ref=e966] [cursor=pointer]:
+                  - /url: /company/6382/
+              - cell "6382" [ref=e967]
+              - cell "機械" [ref=e968]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e969]
+              - cell "3月" [ref=e970]
+              - cell "Japan GAAP" [ref=e971]
+              - cell "愛知県" [ref=e972]
+              - cell "7.8%" [ref=e973]
+              - cell "20,751" [ref=e974]
+              - cell "10.6倍" [ref=e975]
+              - cell "0.6倍" [ref=e976]
+              - cell "8.2%" [ref=e977]
+              - cell "78.5%" [ref=e978]
+              - cell "5.2%" [ref=e979]
+              - cell "22.0%" [ref=e980]
+            - row "ミヨシ油脂 4404 食料品 ｽﾀﾝﾀﾞｰﾄﾞ 12月 Japan GAAP 東京都 22.7% 20,677 13.9倍 0.5倍 3.3% 50.2% 4.9% 18.9%" [ref=e981]:
+              - cell [ref=e982]:
+                - checkbox [ref=e983]
+              - cell "ミヨシ油脂" [ref=e984]:
+                - link "ミヨシ油脂" [ref=e985] [cursor=pointer]:
+                  - /url: /company/4404/
+              - cell "4404" [ref=e986]
+              - cell "食料品" [ref=e987]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e988]
+              - cell "12月" [ref=e989]
+              - cell "Japan GAAP" [ref=e990]
+              - cell "東京都" [ref=e991]
+              - cell "22.7%" [ref=e992]
+              - cell "20,677" [ref=e993]
+              - cell "13.9倍" [ref=e994]
+              - cell "0.5倍" [ref=e995]
+              - cell "3.3%" [ref=e996]
+              - cell "50.2%" [ref=e997]
+              - cell "4.9%" [ref=e998]
+              - cell "18.9%" [ref=e999]
+            - row "オーナンバ 5816 非鉄金属 ｽﾀﾝﾀﾞｰﾄﾞ 12月 Japan GAAP 大阪府 5.3% 20,668 10.9倍 0.7倍 5.9% 67.0% 2.4% 20.6%" [ref=e1000]:
+              - cell [ref=e1001]:
+                - checkbox [ref=e1002]
+              - cell "オーナンバ" [ref=e1003]:
+                - link "オーナンバ" [ref=e1004] [cursor=pointer]:
+                  - /url: /company/5816/
+              - cell "5816" [ref=e1005]
+              - cell "非鉄金属" [ref=e1006]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1007]
+              - cell "12月" [ref=e1008]
+              - cell "Japan GAAP" [ref=e1009]
+              - cell "大阪府" [ref=e1010]
+              - cell "5.3%" [ref=e1011]
+              - cell "20,668" [ref=e1012]
+              - cell "10.9倍" [ref=e1013]
+              - cell "0.7倍" [ref=e1014]
+              - cell "5.9%" [ref=e1015]
+              - cell "67.0%" [ref=e1016]
+              - cell "2.4%" [ref=e1017]
+              - cell "20.6%" [ref=e1018]
+            - row "杉本商事 9932 卸売業 プライム 3月 Japan GAAP 大阪府 6.2% 20,536 11.8倍 0.6倍 4.2% 77.9% 4.6% 20.0%" [ref=e1019]:
+              - cell [ref=e1020]:
+                - checkbox [ref=e1021]
+              - cell "杉本商事" [ref=e1022]:
+                - link "杉本商事" [ref=e1023] [cursor=pointer]:
+                  - /url: /company/9932/
+              - cell "9932" [ref=e1024]
+              - cell "卸売業" [ref=e1025]
+              - cell "プライム" [ref=e1026]
+              - cell "3月" [ref=e1027]
+              - cell "Japan GAAP" [ref=e1028]
+              - cell "大阪府" [ref=e1029]
+              - cell "6.2%" [ref=e1030]
+              - cell "20,536" [ref=e1031]
+              - cell "11.8倍" [ref=e1032]
+              - cell "0.6倍" [ref=e1033]
+              - cell "4.2%" [ref=e1034]
+              - cell "77.9%" [ref=e1035]
+              - cell "4.6%" [ref=e1036]
+              - cell "20.0%" [ref=e1037]
+            - row "アルビス 7475 小売業 プライム 3月 Japan GAAP 富山県 4.0% 20,403 15.1倍 0.6倍 2.1% 56.3% 2.9% 30.1%" [ref=e1038]:
+              - cell [ref=e1039]:
+                - checkbox [ref=e1040]
+              - cell "アルビス" [ref=e1041]:
+                - link "アルビス" [ref=e1042] [cursor=pointer]:
+                  - /url: /company/7475/
+              - cell "7475" [ref=e1043]
+              - cell "小売業" [ref=e1044]
+              - cell "プライム" [ref=e1045]
+              - cell "3月" [ref=e1046]
+              - cell "Japan GAAP" [ref=e1047]
+              - cell "富山県" [ref=e1048]
+              - cell "4.0%" [ref=e1049]
+              - cell "20,403" [ref=e1050]
+              - cell "15.1倍" [ref=e1051]
+              - cell "0.6倍" [ref=e1052]
+              - cell "2.1%" [ref=e1053]
+              - cell "56.3%" [ref=e1054]
+              - cell "2.9%" [ref=e1055]
+              - cell "30.1%" [ref=e1056]
+            - row "アルインコ 5933 金属製品 プライム 3月 Japan GAAP 大阪府 5.2% 20,352 9.5倍 0.6倍 3.5% 45.8% 4.3% 26.2%" [ref=e1057]:
+              - cell [ref=e1058]:
+                - checkbox [ref=e1059]
+              - cell "アルインコ" [ref=e1060]:
+                - link "アルインコ" [ref=e1061] [cursor=pointer]:
+                  - /url: /company/5933/
+              - cell "5933" [ref=e1062]
+              - cell "金属製品" [ref=e1063]
+              - cell "プライム" [ref=e1064]
+              - cell "3月" [ref=e1065]
+              - cell "Japan GAAP" [ref=e1066]
+              - cell "大阪府" [ref=e1067]
+              - cell "5.2%" [ref=e1068]
+              - cell "20,352" [ref=e1069]
+              - cell "9.5倍" [ref=e1070]
+              - cell "0.6倍" [ref=e1071]
+              - cell "3.5%" [ref=e1072]
+              - cell "45.8%" [ref=e1073]
+              - cell "4.3%" [ref=e1074]
+              - cell "26.2%" [ref=e1075]
+            - row "ナラサキ産業 8085 卸売業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 北海道 7.7% 20,116 8.0倍 0.7倍 2.6% 46.4% 3.2% 10.7%" [ref=e1076]:
+              - cell [ref=e1077]:
+                - checkbox [ref=e1078]
+              - cell "ナラサキ産業" [ref=e1079]:
+                - link "ナラサキ産業" [ref=e1080] [cursor=pointer]:
+                  - /url: /company/8085/
+              - cell "8085" [ref=e1081]
+              - cell "卸売業" [ref=e1082]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1083]
+              - cell "3月" [ref=e1084]
+              - cell "Japan GAAP" [ref=e1085]
+              - cell "北海道" [ref=e1086]
+              - cell "7.7%" [ref=e1087]
+              - cell "20,116" [ref=e1088]
+              - cell "8.0倍" [ref=e1089]
+              - cell "0.7倍" [ref=e1090]
+              - cell "2.6%" [ref=e1091]
+              - cell "46.4%" [ref=e1092]
+              - cell "3.2%" [ref=e1093]
+              - cell "10.7%" [ref=e1094]
+            - row "ダイナパック 3947 パルプ・紙 ｽﾀﾝﾀﾞｰﾄﾞ 12月 Japan GAAP 愛知県 6.6% 20,091 8.0倍 0.4倍 4.3% 56.6% 3.9% 20.4%" [ref=e1095]:
+              - cell [ref=e1096]:
+                - checkbox [ref=e1097]
+              - cell "ダイナパック" [ref=e1098]:
+                - link "ダイナパック" [ref=e1099] [cursor=pointer]:
+                  - /url: /company/3947/
+              - cell "3947" [ref=e1100]
+              - cell "パルプ・紙" [ref=e1101]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1102]
+              - cell "12月" [ref=e1103]
+              - cell "Japan GAAP" [ref=e1104]
+              - cell "愛知県" [ref=e1105]
+              - cell "6.6%" [ref=e1106]
+              - cell "20,091" [ref=e1107]
+              - cell "8.0倍" [ref=e1108]
+              - cell "0.4倍" [ref=e1109]
+              - cell "4.3%" [ref=e1110]
+              - cell "56.6%" [ref=e1111]
+              - cell "3.9%" [ref=e1112]
+              - cell "20.4%" [ref=e1113]
+            - row "東洋電機製造 6505 電気機器 ｽﾀﾝﾀﾞｰﾄﾞ 5月 Japan GAAP 東京都 6.9% 20,045 8.9倍 0.6倍 5.9% 52.6% 3.1% 26.2%" [ref=e1114]:
+              - cell [ref=e1115]:
+                - checkbox [ref=e1116]
+              - cell "東洋電機製造" [ref=e1117]:
+                - link "東洋電機製造" [ref=e1118] [cursor=pointer]:
+                  - /url: /company/6505/
+              - cell "6505" [ref=e1119]
+              - cell "電気機器" [ref=e1120]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1121]
+              - cell "5月" [ref=e1122]
+              - cell "Japan GAAP" [ref=e1123]
+              - cell "東京都" [ref=e1124]
+              - cell "6.9%" [ref=e1125]
+              - cell "20,045" [ref=e1126]
+              - cell "8.9倍" [ref=e1127]
+              - cell "0.6倍" [ref=e1128]
+              - cell "5.9%" [ref=e1129]
+              - cell "52.6%" [ref=e1130]
+              - cell "3.1%" [ref=e1131]
+              - cell "26.2%" [ref=e1132]
+            - row "尾家産業 7481 卸売業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 大阪府 16.5% 19,979 7.0倍 1.2倍 3.0% 41.3% 4.2% 18.9%" [ref=e1133]:
+              - cell [ref=e1134]:
+                - checkbox [ref=e1135]
+              - cell "尾家産業" [ref=e1136]:
+                - link "尾家産業" [ref=e1137] [cursor=pointer]:
+                  - /url: /company/7481/
+              - cell "7481" [ref=e1138]
+              - cell "卸売業" [ref=e1139]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1140]
+              - cell "3月" [ref=e1141]
+              - cell "Japan GAAP" [ref=e1142]
+              - cell "大阪府" [ref=e1143]
+              - cell "16.5%" [ref=e1144]
+              - cell "19,979" [ref=e1145]
+              - cell "7.0倍" [ref=e1146]
+              - cell "1.2倍" [ref=e1147]
+              - cell "3.0%" [ref=e1148]
+              - cell "41.3%" [ref=e1149]
+              - cell "4.2%" [ref=e1150]
+              - cell "18.9%" [ref=e1151]
+            - row "アジア航測 9233 空運業 ｽﾀﾝﾀﾞｰﾄﾞ 9月 Japan GAAP 東京都 7.7% 19,909 9.8倍 0.8倍 6.9% 44.3% 4.0% 27.4%" [ref=e1152]:
+              - cell [ref=e1153]:
+                - checkbox [ref=e1154]
+              - cell "アジア航測" [ref=e1155]:
+                - link "アジア航測" [ref=e1156] [cursor=pointer]:
+                  - /url: /company/9233/
+              - cell "9233" [ref=e1157]
+              - cell "空運業" [ref=e1158]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1159]
+              - cell "9月" [ref=e1160]
+              - cell "Japan GAAP" [ref=e1161]
+              - cell "東京都" [ref=e1162]
+              - cell "7.7%" [ref=e1163]
+              - cell "19,909" [ref=e1164]
+              - cell "9.8倍" [ref=e1165]
+              - cell "0.8倍" [ref=e1166]
+              - cell "6.9%" [ref=e1167]
+              - cell "44.3%" [ref=e1168]
+              - cell "4.0%" [ref=e1169]
+              - cell "27.4%" [ref=e1170]
+            - row "栗林商船 9171 海運業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 東京都 10.9% 19,837 11.7倍 0.6倍 3.9% 41.4% 3.6% 20.6%" [ref=e1171]:
+              - cell [ref=e1172]:
+                - checkbox [ref=e1173]
+              - cell "栗林商船" [ref=e1174]:
+                - link "栗林商船" [ref=e1175] [cursor=pointer]:
+                  - /url: /company/9171/
+              - cell "9171" [ref=e1176]
+              - cell "海運業" [ref=e1177]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1178]
+              - cell "3月" [ref=e1179]
+              - cell "Japan GAAP" [ref=e1180]
+              - cell "東京都" [ref=e1181]
+              - cell "10.9%" [ref=e1182]
+              - cell "19,837" [ref=e1183]
+              - cell "11.7倍" [ref=e1184]
+              - cell "0.6倍" [ref=e1185]
+              - cell "3.9%" [ref=e1186]
+              - cell "41.4%" [ref=e1187]
+              - cell "3.6%" [ref=e1188]
+              - cell "20.6%" [ref=e1189]
+            - row "ルックHD 8029 繊維製品 ｽﾀﾝﾀﾞｰﾄﾞ 12月 Japan GAAP 東京都 3.7% 19,545 12.2倍 0.5倍 3.4% 62.6% 3.8% 60.4%" [ref=e1190]:
+              - cell [ref=e1191]:
+                - checkbox [ref=e1192]
+              - cell "ルックHD" [ref=e1193]:
+                - link "ルックHD" [ref=e1194] [cursor=pointer]:
+                  - /url: /company/8029/
+              - cell "8029" [ref=e1195]
+              - cell "繊維製品" [ref=e1196]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1197]
+              - cell "12月" [ref=e1198]
+              - cell "Japan GAAP" [ref=e1199]
+              - cell "東京都" [ref=e1200]
+              - cell "3.7%" [ref=e1201]
+              - cell "19,545" [ref=e1202]
+              - cell "12.2倍" [ref=e1203]
+              - cell "0.5倍" [ref=e1204]
+              - cell "3.4%" [ref=e1205]
+              - cell "62.6%" [ref=e1206]
+              - cell "3.8%" [ref=e1207]
+              - cell "60.4%" [ref=e1208]
+            - row "NISSOHD 9332 サービス業 プライム 3月 Japan GAAP 神奈川県 10.4% 19,496 9.3倍 1.1倍 2.9% 53.4% 4.3% 16.9%" [ref=e1209]:
+              - cell [ref=e1210]:
+                - checkbox [ref=e1211]
+              - cell "NISSOHD" [ref=e1212]:
+                - link "NISSOHD" [ref=e1213] [cursor=pointer]:
+                  - /url: /company/9332/
+              - cell "9332" [ref=e1214]
+              - cell "サービス業" [ref=e1215]
+              - cell "プライム" [ref=e1216]
+              - cell "3月" [ref=e1217]
+              - cell "Japan GAAP" [ref=e1218]
+              - cell "神奈川県" [ref=e1219]
+              - cell "10.4%" [ref=e1220]
+              - cell "19,496" [ref=e1221]
+              - cell "9.3倍" [ref=e1222]
+              - cell "1.1倍" [ref=e1223]
+              - cell "2.9%" [ref=e1224]
+              - cell "53.4%" [ref=e1225]
+              - cell "4.3%" [ref=e1226]
+              - cell "16.9%" [ref=e1227]
+            - row "日本食品化工 2892 食料品 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 東京都 3.9% 19,266 12.8倍 0.6倍 2.0% 59.6% 3.6% 16.3%" [ref=e1228]:
+              - cell [ref=e1229]:
+                - checkbox [ref=e1230]
+              - cell "日本食品化工" [ref=e1231]:
+                - link "日本食品化工" [ref=e1232] [cursor=pointer]:
+                  - /url: /company/2892/
+              - cell "2892" [ref=e1233]
+              - cell "食料品" [ref=e1234]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1235]
+              - cell "3月" [ref=e1236]
+              - cell "Japan GAAP" [ref=e1237]
+              - cell "東京都" [ref=e1238]
+              - cell "3.9%" [ref=e1239]
+              - cell "19,266" [ref=e1240]
+              - cell "12.8倍" [ref=e1241]
+              - cell "0.6倍" [ref=e1242]
+              - cell "2.0%" [ref=e1243]
+              - cell "59.6%" [ref=e1244]
+              - cell "3.6%" [ref=e1245]
+              - cell "16.3%" [ref=e1246]
+            - row "ダイイチ 7643 小売業 ｽﾀﾝﾀﾞｰﾄﾞ 9月 Japan GAAP 北海道 5.5% 19,114 15.9倍 1.1倍 2.2% 62.6% 2.1% 25.3%" [ref=e1247]:
+              - cell [ref=e1248]:
+                - checkbox [ref=e1249]
+              - cell "ダイイチ" [ref=e1250]:
+                - link "ダイイチ" [ref=e1251] [cursor=pointer]:
+                  - /url: /company/7643/
+              - cell "7643" [ref=e1252]
+              - cell "小売業" [ref=e1253]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1254]
+              - cell "9月" [ref=e1255]
+              - cell "Japan GAAP" [ref=e1256]
+              - cell "北海道" [ref=e1257]
+              - cell "5.5%" [ref=e1258]
+              - cell "19,114" [ref=e1259]
+              - cell "15.9倍" [ref=e1260]
+              - cell "1.1倍" [ref=e1261]
+              - cell "2.2%" [ref=e1262]
+              - cell "62.6%" [ref=e1263]
+              - cell "2.1%" [ref=e1264]
+              - cell "25.3%" [ref=e1265]
+            - row "今仙電機製作所 7266 輸送用機器 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 愛知県 4.4% 18,990 8.3倍 0.3倍 2.3% 68.7% 3.0% 9.6%" [ref=e1266]:
+              - cell [ref=e1267]:
+                - checkbox [ref=e1268]
+              - cell "今仙電機製作所" [ref=e1269]:
+                - link "今仙電機製作所" [ref=e1270] [cursor=pointer]:
+                  - /url: /company/7266/
+              - cell "7266" [ref=e1271]
+              - cell "輸送用機器" [ref=e1272]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1273]
+              - cell "3月" [ref=e1274]
+              - cell "Japan GAAP" [ref=e1275]
+              - cell "愛知県" [ref=e1276]
+              - cell "4.4%" [ref=e1277]
+              - cell "18,990" [ref=e1278]
+              - cell "8.3倍" [ref=e1279]
+              - cell "0.3倍" [ref=e1280]
+              - cell "2.3%" [ref=e1281]
+              - cell "68.7%" [ref=e1282]
+              - cell "3.0%" [ref=e1283]
+              - cell "9.6%" [ref=e1284]
+            - row "カンダHD 9059 陸運業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 東京都 8.7% 18,833 7.4倍 0.7倍 7.0% 58.4% 2.6% 11.5%" [ref=e1285]:
+              - cell [ref=e1286]:
+                - checkbox [ref=e1287]
+              - cell "カンダHD" [ref=e1288]:
+                - link "カンダHD" [ref=e1289] [cursor=pointer]:
+                  - /url: /company/9059/
+              - cell "9059" [ref=e1290]
+              - cell "陸運業" [ref=e1291]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1292]
+              - cell "3月" [ref=e1293]
+              - cell "Japan GAAP" [ref=e1294]
+              - cell "東京都" [ref=e1295]
+              - cell "8.7%" [ref=e1296]
+              - cell "18,833" [ref=e1297]
+              - cell "7.4倍" [ref=e1298]
+              - cell "0.7倍" [ref=e1299]
+              - cell "7.0%" [ref=e1300]
+              - cell "58.4%" [ref=e1301]
+              - cell "2.6%" [ref=e1302]
+              - cell "11.5%" [ref=e1303]
+            - row "ケイヒン 9312 倉庫・運輸関連業 ｽﾀﾝﾀﾞｰﾄﾞ 3月 Japan GAAP 東京都 7.5% 18,730 5.5倍 0.6倍 6.8% 56.5% 3.5% 11.2%" [ref=e1304]:
+              - cell [ref=e1305]:
+                - checkbox [ref=e1306]
+              - cell "ケイヒン" [ref=e1307]:
+                - link "ケイヒン" [ref=e1308] [cursor=pointer]:
+                  - /url: /company/9312/
+              - cell "9312" [ref=e1309]
+              - cell "倉庫・運輸関連業" [ref=e1310]
+              - cell "ｽﾀﾝﾀﾞｰﾄﾞ" [ref=e1311]
+              - cell "3月" [ref=e1312]
+              - cell "Japan GAAP" [ref=e1313]
+              - cell "東京都" [ref=e1314]
+              - cell "7.5%" [ref=e1315]
+              - cell "18,730" [ref=e1316]
+              - cell "5.5倍" [ref=e1317]
+              - cell "0.6倍" [ref=e1318]
+              - cell "6.8%" [ref=e1319]
+              - cell "56.5%" [ref=e1320]
+              - cell "3.5%" [ref=e1321]
+              - cell "11.2%" [ref=e1322]
+          - rowgroup
+        - generic [ref=e1323]:
+          - status [ref=e1325]: Showing 1 to 50 of 100 entries
+          - navigation "pagination" [ref=e1328]:
+            - list [ref=e1329]:
+              - listitem [ref=e1330]:
+                - generic "First": «
+              - listitem [ref=e1331]:
+                - generic "Previous": ‹
+              - listitem [ref=e1332]:
+                - link "1" [ref=e1333] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e1334]:
+                - link "2" [ref=e1335] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e1336]:
+                - link "Next" [ref=e1337] [cursor=pointer]:
+                  - /url: "#"
+                  - text: ›
+              - listitem [ref=e1338]:
+                - link "Last" [ref=e1339] [cursor=pointer]:
+                  - /url: "#"
+                  - text: »
+      - generic [ref=e1342]:
+        - text: 検索結果 全220件（現在のプランでは上位100件のみ表示）
+        - link "アップグレードする" [ref=e1343] [cursor=pointer]:
+          - /url: /pricing
+  - generic [ref=e1345]:
+    - link "お問い合わせ" [ref=e1346] [cursor=pointer]:
+      - /url: /contacts
+    - link "採用" [ref=e1347] [cursor=pointer]:
+      - /url: https://career.buffett-code.com/
+    - link "ブログ" [ref=e1348] [cursor=pointer]:
+      - /url: https://blog.buffett-code.com/
+    - link "規約一覧" [ref=e1349] [cursor=pointer]:
+      - /url: /legal
+    - link "" [ref=e1350] [cursor=pointer]:
+      - /url: https://twitter.com/buffett_code
+      - generic [ref=e1351]: 

@@ -1,0 +1,1314 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "buffett code logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "buffett code logo" [ref=e5]
+      - link "バフェット・コード" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: バフェット・コード
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e14]
+            - textbox "会社名やキーワードや銘柄コードで検索" [active] [ref=e16]
+          - generic:
+            - list
+        - generic [ref=e18]:
+          - link "料金プラン" [ref=e19] [cursor=pointer]:
+            - /url: /pricing
+          - link "法人プラン" [ref=e20] [cursor=pointer]:
+            - /url: https://business.buffett-code.com/?utm_source=web_ui_nav
+      - generic [ref=e21]:
+        - link "マイページ" [ref=e22] [cursor=pointer]:
+          - /url: /users
+        - link "無料トライアル" [ref=e23] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/trial?utm_source=web_ui_nav
+        - link "資料ダウンロード" [ref=e24] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/resources/3min_paper?utm_source=web_ui_nav
+        - link "お問い合わせ" [ref=e25] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/contact?utm_source=web_ui_nav
+      - text: 
+  - text:             
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - link " 条件検索" [ref=e29] [cursor=pointer]:
+        - /url: /global_screening
+        - generic [ref=e30]: 
+        - generic [ref=e31]: 条件検索
+      - link " M&A検索" [ref=e32] [cursor=pointer]:
+        - /url: /ma_search
+        - generic [ref=e33]: 
+        - generic [ref=e34]: M&A検索
+      - link " 株主検索" [ref=e35] [cursor=pointer]:
+        - /url: /shareholder_search
+        - generic [ref=e36]: 
+        - generic [ref=e37]: 株主検索
+      - link " 企業比較" [ref=e38] [cursor=pointer]:
+        - /url: /comps
+        - generic [ref=e39]: 
+        - generic [ref=e40]: 企業比較
+      - link " 資料検索" [ref=e41] [cursor=pointer]:
+        - /url: /documents
+        - generic [ref=e42]: 
+        - generic [ref=e43]: 資料検索
+      - link " スライド検索" [ref=e44] [cursor=pointer]:
+        - /url: /slides/search
+        - generic [ref=e45]: 
+        - generic [ref=e46]: スライド検索
+      - link " 適時開示" [ref=e47] [cursor=pointer]:
+        - /url: /disclosures/financial_statements
+        - generic [ref=e48]: 
+        - generic [ref=e49]: 適時開示
+      - link " 決算予定" [ref=e50] [cursor=pointer]:
+        - /url: /calendar
+        - generic [ref=e51]: 
+        - generic [ref=e52]: 決算予定
+      - link " 株価DL" [ref=e53] [cursor=pointer]:
+        - /url: /download
+        - generic [ref=e54]: 
+        - generic [ref=e55]: 株価DL
+      - link " 登記簿" [ref=e56] [cursor=pointer]:
+        - /url: /registries
+        - generic [ref=e57]: 
+        - generic [ref=e58]: 登記簿
+      - generic [ref=e60]:
+        - generic [ref=e61]: 
+        - generic [ref=e62]: About
+    - generic [ref=e64]:
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - link "TOP" [ref=e67] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e68]:
+          - text: /
+          - link "日米銘柄スクリーニング" [ref=e69] [cursor=pointer]:
+            - /url: /global_screening
+        - listitem [ref=e70]: / 検索結果
+      - generic [ref=e71]:
+        - text: 財務数値や株価指標などの条件を指定すると、条件に合致した上場企業を選出できます。 選択できる項目や、検索結果の表示件数はプランに応じて増加します。 詳しくは
+        - link "こちら" [ref=e72] [cursor=pointer]:
+          - /url: /pricing
+        - text: 。
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic [ref=e80]: 検索対象
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - radio "日本" [checked] [ref=e83]
+              - generic [ref=e84]: 日本
+            - generic [ref=e85]:
+              - radio "米国" [ref=e86]
+              - generic [ref=e87]: 米国
+            - generic [ref=e88]:
+              - radio "日/米" [ref=e89]
+              - generic [ref=e90]: 日/米
+            - generic [ref=e91]:
+              - radio "国内未上場" [ref=e92]
+              - generic [ref=e93]: 国内未上場
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - img [ref=e96]
+            - generic [ref=e98]: 条件
+          - button "+条件を追加" [ref=e101] [cursor=pointer]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - img [ref=e104]
+            - generic [ref=e106]: 表示科目
+            - button "変更" [ref=e107] [cursor=pointer]:
+              - generic [ref=e108]:
+                - img [ref=e109]
+                - generic [ref=e111]: 変更
+          - generic [ref=e112]:
+            - button "時価総額" [ref=e113] [cursor=pointer]
+            - button "PBR" [ref=e114] [cursor=pointer]
+            - button "売上高" [ref=e115] [cursor=pointer]
+            - button "営業利益" [ref=e116] [cursor=pointer]
+            - button "営業利益率" [ref=e117] [cursor=pointer]
+            - button "当期純利益" [ref=e118] [cursor=pointer]
+            - button "純利益率" [ref=e119] [cursor=pointer]
+            - button "ROE" [ref=e120] [cursor=pointer]
+            - button "自己資本比率" [ref=e121] [cursor=pointer]
+            - button "従業員数(連結優先)" [ref=e122] [cursor=pointer]
+        - generic [ref=e123]:
+          - img [ref=e124]
+          - generic [ref=e126]: その他条件
+        - generic [ref=e127]:
+          - button "優先市場を選択する" [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]:
+              - img [ref=e131]
+              - generic [ref=e133]: 優先市場を選択する
+          - button "業種を選択する" [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]:
+              - img [ref=e137]
+              - generic [ref=e139]: 業種を選択する
+          - button "会計基準を選択する" [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]:
+              - img [ref=e143]
+              - generic [ref=e145]: 会計基準を選択する
+          - button "都道府県を選択する" [ref=e147] [cursor=pointer]:
+            - generic [ref=e148]:
+              - img [ref=e149]
+              - generic [ref=e151]: 都道府県を選択する
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - img [ref=e154]
+            - generic [ref=e156]: 検索対象
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - radio "3年前" [ref=e159]
+              - generic [ref=e160]: 3年前
+            - generic [ref=e161]:
+              - radio "現在" [checked] [ref=e162]
+              - generic [ref=e163]: 現在
+        - button "検索" [ref=e165] [cursor=pointer]:
+          - generic [ref=e166]:
+            - img [ref=e167]
+            - text: 検索
+      - generic [ref=e171]:
+        - text: 検索結果 全3855件（現在のプランでは上位100件のみ表示）
+        - link "アップグレードする" [ref=e172] [cursor=pointer]:
+          - /url: /pricing
+      - button "比較を実行" [disabled] [ref=e173]:
+        - generic [ref=e174]: 比較を実行
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - generic [ref=e179]:
+            - combobox "entries per page" [ref=e180]:
+              - option "10"
+              - option "25"
+              - option "50" [selected]
+              - option "100"
+            - generic [ref=e181]: entries per page
+          - generic [ref=e183]:
+            - generic [ref=e184]: "Search:"
+            - searchbox "Search:" [ref=e185]
+        - table [ref=e188]:
+          - rowgroup [ref=e207]:
+            - 'row "比較する 会社名: Activate to sort 銘柄コード: Activate to sort 業種: Activate to sort 優先市場: Activate to sort 決算月: Activate to sort 会計基準: Activate to sort 都道府県: Activate to sort 時価総額: Activate to remove sorting PBR: Activate to sort 売上高: Activate to sort 営業利益: Activate to sort 営業利益率: Activate to sort 当期純利益: Activate to sort 純利益率: Activate to sort ROE: Activate to sort 自己資本比率: Activate to sort" [ref=e208]':
+              - columnheader "比較する" [ref=e209]: 比較する
+              - 'columnheader "会社名: Activate to sort" [ref=e210] [cursor=pointer]':
+                - button "会社名" [ref=e211]
+              - 'columnheader "銘柄コード: Activate to sort" [ref=e213] [cursor=pointer]':
+                - button "銘柄コード" [ref=e214]
+              - 'columnheader "業種: Activate to sort" [ref=e216] [cursor=pointer]':
+                - button "業種" [ref=e217]
+              - 'columnheader "優先市場: Activate to sort" [ref=e219] [cursor=pointer]':
+                - button "優先市場" [ref=e220]
+              - 'columnheader "決算月: Activate to sort" [ref=e222] [cursor=pointer]':
+                - button "決算月" [ref=e223]
+              - 'columnheader "会計基準: Activate to sort" [ref=e225] [cursor=pointer]':
+                - button "会計基準" [ref=e226]
+              - 'columnheader "都道府県: Activate to sort" [ref=e228] [cursor=pointer]':
+                - button "都道府県" [ref=e229]
+              - 'columnheader "時価総額: Activate to remove sorting" [ref=e231] [cursor=pointer]':
+                - button "時価総額" [ref=e232]
+              - 'columnheader "PBR: Activate to sort" [ref=e234] [cursor=pointer]':
+                - button "PBR" [ref=e235]
+              - 'columnheader "売上高: Activate to sort" [ref=e237] [cursor=pointer]':
+                - button "売上高" [ref=e238]
+              - 'columnheader "営業利益: Activate to sort" [ref=e240] [cursor=pointer]':
+                - button "営業利益" [ref=e241]
+              - 'columnheader "営業利益率: Activate to sort" [ref=e243] [cursor=pointer]':
+                - button "営業利益率" [ref=e244]
+              - 'columnheader "当期純利益: Activate to sort" [ref=e246] [cursor=pointer]':
+                - button "当期純利益" [ref=e247]
+              - 'columnheader "純利益率: Activate to sort" [ref=e249] [cursor=pointer]':
+                - button "純利益率" [ref=e250]
+              - 'columnheader "ROE: Activate to sort" [ref=e252] [cursor=pointer]':
+                - button "ROE" [ref=e253]
+              - 'columnheader "自己資本比率: Activate to sort" [ref=e255] [cursor=pointer]':
+                - button "自己資本比率" [ref=e256]
+          - rowgroup [ref=e258]:
+            - row "トヨタ自動車 7203 輸送用機器 プライム 3月 IFRS 愛知県 38,930,719 1.0倍 50,684,952 3,766,216 7.4% 3,848,098 7.6% 9.6% 37.8%" [ref=e259]:
+              - cell [ref=e260]:
+                - checkbox [ref=e261]
+              - cell "トヨタ自動車" [ref=e262]:
+                - link "トヨタ自動車" [ref=e263] [cursor=pointer]:
+                  - /url: /company/7203/
+              - cell "7203" [ref=e264]
+              - cell "輸送用機器" [ref=e265]
+              - cell "プライム" [ref=e266]
+              - cell "3月" [ref=e267]
+              - cell "IFRS" [ref=e268]
+              - cell "愛知県" [ref=e269]
+              - cell "38,930,719" [ref=e270]
+              - cell "1.0倍" [ref=e271]
+              - cell "50,684,952" [ref=e272]
+              - cell "3,766,216" [ref=e273]
+              - cell "7.4%" [ref=e274]
+              - cell "3,848,098" [ref=e275]
+              - cell "7.6%" [ref=e276]
+              - cell "9.6%" [ref=e277]
+              - cell "37.8%" [ref=e278]
+            - row "ソフトバンクG 9984 情報・通信業 プライム 3月 IFRS 東京都 38,507,627 2.2倍 7,798,650 - - 5,002,271 64.1% 28.4% 29.0%" [ref=e279]:
+              - cell [ref=e280]:
+                - checkbox [ref=e281]
+              - cell "ソフトバンクG" [ref=e282]:
+                - link "ソフトバンクG" [ref=e283] [cursor=pointer]:
+                  - /url: /company/9984/
+              - cell "9984" [ref=e284]
+              - cell "情報・通信業" [ref=e285]
+              - cell "プライム" [ref=e286]
+              - cell "3月" [ref=e287]
+              - cell "IFRS" [ref=e288]
+              - cell "東京都" [ref=e289]
+              - cell "38,507,627" [ref=e290]
+              - cell "2.2倍" [ref=e291]
+              - cell "7,798,650" [ref=e292]
+              - cell "-" [ref=e293]
+              - cell "-" [ref=e294]
+              - cell "5,002,271" [ref=e295]
+              - cell "64.1%" [ref=e296]
+              - cell "28.4%" [ref=e297]
+              - cell "29.0%" [ref=e298]
+            - row "三菱UFJフィナンシャル･G 8306 銀行業 プライム 3月 Japan GAAP 東京都 34,889,989 1.6倍 14,620,843 - - 2,427,229 16.6% 10.9% 5.2%" [ref=e299]:
+              - cell [ref=e300]:
+                - checkbox [ref=e301]
+              - cell "三菱UFJフィナンシャル･G" [ref=e302]:
+                - link "三菱UFJフィナンシャル･G" [ref=e303] [cursor=pointer]:
+                  - /url: /company/8306/
+              - cell "8306" [ref=e304]
+              - cell "銀行業" [ref=e305]
+              - cell "プライム" [ref=e306]
+              - cell "3月" [ref=e307]
+              - cell "Japan GAAP" [ref=e308]
+              - cell "東京都" [ref=e309]
+              - cell "34,889,989" [ref=e310]
+              - cell "1.6倍" [ref=e311]
+              - cell "14,620,843" [ref=e312]
+              - cell "-" [ref=e313]
+              - cell "-" [ref=e314]
+              - cell "2,427,229" [ref=e315]
+              - cell "16.6%" [ref=e316]
+              - cell "10.9%" [ref=e317]
+              - cell "5.2%" [ref=e318]
+            - row "キオクシアHD 285A 電気機器 プライム 3月 IFRS 東京都 31,345,343 22.4倍 2,337,628 870,369 37.2% 554,490 23.7% 39.6% 37.9%" [ref=e319]:
+              - cell [ref=e320]:
+                - checkbox [ref=e321]
+              - cell "キオクシアHD" [ref=e322]:
+                - link "キオクシアHD" [ref=e323] [cursor=pointer]:
+                  - /url: /company/285A/
+              - cell "285A" [ref=e324]
+              - cell "電気機器" [ref=e325]
+              - cell "プライム" [ref=e326]
+              - cell "3月" [ref=e327]
+              - cell "IFRS" [ref=e328]
+              - cell "東京都" [ref=e329]
+              - cell "31,345,343" [ref=e330]
+              - cell "22.4倍" [ref=e331]
+              - cell "2,337,628" [ref=e332]
+              - cell "870,369" [ref=e333]
+              - cell "37.2%" [ref=e334]
+              - cell "554,490" [ref=e335]
+              - cell "23.7%" [ref=e336]
+              - cell "39.6%" [ref=e337]
+              - cell "37.9%" [ref=e338]
+            - row "ファーストリテイリング 9983 小売業 プライム 8月 IFRS 山口県 23,169,468 8.8倍 3,400,539 564,265 16.6% 433,009 12.7% 16.4% 61.2%" [ref=e339]:
+              - cell [ref=e340]:
+                - checkbox [ref=e341]
+              - cell "ファーストリテイリング" [ref=e342]:
+                - link "ファーストリテイリング" [ref=e343] [cursor=pointer]:
+                  - /url: /company/9983/
+              - cell "9983" [ref=e344]
+              - cell "小売業" [ref=e345]
+              - cell "プライム" [ref=e346]
+              - cell "8月" [ref=e347]
+              - cell "IFRS" [ref=e348]
+              - cell "山口県" [ref=e349]
+              - cell "23,169,468" [ref=e350]
+              - cell "8.8倍" [ref=e351]
+              - cell "3,400,539" [ref=e352]
+              - cell "564,265" [ref=e353]
+              - cell "16.6%" [ref=e354]
+              - cell "433,009" [ref=e355]
+              - cell "12.7%" [ref=e356]
+              - cell "16.4%" [ref=e357]
+              - cell "61.2%" [ref=e358]
+            - row "三井住友フィナンシャルG 8316 銀行業 プライム 3月 Japan GAAP 東京都 22,924,097 1.5倍 10,790,853 - - 1,582,973 14.7% 10.0% 4.8%" [ref=e359]:
+              - cell [ref=e360]:
+                - checkbox [ref=e361]
+              - cell "三井住友フィナンシャルG" [ref=e362]:
+                - link "三井住友フィナンシャルG" [ref=e363] [cursor=pointer]:
+                  - /url: /company/8316/
+              - cell "8316" [ref=e364]
+              - cell "銀行業" [ref=e365]
+              - cell "プライム" [ref=e366]
+              - cell "3月" [ref=e367]
+              - cell "Japan GAAP" [ref=e368]
+              - cell "東京都" [ref=e369]
+              - cell "22,924,097" [ref=e370]
+              - cell "1.5倍" [ref=e371]
+              - cell "10,790,853" [ref=e372]
+              - cell "-" [ref=e373]
+              - cell "-" [ref=e374]
+              - cell "1,582,973" [ref=e375]
+              - cell "14.7%" [ref=e376]
+              - cell "10.0%" [ref=e377]
+              - cell "4.8%" [ref=e378]
+            - row "東京エレクトロン 8035 電気機器 プライム 3月 Japan GAAP 東京都 22,665,160 11.1倍 2,443,533 624,936 25.6% 574,454 23.5% 28.1% 71.5%" [ref=e379]:
+              - cell [ref=e380]:
+                - checkbox [ref=e381]
+              - cell "東京エレクトロン" [ref=e382]:
+                - link "東京エレクトロン" [ref=e383] [cursor=pointer]:
+                  - /url: /company/8035/
+              - cell "8035" [ref=e384]
+              - cell "電気機器" [ref=e385]
+              - cell "プライム" [ref=e386]
+              - cell "3月" [ref=e387]
+              - cell "Japan GAAP" [ref=e388]
+              - cell "東京都" [ref=e389]
+              - cell "22,665,160" [ref=e390]
+              - cell "11.1倍" [ref=e391]
+              - cell "2,443,533" [ref=e392]
+              - cell "624,936" [ref=e393]
+              - cell "25.6%" [ref=e394]
+              - cell "574,454" [ref=e395]
+              - cell "23.5%" [ref=e396]
+              - cell "28.1%" [ref=e397]
+              - cell "71.5%" [ref=e398]
+            - row "日立製作所 6501 電気機器 プライム 3月 IFRS 東京都 22,507,810 3.4倍 10,586,781 1,199,275 11.3% 802,368 7.6% 12.2% 43.7%" [ref=e399]:
+              - cell [ref=e400]:
+                - checkbox [ref=e401]
+              - cell "日立製作所" [ref=e402]:
+                - link "日立製作所" [ref=e403] [cursor=pointer]:
+                  - /url: /company/6501/
+              - cell "6501" [ref=e404]
+              - cell "電気機器" [ref=e405]
+              - cell "プライム" [ref=e406]
+              - cell "3月" [ref=e407]
+              - cell "IFRS" [ref=e408]
+              - cell "東京都" [ref=e409]
+              - cell "22,507,810" [ref=e410]
+              - cell "3.4倍" [ref=e411]
+              - cell "10,586,781" [ref=e412]
+              - cell "1,199,275" [ref=e413]
+              - cell "11.3%" [ref=e414]
+              - cell "802,368" [ref=e415]
+              - cell "7.6%" [ref=e416]
+              - cell "12.2%" [ref=e417]
+              - cell "43.7%" [ref=e418]
+            - row "ソニーG 6758 電気機器 プライム 3月 IFRS 東京都 20,824,527 2.6倍 12,479,620 1,447,507 11.6% -326,865 -2.6% - 51.8%" [ref=e419]:
+              - cell [ref=e420]:
+                - checkbox [ref=e421]
+              - cell "ソニーG" [ref=e422]:
+                - link "ソニーG" [ref=e423] [cursor=pointer]:
+                  - /url: /company/6758/
+              - cell "6758" [ref=e424]
+              - cell "電気機器" [ref=e425]
+              - cell "プライム" [ref=e426]
+              - cell "3月" [ref=e427]
+              - cell "IFRS" [ref=e428]
+              - cell "東京都" [ref=e429]
+              - cell "20,824,527" [ref=e430]
+              - cell "2.6倍" [ref=e431]
+              - cell "12,479,620" [ref=e432]
+              - cell "1,447,507" [ref=e433]
+              - cell "11.6%" [ref=e434]
+              - cell "-326,865" [ref=e435]
+              - cell "-2.6%" [ref=e436]
+              - cell "-" [ref=e437]
+              - cell "51.8%" [ref=e438]
+            - row "三菱商事 8058 卸売業 プライム 3月 IFRS 東京都 19,889,260 2.1倍 18,915,995 - - 800,460 4.2% 8.5% 39.1%" [ref=e439]:
+              - cell [ref=e440]:
+                - checkbox [ref=e441]
+              - cell "三菱商事" [ref=e442]:
+                - link "三菱商事" [ref=e443] [cursor=pointer]:
+                  - /url: /company/8058/
+              - cell "8058" [ref=e444]
+              - cell "卸売業" [ref=e445]
+              - cell "プライム" [ref=e446]
+              - cell "3月" [ref=e447]
+              - cell "IFRS" [ref=e448]
+              - cell "東京都" [ref=e449]
+              - cell "19,889,260" [ref=e450]
+              - cell "2.1倍" [ref=e451]
+              - cell "18,915,995" [ref=e452]
+              - cell "-" [ref=e453]
+              - cell "-" [ref=e454]
+              - cell "800,460" [ref=e455]
+              - cell "4.2%" [ref=e456]
+              - cell "8.5%" [ref=e457]
+              - cell "39.1%" [ref=e458]
+            - row "みずほフィナンシャルG 8411 銀行業 プライム 3月 Japan GAAP 東京都 18,184,068 1.6倍 9,085,438 - - 1,248,632 13.7% 11.0% 3.7%" [ref=e459]:
+              - cell [ref=e460]:
+                - checkbox [ref=e461]
+              - cell "みずほフィナンシャルG" [ref=e462]:
+                - link "みずほフィナンシャルG" [ref=e463] [cursor=pointer]:
+                  - /url: /company/8411/
+              - cell "8411" [ref=e464]
+              - cell "銀行業" [ref=e465]
+              - cell "プライム" [ref=e466]
+              - cell "3月" [ref=e467]
+              - cell "Japan GAAP" [ref=e468]
+              - cell "東京都" [ref=e469]
+              - cell "18,184,068" [ref=e470]
+              - cell "1.6倍" [ref=e471]
+              - cell "9,085,438" [ref=e472]
+              - cell "-" [ref=e473]
+              - cell "-" [ref=e474]
+              - cell "1,248,632" [ref=e475]
+              - cell "13.7%" [ref=e476]
+              - cell "11.0%" [ref=e477]
+              - cell "3.7%" [ref=e478]
+            - row "三井物産 8031 卸売業 プライム 3月 IFRS 東京都 15,814,770 1.8倍 13,995,222 - - 833,971 6.0% 9.5% 42.1%" [ref=e479]:
+              - cell [ref=e480]:
+                - checkbox [ref=e481]
+              - cell "三井物産" [ref=e482]:
+                - link "三井物産" [ref=e483] [cursor=pointer]:
+                  - /url: /company/8031/
+              - cell "8031" [ref=e484]
+              - cell "卸売業" [ref=e485]
+              - cell "プライム" [ref=e486]
+              - cell "3月" [ref=e487]
+              - cell "IFRS" [ref=e488]
+              - cell "東京都" [ref=e489]
+              - cell "15,814,770" [ref=e490]
+              - cell "1.8倍" [ref=e491]
+              - cell "13,995,222" [ref=e492]
+              - cell "-" [ref=e493]
+              - cell "-" [ref=e494]
+              - cell "833,971" [ref=e495]
+              - cell "6.0%" [ref=e496]
+              - cell "9.5%" [ref=e497]
+              - cell "42.1%" [ref=e498]
+            - row "東京海上HD 8766 保険業 プライム 3月 Japan GAAP 東京都 13,865,303 2.6倍 8,872,277 - - 980,428 11.1% 18.1% 17.0%" [ref=e499]:
+              - cell [ref=e500]:
+                - checkbox [ref=e501]
+              - cell "東京海上HD" [ref=e502]:
+                - link "東京海上HD" [ref=e503] [cursor=pointer]:
+                  - /url: /company/8766/
+              - cell "8766" [ref=e504]
+              - cell "保険業" [ref=e505]
+              - cell "プライム" [ref=e506]
+              - cell "3月" [ref=e507]
+              - cell "Japan GAAP" [ref=e508]
+              - cell "東京都" [ref=e509]
+              - cell "13,865,303" [ref=e510]
+              - cell "2.6倍" [ref=e511]
+              - cell "8,872,277" [ref=e512]
+              - cell "-" [ref=e513]
+              - cell "-" [ref=e514]
+              - cell "980,428" [ref=e515]
+              - cell "11.1%" [ref=e516]
+              - cell "18.1%" [ref=e517]
+              - cell "17.0%" [ref=e518]
+            - row "リクルートHD 6098 サービス業 プライム 3月 IFRS 東京都 13,667,532 8.6倍 3,697,351 630,567 17.1% 496,912 13.4% 31.4% 56.8%" [ref=e519]:
+              - cell [ref=e520]:
+                - checkbox [ref=e521]
+              - cell "リクルートHD" [ref=e522]:
+                - link "リクルートHD" [ref=e523] [cursor=pointer]:
+                  - /url: /company/6098/
+              - cell "6098" [ref=e524]
+              - cell "サービス業" [ref=e525]
+              - cell "プライム" [ref=e526]
+              - cell "3月" [ref=e527]
+              - cell "IFRS" [ref=e528]
+              - cell "東京都" [ref=e529]
+              - cell "13,667,532" [ref=e530]
+              - cell "8.6倍" [ref=e531]
+              - cell "3,697,351" [ref=e532]
+              - cell "630,567" [ref=e533]
+              - cell "17.1%" [ref=e534]
+              - cell "496,912" [ref=e535]
+              - cell "13.4%" [ref=e536]
+              - cell "31.4%" [ref=e537]
+              - cell "56.8%" [ref=e538]
+            - row "伊藤忠商事 8001 卸売業 プライム 3月 IFRS 大阪府 13,626,834 2.1倍 14,823,087 701,888 4.7% 900,283 6.1% 13.7% 39.4%" [ref=e539]:
+              - cell [ref=e540]:
+                - checkbox [ref=e541]
+              - cell "伊藤忠商事" [ref=e542]:
+                - link "伊藤忠商事" [ref=e543] [cursor=pointer]:
+                  - /url: /company/8001/
+              - cell "8001" [ref=e544]
+              - cell "卸売業" [ref=e545]
+              - cell "プライム" [ref=e546]
+              - cell "3月" [ref=e547]
+              - cell "IFRS" [ref=e548]
+              - cell "大阪府" [ref=e549]
+              - cell "13,626,834" [ref=e550]
+              - cell "2.1倍" [ref=e551]
+              - cell "14,823,087" [ref=e552]
+              - cell "701,888" [ref=e553]
+              - cell "4.7%" [ref=e554]
+              - cell "900,283" [ref=e555]
+              - cell "6.1%" [ref=e556]
+              - cell "13.7%" [ref=e557]
+              - cell "39.4%" [ref=e558]
+            - row "三菱重工業 7011 機械 プライム 3月 IFRS 東京都 13,336,670 4.3倍 4,974,168 - - 332,129 6.7% 10.8% 37.3%" [ref=e559]:
+              - cell [ref=e560]:
+                - checkbox [ref=e561]
+              - cell "三菱重工業" [ref=e562]:
+                - link "三菱重工業" [ref=e563] [cursor=pointer]:
+                  - /url: /company/7011/
+              - cell "7011" [ref=e564]
+              - cell "機械" [ref=e565]
+              - cell "プライム" [ref=e566]
+              - cell "3月" [ref=e567]
+              - cell "IFRS" [ref=e568]
+              - cell "東京都" [ref=e569]
+              - cell "13,336,670" [ref=e570]
+              - cell "4.3倍" [ref=e571]
+              - cell "4,974,168" [ref=e572]
+              - cell "-" [ref=e573]
+              - cell "-" [ref=e574]
+              - cell "332,129" [ref=e575]
+              - cell "6.7%" [ref=e576]
+              - cell "10.8%" [ref=e577]
+              - cell "37.3%" [ref=e578]
+            - row "信越化学工業 4063 化学 プライム 3月 Japan GAAP 東京都 13,060,114 2.9倍 2,573,969 635,204 24.7% 474,459 18.4% 10.6% 78.7%" [ref=e579]:
+              - cell [ref=e580]:
+                - checkbox [ref=e581]
+              - cell "信越化学工業" [ref=e582]:
+                - link "信越化学工業" [ref=e583] [cursor=pointer]:
+                  - /url: /company/4063/
+              - cell "4063" [ref=e584]
+              - cell "化学" [ref=e585]
+              - cell "プライム" [ref=e586]
+              - cell "3月" [ref=e587]
+              - cell "Japan GAAP" [ref=e588]
+              - cell "東京都" [ref=e589]
+              - cell "13,060,114" [ref=e590]
+              - cell "2.9倍" [ref=e591]
+              - cell "2,573,969" [ref=e592]
+              - cell "635,204" [ref=e593]
+              - cell "24.7%" [ref=e594]
+              - cell "474,459" [ref=e595]
+              - cell "18.4%" [ref=e596]
+              - cell "10.6%" [ref=e597]
+              - cell "78.7%" [ref=e598]
+            - row "三菱電機 6503 電気機器 プライム 3月 IFRS 東京都 12,894,591 2.9倍 5,894,747 433,095 7.3% 407,758 6.9% 9.1% 60.9%" [ref=e599]:
+              - cell [ref=e600]:
+                - checkbox [ref=e601]
+              - cell "三菱電機" [ref=e602]:
+                - link "三菱電機" [ref=e603] [cursor=pointer]:
+                  - /url: /company/6503/
+              - cell "6503" [ref=e604]
+              - cell "電気機器" [ref=e605]
+              - cell "プライム" [ref=e606]
+              - cell "3月" [ref=e607]
+              - cell "IFRS" [ref=e608]
+              - cell "東京都" [ref=e609]
+              - cell "12,894,591" [ref=e610]
+              - cell "2.9倍" [ref=e611]
+              - cell "5,894,747" [ref=e612]
+              - cell "433,095" [ref=e613]
+              - cell "7.3%" [ref=e614]
+              - cell "407,758" [ref=e615]
+              - cell "6.9%" [ref=e616]
+              - cell "9.1%" [ref=e617]
+              - cell "60.9%" [ref=e618]
+            - row "NTT 9432 情報・通信業 プライム 3月 IFRS 東京都 12,425,245 1.3倍 14,409,121 1,706,221 11.8% 1,037,032 7.2% 10.7% 20.8%" [ref=e619]:
+              - cell [ref=e620]:
+                - checkbox [ref=e621]
+              - cell "NTT" [ref=e622]:
+                - link "NTT" [ref=e623] [cursor=pointer]:
+                  - /url: /company/9432/
+              - cell "9432" [ref=e624]
+              - cell "情報・通信業" [ref=e625]
+              - cell "プライム" [ref=e626]
+              - cell "3月" [ref=e627]
+              - cell "IFRS" [ref=e628]
+              - cell "東京都" [ref=e629]
+              - cell "12,425,245" [ref=e630]
+              - cell "1.3倍" [ref=e631]
+              - cell "14,409,121" [ref=e632]
+              - cell "1,706,221" [ref=e633]
+              - cell "11.8%" [ref=e634]
+              - cell "1,037,032" [ref=e635]
+              - cell "7.2%" [ref=e636]
+              - cell "10.7%" [ref=e637]
+              - cell "20.8%" [ref=e638]
+            - row "ゆうちょ銀行 7182 銀行業 プライム 3月 Japan GAAP 東京都 11,056,282 1.2倍 2,852,206 - - 525,583 18.4% 5.7% 4.1%" [ref=e639]:
+              - cell [ref=e640]:
+                - checkbox [ref=e641]
+              - cell "ゆうちょ銀行" [ref=e642]:
+                - link "ゆうちょ銀行" [ref=e643] [cursor=pointer]:
+                  - /url: /company/7182/
+              - cell "7182" [ref=e644]
+              - cell "銀行業" [ref=e645]
+              - cell "プライム" [ref=e646]
+              - cell "3月" [ref=e647]
+              - cell "Japan GAAP" [ref=e648]
+              - cell "東京都" [ref=e649]
+              - cell "11,056,282" [ref=e650]
+              - cell "1.2倍" [ref=e651]
+              - cell "2,852,206" [ref=e652]
+              - cell "-" [ref=e653]
+              - cell "-" [ref=e654]
+              - cell "525,583" [ref=e655]
+              - cell "18.4%" [ref=e656]
+              - cell "5.7%" [ref=e657]
+              - cell "4.1%" [ref=e658]
+            - row "日本たばこ産業 2914 食料品 プライム 12月 IFRS 東京都 10,889,332 2.7倍 3,467,675 867,038 25.0% 510,175 14.7% 12.5% 48.9%" [ref=e659]:
+              - cell [ref=e660]:
+                - checkbox [ref=e661]
+              - cell "日本たばこ産業" [ref=e662]:
+                - link "日本たばこ産業" [ref=e663] [cursor=pointer]:
+                  - /url: /company/2914/
+              - cell "2914" [ref=e664]
+              - cell "食料品" [ref=e665]
+              - cell "プライム" [ref=e666]
+              - cell "12月" [ref=e667]
+              - cell "IFRS" [ref=e668]
+              - cell "東京都" [ref=e669]
+              - cell "10,889,332" [ref=e670]
+              - cell "2.7倍" [ref=e671]
+              - cell "3,467,675" [ref=e672]
+              - cell "867,038" [ref=e673]
+              - cell "25.0%" [ref=e674]
+              - cell "510,175" [ref=e675]
+              - cell "14.7%" [ref=e676]
+              - cell "12.5%" [ref=e677]
+              - cell "48.9%" [ref=e678]
+            - row "ソフトバンク 9434 情報・通信業 プライム 3月 IFRS 東京都 10,659,682 3.6倍 7,038,680 1,042,576 14.8% 550,759 7.8% 18.6% 16.0%" [ref=e679]:
+              - cell [ref=e680]:
+                - checkbox [ref=e681]
+              - cell "ソフトバンク" [ref=e682]:
+                - link "ソフトバンク" [ref=e683] [cursor=pointer]:
+                  - /url: /company/9434/
+              - cell "9434" [ref=e684]
+              - cell "情報・通信業" [ref=e685]
+              - cell "プライム" [ref=e686]
+              - cell "3月" [ref=e687]
+              - cell "IFRS" [ref=e688]
+              - cell "東京都" [ref=e689]
+              - cell "10,659,682" [ref=e690]
+              - cell "3.6倍" [ref=e691]
+              - cell "7,038,680" [ref=e692]
+              - cell "1,042,576" [ref=e693]
+              - cell "14.8%" [ref=e694]
+              - cell "550,759" [ref=e695]
+              - cell "7.8%" [ref=e696]
+              - cell "18.6%" [ref=e697]
+              - cell "16.0%" [ref=e698]
+            - row "KDDI 9433 情報・通信業 プライム 3月 IFRS 東京都 10,315,278 2.0倍 6,071,915 1,099,125 18.1% 707,112 11.6% 13.9% 26.6%" [ref=e699]:
+              - cell [ref=e700]:
+                - checkbox [ref=e701]
+              - cell "KDDI" [ref=e702]:
+                - link "KDDI" [ref=e703] [cursor=pointer]:
+                  - /url: /company/9433/
+              - cell "9433" [ref=e704]
+              - cell "情報・通信業" [ref=e705]
+              - cell "プライム" [ref=e706]
+              - cell "3月" [ref=e707]
+              - cell "IFRS" [ref=e708]
+              - cell "東京都" [ref=e709]
+              - cell "10,315,278" [ref=e710]
+              - cell "2.0倍" [ref=e711]
+              - cell "6,071,915" [ref=e712]
+              - cell "1,099,125" [ref=e713]
+              - cell "18.1%" [ref=e714]
+              - cell "707,112" [ref=e715]
+              - cell "11.6%" [ref=e716]
+              - cell "13.9%" [ref=e717]
+              - cell "26.6%" [ref=e718]
+            - row "住友電気工業 5802 非鉄金属 プライム 3月 Japan GAAP 大阪府 9,218,652 3.4倍 5,110,171 418,173 8.2% 369,508 7.2% 13.5% 56.9%" [ref=e719]:
+              - cell [ref=e720]:
+                - checkbox [ref=e721]
+              - cell "住友電気工業" [ref=e722]:
+                - link "住友電気工業" [ref=e723] [cursor=pointer]:
+                  - /url: /company/5802/
+              - cell "5802" [ref=e724]
+              - cell "非鉄金属" [ref=e725]
+              - cell "プライム" [ref=e726]
+              - cell "3月" [ref=e727]
+              - cell "Japan GAAP" [ref=e728]
+              - cell "大阪府" [ref=e729]
+              - cell "9,218,652" [ref=e730]
+              - cell "3.4倍" [ref=e731]
+              - cell "5,110,171" [ref=e732]
+              - cell "418,173" [ref=e733]
+              - cell "8.2%" [ref=e734]
+              - cell "369,508" [ref=e735]
+              - cell "7.2%" [ref=e736]
+              - cell "13.5%" [ref=e737]
+              - cell "56.9%" [ref=e738]
+            - row "丸紅 8002 卸売業 プライム 3月 IFRS 東京都 8,635,990 2.0倍 8,265,841 256,670 3.1% 543,852 6.6% 12.5% 41.4%" [ref=e739]:
+              - cell [ref=e740]:
+                - checkbox [ref=e741]
+              - cell "丸紅" [ref=e742]:
+                - link "丸紅" [ref=e743] [cursor=pointer]:
+                  - /url: /company/8002/
+              - cell "8002" [ref=e744]
+              - cell "卸売業" [ref=e745]
+              - cell "プライム" [ref=e746]
+              - cell "3月" [ref=e747]
+              - cell "IFRS" [ref=e748]
+              - cell "東京都" [ref=e749]
+              - cell "8,635,990" [ref=e750]
+              - cell "2.0倍" [ref=e751]
+              - cell "8,265,841" [ref=e752]
+              - cell "256,670" [ref=e753]
+              - cell "3.1%" [ref=e754]
+              - cell "543,852" [ref=e755]
+              - cell "6.6%" [ref=e756]
+              - cell "12.5%" [ref=e757]
+              - cell "41.4%" [ref=e758]
+            - row "住友商事 8053 卸売業 プライム 3月 IFRS 東京都 8,504,862 1.8倍 7,337,259 - - 600,334 8.2% 13.0% 33.9%" [ref=e759]:
+              - cell [ref=e760]:
+                - checkbox [ref=e761]
+              - cell "住友商事" [ref=e762]:
+                - link "住友商事" [ref=e763] [cursor=pointer]:
+                  - /url: /company/8053/
+              - cell "8053" [ref=e764]
+              - cell "卸売業" [ref=e765]
+              - cell "プライム" [ref=e766]
+              - cell "3月" [ref=e767]
+              - cell "IFRS" [ref=e768]
+              - cell "東京都" [ref=e769]
+              - cell "8,504,862" [ref=e770]
+              - cell "1.8倍" [ref=e771]
+              - cell "7,337,259" [ref=e772]
+              - cell "-" [ref=e773]
+              - cell "-" [ref=e774]
+              - cell "600,334" [ref=e775]
+              - cell "8.2%" [ref=e776]
+              - cell "13.0%" [ref=e777]
+              - cell "33.9%" [ref=e778]
+            - row "任天堂 7974 その他製品 プライム 3月 Japan GAAP 京都府 8,346,479 2.8倍 2,313,051 360,117 15.6% 424,056 18.3% 14.4% 77.6%" [ref=e779]:
+              - cell [ref=e780]:
+                - checkbox [ref=e781]
+              - cell "任天堂" [ref=e782]:
+                - link "任天堂" [ref=e783] [cursor=pointer]:
+                  - /url: /company/7974/
+              - cell "7974" [ref=e784]
+              - cell "その他製品" [ref=e785]
+              - cell "プライム" [ref=e786]
+              - cell "3月" [ref=e787]
+              - cell "Japan GAAP" [ref=e788]
+              - cell "京都府" [ref=e789]
+              - cell "8,346,479" [ref=e790]
+              - cell "2.8倍" [ref=e791]
+              - cell "2,313,051" [ref=e792]
+              - cell "360,117" [ref=e793]
+              - cell "15.6%" [ref=e794]
+              - cell "424,056" [ref=e795]
+              - cell "18.3%" [ref=e796]
+              - cell "14.4%" [ref=e797]
+              - cell "77.6%" [ref=e798]
+            - row "パナソニックHD 6752 電気機器 プライム 3月 IFRS 大阪府 8,187,802 1.6倍 8,048,722 236,407 2.9% 189,540 2.4% 3.6% 51.2%" [ref=e799]:
+              - cell [ref=e800]:
+                - checkbox [ref=e801]
+              - cell "パナソニックHD" [ref=e802]:
+                - link "パナソニックHD" [ref=e803] [cursor=pointer]:
+                  - /url: /company/6752/
+              - cell "6752" [ref=e804]
+              - cell "電気機器" [ref=e805]
+              - cell "プライム" [ref=e806]
+              - cell "3月" [ref=e807]
+              - cell "IFRS" [ref=e808]
+              - cell "大阪府" [ref=e809]
+              - cell "8,187,802" [ref=e810]
+              - cell "1.6倍" [ref=e811]
+              - cell "8,048,722" [ref=e812]
+              - cell "236,407" [ref=e813]
+              - cell "2.9%" [ref=e814]
+              - cell "189,540" [ref=e815]
+              - cell "2.4%" [ref=e816]
+              - cell "3.6%" [ref=e817]
+              - cell "51.2%" [ref=e818]
+            - row "武田薬品工業 4502 医薬品 プライム 3月 IFRS 大阪府 8,071,386 1.0倍 4,505,720 408,761 9.1% 191,762 4.3% 2.5% 50.3%" [ref=e819]:
+              - cell [ref=e820]:
+                - checkbox [ref=e821]
+              - cell "武田薬品工業" [ref=e822]:
+                - link "武田薬品工業" [ref=e823] [cursor=pointer]:
+                  - /url: /company/4502/
+              - cell "4502" [ref=e824]
+              - cell "医薬品" [ref=e825]
+              - cell "プライム" [ref=e826]
+              - cell "3月" [ref=e827]
+              - cell "IFRS" [ref=e828]
+              - cell "大阪府" [ref=e829]
+              - cell "8,071,386" [ref=e830]
+              - cell "1.0倍" [ref=e831]
+              - cell "4,505,720" [ref=e832]
+              - cell "408,761" [ref=e833]
+              - cell "9.1%" [ref=e834]
+              - cell "191,762" [ref=e835]
+              - cell "4.3%" [ref=e836]
+              - cell "2.5%" [ref=e837]
+              - cell "50.3%" [ref=e838]
+            - row "豊田通商 8015 卸売業 プライム 3月 IFRS 愛知県 7,362,984 2.3倍 11,561,935 545,235 4.7% 370,516 3.2% 11.7% 37.0%" [ref=e839]:
+              - cell [ref=e840]:
+                - checkbox [ref=e841]
+              - cell "豊田通商" [ref=e842]:
+                - link "豊田通商" [ref=e843] [cursor=pointer]:
+                  - /url: /company/8015/
+              - cell "8015" [ref=e844]
+              - cell "卸売業" [ref=e845]
+              - cell "プライム" [ref=e846]
+              - cell "3月" [ref=e847]
+              - cell "IFRS" [ref=e848]
+              - cell "愛知県" [ref=e849]
+              - cell "7,362,984" [ref=e850]
+              - cell "2.3倍" [ref=e851]
+              - cell "11,561,935" [ref=e852]
+              - cell "545,235" [ref=e853]
+              - cell "4.7%" [ref=e854]
+              - cell "370,516" [ref=e855]
+              - cell "3.2%" [ref=e856]
+              - cell "11.7%" [ref=e857]
+              - cell "37.0%" [ref=e858]
+            - row "ダイキン工業 6367 機械 プライム 3月 Japan GAAP 大阪府 7,047,233 2.2倍 5,015,036 414,991 8.3% 275,229 5.5% 8.5% 55.9%" [ref=e859]:
+              - cell [ref=e860]:
+                - checkbox [ref=e861]
+              - cell "ダイキン工業" [ref=e862]:
+                - link "ダイキン工業" [ref=e863] [cursor=pointer]:
+                  - /url: /company/6367/
+              - cell "6367" [ref=e864]
+              - cell "機械" [ref=e865]
+              - cell "プライム" [ref=e866]
+              - cell "3月" [ref=e867]
+              - cell "Japan GAAP" [ref=e868]
+              - cell "大阪府" [ref=e869]
+              - cell "7,047,233" [ref=e870]
+              - cell "2.2倍" [ref=e871]
+              - cell "5,015,036" [ref=e872]
+              - cell "414,991" [ref=e873]
+              - cell "8.3%" [ref=e874]
+              - cell "275,229" [ref=e875]
+              - cell "5.5%" [ref=e876]
+              - cell "8.5%" [ref=e877]
+              - cell "55.9%" [ref=e878]
+            - row "オリックス 8591 その他金融業 プライム 3月 US GAAP 東京都 6,863,104 1.5倍 3,330,831 456,248 13.7% 447,265 13.4% 9.8% 25.4%" [ref=e879]:
+              - cell [ref=e880]:
+                - checkbox [ref=e881]
+              - cell "オリックス" [ref=e882]:
+                - link "オリックス" [ref=e883] [cursor=pointer]:
+                  - /url: /company/8591/
+              - cell "8591" [ref=e884]
+              - cell "その他金融業" [ref=e885]
+              - cell "プライム" [ref=e886]
+              - cell "3月" [ref=e887]
+              - cell "US GAAP" [ref=e888]
+              - cell "東京都" [ref=e889]
+              - cell "6,863,104" [ref=e890]
+              - cell "1.5倍" [ref=e891]
+              - cell "3,330,831" [ref=e892]
+              - cell "456,248" [ref=e893]
+              - cell "13.7%" [ref=e894]
+              - cell "447,265" [ref=e895]
+              - cell "13.4%" [ref=e896]
+              - cell "9.8%" [ref=e897]
+              - cell "25.4%" [ref=e898]
+            - row "TDK 6762 電気機器 プライム 3月 IFRS 東京都 6,396,779 2.9倍 2,504,820 272,415 10.9% 195,663 7.8% 8.9% 49.5%" [ref=e899]:
+              - cell [ref=e900]:
+                - checkbox [ref=e901]
+              - cell "TDK" [ref=e902]:
+                - link "TDK" [ref=e903] [cursor=pointer]:
+                  - /url: /company/6762/
+              - cell "6762" [ref=e904]
+              - cell "電気機器" [ref=e905]
+              - cell "プライム" [ref=e906]
+              - cell "3月" [ref=e907]
+              - cell "IFRS" [ref=e908]
+              - cell "東京都" [ref=e909]
+              - cell "6,396,779" [ref=e910]
+              - cell "2.9倍" [ref=e911]
+              - cell "2,504,820" [ref=e912]
+              - cell "272,415" [ref=e913]
+              - cell "10.9%" [ref=e914]
+              - cell "195,663" [ref=e915]
+              - cell "7.8%" [ref=e916]
+              - cell "8.9%" [ref=e917]
+              - cell "49.5%" [ref=e918]
+            - row "MS&ADインシュアランスGHD 8725 保険業 プライム 3月 Japan GAAP 東京都 6,159,238 1.3倍 5,662,061 - - 787,339 13.9% 16.5% 16.7%" [ref=e919]:
+              - cell [ref=e920]:
+                - checkbox [ref=e921]
+              - cell "MS&ADインシュアランスGHD" [ref=e922]:
+                - link "MS&ADインシュアランスGHD" [ref=e923] [cursor=pointer]:
+                  - /url: /company/8725/
+              - cell "8725" [ref=e924]
+              - cell "保険業" [ref=e925]
+              - cell "プライム" [ref=e926]
+              - cell "3月" [ref=e927]
+              - cell "Japan GAAP" [ref=e928]
+              - cell "東京都" [ref=e929]
+              - cell "6,159,238" [ref=e930]
+              - cell "1.3倍" [ref=e931]
+              - cell "5,662,061" [ref=e932]
+              - cell "-" [ref=e933]
+              - cell "-" [ref=e934]
+              - cell "787,339" [ref=e935]
+              - cell "13.9%" [ref=e936]
+              - cell "16.5%" [ref=e937]
+              - cell "16.7%" [ref=e938]
+            - row "豊田自動織機 6201 輸送用機器 プライム 3月 IFRS 愛知県 6,153,597 0.9倍 4,369,512 137,023 3.1% 223,785 5.1% 3.3% 60.5%" [ref=e939]:
+              - cell [ref=e940]:
+                - checkbox [ref=e941]
+              - cell "豊田自動織機" [ref=e942]:
+                - link "豊田自動織機" [ref=e943] [cursor=pointer]:
+                  - /url: /company/6201/
+              - cell "6201" [ref=e944]
+              - cell "輸送用機器" [ref=e945]
+              - cell "プライム" [ref=e946]
+              - cell "3月" [ref=e947]
+              - cell "IFRS" [ref=e948]
+              - cell "愛知県" [ref=e949]
+              - cell "6,153,597" [ref=e950]
+              - cell "0.9倍" [ref=e951]
+              - cell "4,369,512" [ref=e952]
+              - cell "137,023" [ref=e953]
+              - cell "3.1%" [ref=e954]
+              - cell "223,785" [ref=e955]
+              - cell "5.1%" [ref=e956]
+              - cell "3.3%" [ref=e957]
+              - cell "60.5%" [ref=e958]
+            - row "大塚HD 4578 医薬品 プライム 12月 IFRS 東京都 6,143,123 2.0倍 2,468,892 479,375 19.4% 363,150 14.7% 11.7% 73.8%" [ref=e959]:
+              - cell [ref=e960]:
+                - checkbox [ref=e961]
+              - cell "大塚HD" [ref=e962]:
+                - link "大塚HD" [ref=e963] [cursor=pointer]:
+                  - /url: /company/4578/
+              - cell "4578" [ref=e964]
+              - cell "医薬品" [ref=e965]
+              - cell "プライム" [ref=e966]
+              - cell "12月" [ref=e967]
+              - cell "IFRS" [ref=e968]
+              - cell "東京都" [ref=e969]
+              - cell "6,143,123" [ref=e970]
+              - cell "2.0倍" [ref=e971]
+              - cell "2,468,892" [ref=e972]
+              - cell "479,375" [ref=e973]
+              - cell "19.4%" [ref=e974]
+              - cell "363,150" [ref=e975]
+              - cell "14.7%" [ref=e976]
+              - cell "11.7%" [ref=e977]
+              - cell "73.8%" [ref=e978]
+            - row "第一ライフG 8750 保険業 プライム 3月 Japan GAAP 東京都 5,943,369 1.4倍 11,308,275 - - 436,597 3.9% 10.3% 5.7%" [ref=e979]:
+              - cell [ref=e980]:
+                - checkbox [ref=e981]
+              - cell "第一ライフG" [ref=e982]:
+                - link "第一ライフG" [ref=e983] [cursor=pointer]:
+                  - /url: /company/8750/
+              - cell "8750" [ref=e984]
+              - cell "保険業" [ref=e985]
+              - cell "プライム" [ref=e986]
+              - cell "3月" [ref=e987]
+              - cell "Japan GAAP" [ref=e988]
+              - cell "東京都" [ref=e989]
+              - cell "5,943,369" [ref=e990]
+              - cell "1.4倍" [ref=e991]
+              - cell "11,308,275" [ref=e992]
+              - cell "-" [ref=e993]
+              - cell "-" [ref=e994]
+              - cell "436,597" [ref=e995]
+              - cell "3.9%" [ref=e996]
+              - cell "10.3%" [ref=e997]
+              - cell "5.7%" [ref=e998]
+            - row "日本郵政 6178 サービス業 プライム 3月 Japan GAAP 東京都 5,938,166 0.6倍 11,440,586 - - 374,556 3.3% 3.9% 3.4%" [ref=e999]:
+              - cell [ref=e1000]:
+                - checkbox [ref=e1001]
+              - cell "日本郵政" [ref=e1002]:
+                - link "日本郵政" [ref=e1003] [cursor=pointer]:
+                  - /url: /company/6178/
+              - cell "6178" [ref=e1004]
+              - cell "サービス業" [ref=e1005]
+              - cell "プライム" [ref=e1006]
+              - cell "3月" [ref=e1007]
+              - cell "Japan GAAP" [ref=e1008]
+              - cell "東京都" [ref=e1009]
+              - cell "5,938,166" [ref=e1010]
+              - cell "0.6倍" [ref=e1011]
+              - cell "11,440,586" [ref=e1012]
+              - cell "-" [ref=e1013]
+              - cell "-" [ref=e1014]
+              - cell "374,556" [ref=e1015]
+              - cell "3.3%" [ref=e1016]
+              - cell "3.9%" [ref=e1017]
+              - cell "3.4%" [ref=e1018]
+            - row "富士通 6702 電気機器 プライム 3月 IFRS 神奈川県 5,736,911 2.8倍 3,502,971 348,329 9.9% 449,408 12.8% 22.2% 59.6%" [ref=e1019]:
+              - cell [ref=e1020]:
+                - checkbox [ref=e1021]
+              - cell "富士通" [ref=e1022]:
+                - link "富士通" [ref=e1023] [cursor=pointer]:
+                  - /url: /company/6702/
+              - cell "6702" [ref=e1024]
+              - cell "電気機器" [ref=e1025]
+              - cell "プライム" [ref=e1026]
+              - cell "3月" [ref=e1027]
+              - cell "IFRS" [ref=e1028]
+              - cell "神奈川県" [ref=e1029]
+              - cell "5,736,911" [ref=e1030]
+              - cell "2.8倍" [ref=e1031]
+              - cell "3,502,971" [ref=e1032]
+              - cell "348,329" [ref=e1033]
+              - cell "9.9%" [ref=e1034]
+              - cell "449,408" [ref=e1035]
+              - cell "12.8%" [ref=e1036]
+              - cell "22.2%" [ref=e1037]
+              - cell "59.6%" [ref=e1038]
+            - row "小松製作所 6301 機械 プライム 3月 US GAAP 東京都 5,619,247 1.5倍 4,132,751 567,323 13.7% 376,391 9.1% 10.1% 57.7%" [ref=e1039]:
+              - cell [ref=e1040]:
+                - checkbox [ref=e1041]
+              - cell "小松製作所" [ref=e1042]:
+                - link "小松製作所" [ref=e1043] [cursor=pointer]:
+                  - /url: /company/6301/
+              - cell "6301" [ref=e1044]
+              - cell "機械" [ref=e1045]
+              - cell "プライム" [ref=e1046]
+              - cell "3月" [ref=e1047]
+              - cell "US GAAP" [ref=e1048]
+              - cell "東京都" [ref=e1049]
+              - cell "5,619,247" [ref=e1050]
+              - cell "1.5倍" [ref=e1051]
+              - cell "4,132,751" [ref=e1052]
+              - cell "567,323" [ref=e1053]
+              - cell "13.7%" [ref=e1054]
+              - cell "376,391" [ref=e1055]
+              - cell "9.1%" [ref=e1056]
+              - cell "10.1%" [ref=e1057]
+              - cell "57.7%" [ref=e1058]
+            - row "本田技研工業 7267 輸送用機器 プライム 3月 IFRS 東京都 5,453,505 0.5倍 21,796,610 -414,346 -1.9% -423,941 -1.9% - 35.3%" [ref=e1059]:
+              - cell [ref=e1060]:
+                - checkbox [ref=e1061]
+              - cell "本田技研工業" [ref=e1062]:
+                - link "本田技研工業" [ref=e1063] [cursor=pointer]:
+                  - /url: /company/7267/
+              - cell "7267" [ref=e1064]
+              - cell "輸送用機器" [ref=e1065]
+              - cell "プライム" [ref=e1066]
+              - cell "3月" [ref=e1067]
+              - cell "IFRS" [ref=e1068]
+              - cell "東京都" [ref=e1069]
+              - cell "5,453,505" [ref=e1070]
+              - cell "0.5倍" [ref=e1071]
+              - cell "21,796,610" [ref=e1072]
+              - cell "-414,346" [ref=e1073]
+              - cell "-1.9%" [ref=e1074]
+              - cell "-423,941" [ref=e1075]
+              - cell "-1.9%" [ref=e1076]
+              - cell "-" [ref=e1077]
+              - cell "35.3%" [ref=e1078]
+            - row "日本電気 6701 電気機器 プライム 3月 IFRS 東京都 5,444,642 2.5倍 3,582,733 359,913 10.0% 270,228 7.5% 12.3% 49.2%" [ref=e1079]:
+              - cell [ref=e1080]:
+                - checkbox [ref=e1081]
+              - cell "日本電気" [ref=e1082]:
+                - link "日本電気" [ref=e1083] [cursor=pointer]:
+                  - /url: /company/6701/
+              - cell "6701" [ref=e1084]
+              - cell "電気機器" [ref=e1085]
+              - cell "プライム" [ref=e1086]
+              - cell "3月" [ref=e1087]
+              - cell "IFRS" [ref=e1088]
+              - cell "東京都" [ref=e1089]
+              - cell "5,444,642" [ref=e1090]
+              - cell "2.5倍" [ref=e1091]
+              - cell "3,582,733" [ref=e1092]
+              - cell "359,913" [ref=e1093]
+              - cell "10.0%" [ref=e1094]
+              - cell "270,228" [ref=e1095]
+              - cell "7.5%" [ref=e1096]
+              - cell "12.3%" [ref=e1097]
+              - cell "49.2%" [ref=e1098]
+            - row "SOMPOHD 8630 保険業 プライム 3月 IFRS 東京都 5,064,371 1.0倍 5,601,496 - - 640,086 11.4% 12.4% 27.8%" [ref=e1099]:
+              - cell [ref=e1100]:
+                - checkbox [ref=e1101]
+              - cell "SOMPOHD" [ref=e1102]:
+                - link "SOMPOHD" [ref=e1103] [cursor=pointer]:
+                  - /url: /company/8630/
+              - cell "8630" [ref=e1104]
+              - cell "保険業" [ref=e1105]
+              - cell "プライム" [ref=e1106]
+              - cell "3月" [ref=e1107]
+              - cell "IFRS" [ref=e1108]
+              - cell "東京都" [ref=e1109]
+              - cell "5,064,371" [ref=e1110]
+              - cell "1.0倍" [ref=e1111]
+              - cell "5,601,496" [ref=e1112]
+              - cell "-" [ref=e1113]
+              - cell "-" [ref=e1114]
+              - cell "640,086" [ref=e1115]
+              - cell "11.4%" [ref=e1116]
+              - cell "12.4%" [ref=e1117]
+              - cell "27.8%" [ref=e1118]
+            - row "デンソー 6902 輸送用機器 プライム 3月 IFRS 愛知県 4,938,364 0.9倍 7,539,975 552,538 7.3% 443,755 5.9% 8.1% 62.9%" [ref=e1119]:
+              - cell [ref=e1120]:
+                - checkbox [ref=e1121]
+              - cell "デンソー" [ref=e1122]:
+                - link "デンソー" [ref=e1123] [cursor=pointer]:
+                  - /url: /company/6902/
+              - cell "6902" [ref=e1124]
+              - cell "輸送用機器" [ref=e1125]
+              - cell "プライム" [ref=e1126]
+              - cell "3月" [ref=e1127]
+              - cell "IFRS" [ref=e1128]
+              - cell "愛知県" [ref=e1129]
+              - cell "4,938,364" [ref=e1130]
+              - cell "0.9倍" [ref=e1131]
+              - cell "7,539,975" [ref=e1132]
+              - cell "552,538" [ref=e1133]
+              - cell "7.3%" [ref=e1134]
+              - cell "443,755" [ref=e1135]
+              - cell "5.9%" [ref=e1136]
+              - cell "8.1%" [ref=e1137]
+              - cell "62.9%" [ref=e1138]
+            - row "セブン&アイ･HD 3382 小売業 プライム 2月 Japan GAAP 東京都 4,300,880 1.2倍 10,430,269 422,993 4.1% 292,760 2.8% 8.1% 39.6%" [ref=e1139]:
+              - cell [ref=e1140]:
+                - checkbox [ref=e1141]
+              - cell "セブン&アイ･HD" [ref=e1142]:
+                - link "セブン&アイ･HD" [ref=e1143] [cursor=pointer]:
+                  - /url: /company/3382/
+              - cell "3382" [ref=e1144]
+              - cell "小売業" [ref=e1145]
+              - cell "プライム" [ref=e1146]
+              - cell "2月" [ref=e1147]
+              - cell "Japan GAAP" [ref=e1148]
+              - cell "東京都" [ref=e1149]
+              - cell "4,300,880" [ref=e1150]
+              - cell "1.2倍" [ref=e1151]
+              - cell "10,430,269" [ref=e1152]
+              - cell "422,993" [ref=e1153]
+              - cell "4.1%" [ref=e1154]
+              - cell "292,760" [ref=e1155]
+              - cell "2.8%" [ref=e1156]
+              - cell "8.1%" [ref=e1157]
+              - cell "39.6%" [ref=e1158]
+            - row "ブリヂストン 5108 ゴム製品 プライム 12月 IFRS 東京都 4,181,803 1.1倍 4,429,452 381,237 8.6% 327,264 7.4% 8.9% 65.2%" [ref=e1159]:
+              - cell [ref=e1160]:
+                - checkbox [ref=e1161]
+              - cell "ブリヂストン" [ref=e1162]:
+                - link "ブリヂストン" [ref=e1163] [cursor=pointer]:
+                  - /url: /company/5108/
+              - cell "5108" [ref=e1164]
+              - cell "ゴム製品" [ref=e1165]
+              - cell "プライム" [ref=e1166]
+              - cell "12月" [ref=e1167]
+              - cell "IFRS" [ref=e1168]
+              - cell "東京都" [ref=e1169]
+              - cell "4,181,803" [ref=e1170]
+              - cell "1.1倍" [ref=e1171]
+              - cell "4,429,452" [ref=e1172]
+              - cell "381,237" [ref=e1173]
+              - cell "8.6%" [ref=e1174]
+              - cell "327,264" [ref=e1175]
+              - cell "7.4%" [ref=e1176]
+              - cell "8.9%" [ref=e1177]
+              - cell "65.2%" [ref=e1178]
+            - row "イオン 8267 小売業 プライム 2月 Japan GAAP 千葉県 4,095,988 3.4倍 10,715,342 270,459 2.5% 72,677 0.7% 6.0% 7.9%" [ref=e1179]:
+              - cell [ref=e1180]:
+                - checkbox [ref=e1181]
+              - cell "イオン" [ref=e1182]:
+                - link "イオン" [ref=e1183] [cursor=pointer]:
+                  - /url: /company/8267/
+              - cell "8267" [ref=e1184]
+              - cell "小売業" [ref=e1185]
+              - cell "プライム" [ref=e1186]
+              - cell "2月" [ref=e1187]
+              - cell "Japan GAAP" [ref=e1188]
+              - cell "千葉県" [ref=e1189]
+              - cell "4,095,988" [ref=e1190]
+              - cell "3.4倍" [ref=e1191]
+              - cell "10,715,342" [ref=e1192]
+              - cell "270,459" [ref=e1193]
+              - cell "2.5%" [ref=e1194]
+              - cell "72,677" [ref=e1195]
+              - cell "0.7%" [ref=e1196]
+              - cell "6.0%" [ref=e1197]
+              - cell "7.9%" [ref=e1198]
+            - row "東日本旅客鉄道 9020 陸運業 プライム 3月 Japan GAAP 東京都 4,071,420 1.3倍 3,084,679 414,258 13.4% 247,846 8.0% 8.1% 28.2%" [ref=e1199]:
+              - cell [ref=e1200]:
+                - checkbox [ref=e1201]
+              - cell "東日本旅客鉄道" [ref=e1202]:
+                - link "東日本旅客鉄道" [ref=e1203] [cursor=pointer]:
+                  - /url: /company/9020/
+              - cell "9020" [ref=e1204]
+              - cell "陸運業" [ref=e1205]
+              - cell "プライム" [ref=e1206]
+              - cell "3月" [ref=e1207]
+              - cell "Japan GAAP" [ref=e1208]
+              - cell "東京都" [ref=e1209]
+              - cell "4,071,420" [ref=e1210]
+              - cell "1.3倍" [ref=e1211]
+              - cell "3,084,679" [ref=e1212]
+              - cell "414,258" [ref=e1213]
+              - cell "13.4%" [ref=e1214]
+              - cell "247,846" [ref=e1215]
+              - cell "8.0%" [ref=e1216]
+              - cell "8.1%" [ref=e1217]
+              - cell "28.2%" [ref=e1218]
+            - row "三井不動産 8801 不動産業 プライム 3月 Japan GAAP 東京都 4,021,953 1.2倍 2,709,747 397,788 14.7% 278,684 10.3% 8.5% 32.4%" [ref=e1219]:
+              - cell [ref=e1220]:
+                - checkbox [ref=e1221]
+              - cell "三井不動産" [ref=e1222]:
+                - link "三井不動産" [ref=e1223] [cursor=pointer]:
+                  - /url: /company/8801/
+              - cell "8801" [ref=e1224]
+              - cell "不動産業" [ref=e1225]
+              - cell "プライム" [ref=e1226]
+              - cell "3月" [ref=e1227]
+              - cell "Japan GAAP" [ref=e1228]
+              - cell "東京都" [ref=e1229]
+              - cell "4,021,953" [ref=e1230]
+              - cell "1.2倍" [ref=e1231]
+              - cell "2,709,747" [ref=e1232]
+              - cell "397,788" [ref=e1233]
+              - cell "14.7%" [ref=e1234]
+              - cell "278,684" [ref=e1235]
+              - cell "10.3%" [ref=e1236]
+              - cell "8.5%" [ref=e1237]
+              - cell "32.4%" [ref=e1238]
+            - row "三井住友トラストG 8309 銀行業 プライム 3月 Japan GAAP 東京都 3,912,873 1.1倍 2,983,544 - - 317,566 10.6% 8.9% 4.3%" [ref=e1239]:
+              - cell [ref=e1240]:
+                - checkbox [ref=e1241]
+              - cell "三井住友トラストG" [ref=e1242]:
+                - link "三井住友トラストG" [ref=e1243] [cursor=pointer]:
+                  - /url: /company/8309/
+              - cell "8309" [ref=e1244]
+              - cell "銀行業" [ref=e1245]
+              - cell "プライム" [ref=e1246]
+              - cell "3月" [ref=e1247]
+              - cell "Japan GAAP" [ref=e1248]
+              - cell "東京都" [ref=e1249]
+              - cell "3,912,873" [ref=e1250]
+              - cell "1.1倍" [ref=e1251]
+              - cell "2,983,544" [ref=e1252]
+              - cell "-" [ref=e1253]
+              - cell "-" [ref=e1254]
+              - cell "317,566" [ref=e1255]
+              - cell "10.6%" [ref=e1256]
+              - cell "8.9%" [ref=e1257]
+              - cell "4.3%" [ref=e1258]
+          - rowgroup
+        - generic [ref=e1259]:
+          - status [ref=e1261]: Showing 1 to 50 of 100 entries
+          - navigation "pagination" [ref=e1264]:
+            - list [ref=e1265]:
+              - listitem [ref=e1266]:
+                - generic "First": «
+              - listitem [ref=e1267]:
+                - generic "Previous": ‹
+              - listitem [ref=e1268]:
+                - link "1" [ref=e1269] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e1270]:
+                - link "2" [ref=e1271] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e1272]:
+                - link "Next" [ref=e1273] [cursor=pointer]:
+                  - /url: "#"
+                  - text: ›
+              - listitem [ref=e1274]:
+                - link "Last" [ref=e1275] [cursor=pointer]:
+                  - /url: "#"
+                  - text: »
+      - generic [ref=e1278]:
+        - text: 検索結果 全3855件（現在のプランでは上位100件のみ表示）
+        - link "アップグレードする" [ref=e1279] [cursor=pointer]:
+          - /url: /pricing
+  - generic [ref=e1281]:
+    - link "お問い合わせ" [ref=e1282] [cursor=pointer]:
+      - /url: /contacts
+    - link "採用" [ref=e1283] [cursor=pointer]:
+      - /url: https://career.buffett-code.com/
+    - link "ブログ" [ref=e1284] [cursor=pointer]:
+      - /url: https://blog.buffett-code.com/
+    - link "規約一覧" [ref=e1285] [cursor=pointer]:
+      - /url: /legal
+    - link "" [ref=e1286] [cursor=pointer]:
+      - /url: https://twitter.com/buffett_code
+      - generic [ref=e1287]: 

@@ -1,0 +1,1650 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "buffett code logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "buffett code logo" [ref=e5]
+      - link "バフェット・コード" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: バフェット・コード
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - img [ref=e14]
+            - textbox "会社名やキーワードや銘柄コードで検索" [active] [ref=e16]
+          - generic:
+            - list
+        - link "法人プラン" [ref=e19] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/?utm_source=web_ui_nav
+      - generic [ref=e20]:
+        - link "マイページ" [ref=e21] [cursor=pointer]:
+          - /url: /users
+        - link "お問い合わせ" [ref=e22] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/contact?utm_source=web_ui_nav
+      - text: 
+  - text:             
+  - generic [ref=e23]:
+    - generic [ref=e25]:
+      - link " 条件検索" [ref=e26] [cursor=pointer]:
+        - /url: /global_screening
+        - generic [ref=e27]: 
+        - generic [ref=e28]: 条件検索
+      - link " M&A検索" [ref=e29] [cursor=pointer]:
+        - /url: /ma_search
+        - generic [ref=e30]: 
+        - generic [ref=e31]: M&A検索
+      - link " 株主検索" [ref=e32] [cursor=pointer]:
+        - /url: /shareholder_search
+        - generic [ref=e33]: 
+        - generic [ref=e34]: 株主検索
+      - link " 企業比較" [ref=e35] [cursor=pointer]:
+        - /url: /comps
+        - generic [ref=e36]: 
+        - generic [ref=e37]: 企業比較
+      - link " 資料検索" [ref=e38] [cursor=pointer]:
+        - /url: /documents
+        - generic [ref=e39]: 
+        - generic [ref=e40]: 資料検索
+      - link " スライド検索" [ref=e41] [cursor=pointer]:
+        - /url: /slides/search
+        - generic [ref=e42]: 
+        - generic [ref=e43]: スライド検索
+      - link " 適時開示" [ref=e44] [cursor=pointer]:
+        - /url: /disclosures/financial_statements
+        - generic [ref=e45]: 
+        - generic [ref=e46]: 適時開示
+      - link " 決算予定" [ref=e47] [cursor=pointer]:
+        - /url: /calendar
+        - generic [ref=e48]: 
+        - generic [ref=e49]: 決算予定
+      - link " 株価DL" [ref=e50] [cursor=pointer]:
+        - /url: /download
+        - generic [ref=e51]: 
+        - generic [ref=e52]: 株価DL
+      - link " 登記簿" [ref=e53] [cursor=pointer]:
+        - /url: /registries
+        - generic [ref=e54]: 
+        - generic [ref=e55]: 登記簿
+      - generic [ref=e57]:
+        - generic [ref=e58]: 
+        - generic [ref=e59]: About
+    - generic [ref=e61]:
+      - generic [ref=e63]:
+        - link "企業概要" [ref=e64] [cursor=pointer]:
+          - /url: /company/1930/
+        - link "株価" [ref=e65] [cursor=pointer]:
+          - /url: /company/1930/stockprice
+        - link "業績" [ref=e66] [cursor=pointer]:
+          - /url: /company/1930/financial
+        - link "業績予想" [ref=e67] [cursor=pointer]:
+          - /url: /company/1930/forecast
+        - link "大株主" [ref=e68] [cursor=pointer]:
+          - /url: /company/1930/mainshareholder
+        - link "役員" [ref=e69] [cursor=pointer]:
+          - /url: /company/1930/governance
+        - link "キーマン" [ref=e70] [cursor=pointer]:
+          - /url: /company/1930/key_person
+        - link "IR資料" [ref=e71] [cursor=pointer]:
+          - /url: /company/1930/library
+      - generic [ref=e72]:
+        - list [ref=e73]:
+          - listitem [ref=e74]:
+            - link "TOP" [ref=e75] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e76]:
+            - text: /
+            - link "業種" [ref=e77] [cursor=pointer]:
+              - /url: /industries
+          - listitem [ref=e78]:
+            - text: /
+            - link "建設業" [ref=e79] [cursor=pointer]:
+              - /url: /industries/3
+          - listitem [ref=e80]:
+            - text: /
+            - link "北陸電気工事【1930】" [ref=e81] [cursor=pointer]:
+              - /url: /company/1930/
+          - listitem [ref=e82]: / 業績
+        - generic [ref=e83]:
+          - heading "北陸電気工事【1930】の業績・財務" [level=1] [ref=e84]
+          - button "CSVダウンロード" [ref=e87] [cursor=pointer]
+        - list [ref=e90]:
+          - link "まとめ" [ref=e91] [cursor=pointer]:
+            - /url: /company/1930/financial
+          - link "指標" [ref=e92] [cursor=pointer]:
+            - /url: /company/1930/financial/indicator
+          - link "P/L" [ref=e93] [cursor=pointer]:
+            - /url: /company/1930/financial/pl
+          - link "B/S" [ref=e94] [cursor=pointer]:
+            - /url: /company/1930/financial/bs
+          - link "C/S" [ref=e95] [cursor=pointer]:
+            - /url: /company/1930/financial/cs
+        - generic [ref=e97]:
+          - combobox [ref=e99]:
+            - option "通期" [selected]
+            - option "四半期(累積)"
+            - option "四半期(単独)"
+          - combobox [ref=e101]:
+            - option "3年"
+            - option "5年"
+            - option "7年"
+            - option "10年" [selected]
+            - option "全期間" [disabled]
+          - generic [ref=e103]:
+            - checkbox "日付を逆にする" [ref=e104]
+            - text: 日付を逆にする
+          - generic [ref=e106]:
+            - checkbox "同Qで並べる" [ref=e107]
+            - text: 同Qで並べる
+        - generic [ref=e108]:
+          - tabpanel [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: 
+                  - text: 通期売上（百万円）
+                - generic [ref=e115]:
+                  - generic [ref=e116]: 売上5y CAGR･予想：11.8 %
+                  - region "Chart. Highcharts interactive chart." [ref=e117]:
+                    - generic [ref=e118]:
+                      - heading "Chart" [level=6] [ref=e119]
+                      - generic [ref=e120]: Combination chart with 5 data series.
+                      - generic [ref=e121]: The chart has 1 X axis displaying categories.
+                      - generic [ref=e122]: The chart has 2 Y axes displaying values, and values.
+                    - generic [ref=e127]:
+                      - img "Interactive chart" [ref=e128]:
+                        - generic [ref=e135]:
+                          - region "売上高, series 1 of 5. Bar series with 11 bars. Y axis, values." [ref=e136]:
+                            - img "17.3, 43,063. 売上高." [ref=e137]
+                            - img "18.3, 42,196. 売上高." [ref=e138]
+                            - img "19.3, 43,727. 売上高." [ref=e139]
+                            - img "20.3, 49,932. 売上高." [ref=e140]
+                            - img "21.3, 44,888. 売上高." [ref=e141]
+                            - img "22.3, 45,928. 売上高." [ref=e142]
+                            - img "23.3, 44,846. 売上高." [ref=e143]
+                            - img "24.3, 53,398. 売上高." [ref=e144]
+                            - img "25.3, 55,607. 売上高." [ref=e145]
+                            - img "26.3, 61,028. 売上高." [ref=e146]
+                            - img "27.3会, 70,000. 売上高." [ref=e147]
+                          - region "粗利率, series 2 of 5. Line with 11 data points. Y axis, values." [ref=e151]:
+                            - img "17.3, 17.5. 粗利率." [ref=e152]
+                            - img "18.3, 17.5. 粗利率." [ref=e153]
+                            - img "19.3, 16.4. 粗利率." [ref=e154]
+                            - img "20.3, 17. 粗利率." [ref=e155]
+                            - img "21.3, 17.2. 粗利率." [ref=e156]
+                            - img "22.3, 15.1. 粗利率." [ref=e157]
+                            - img "23.3, 15.7. 粗利率." [ref=e158]
+                            - img "24.3, 16.6. 粗利率." [ref=e159]
+                            - img "25.3, 18.7. 粗利率." [ref=e160]
+                            - img "26.3, 19. 粗利率." [ref=e161]
+                          - region "営業利益率, series 3 of 5. Line with 11 data points. Y axis, values." [ref=e165]:
+                            - img "17.3, 10.6. 営業利益率." [ref=e166]
+                            - img "18.3, 10.4. 営業利益率." [ref=e167]
+                            - img "19.3, 9.3. 営業利益率." [ref=e168]
+                            - img "20.3, 9.5. 営業利益率." [ref=e169]
+                            - img "21.3, 8.6. 営業利益率." [ref=e170]
+                            - img "22.3, 6.9. 営業利益率." [ref=e171]
+                            - img "23.3, 5.3. 営業利益率." [ref=e172]
+                            - img "24.3, 6.4. 営業利益率." [ref=e173]
+                            - img "25.3, 7.8. 営業利益率." [ref=e174]
+                            - img "26.3, 8.4. 営業利益率." [ref=e175]
+                            - img "27.3会, 8.6. 営業利益率." [ref=e176]
+                          - region "純利益率, series 4 of 5. Line with 11 data points. Y axis, values." [ref=e180]:
+                            - img "17.3, 7.4. 純利益率." [ref=e181]
+                            - img "18.3, 7.8. 純利益率." [ref=e182]
+                            - img "19.3, 6.4. 純利益率." [ref=e183]
+                            - img "20.3, 6.3. 純利益率." [ref=e184]
+                            - img "21.3, 7.1. 純利益率." [ref=e185]
+                            - img "22.3, 4.9. 純利益率." [ref=e186]
+                            - img "23.3, 3.6. 純利益率." [ref=e187]
+                            - img "24.3, 4.1. 純利益率." [ref=e188]
+                            - img "25.3, 5.7. 純利益率." [ref=e189]
+                            - img "26.3, 6.3. 純利益率." [ref=e190]
+                            - img "27.3会, 5.9. 純利益率." [ref=e191]
+                          - region "ROE, series 5 of 5. Line with 11 data points. Y axis, values." [ref=e195]:
+                            - img "17.3, 11.4. ROE." [ref=e196]
+                            - img "18.3, 10.6. ROE." [ref=e197]
+                            - img "19.3, 8.4. ROE." [ref=e198]
+                            - img "20.3, 8.7. ROE." [ref=e199]
+                            - img "21.3, 8.3. ROE." [ref=e200]
+                            - img "22.3, 5.6. ROE." [ref=e201]
+                            - img "23.3, 4. ROE." [ref=e202]
+                            - img "24.3, 5.3. ROE." [ref=e203]
+                            - img "25.3, 7.3. ROE." [ref=e204]
+                            - img "26.3, 8.4. ROE." [ref=e205]
+                        - generic [ref=e209]:
+                          - generic [ref=e211] [cursor=pointer]: 売上高
+                          - generic [ref=e214] [cursor=pointer]: 粗利率
+                          - generic [ref=e216] [cursor=pointer]: 営業利益率
+                          - generic [ref=e218] [cursor=pointer]: 純利益率
+                          - generic [ref=e220] [cursor=pointer]: ROE
+                        - generic [ref=e221]:
+                          - generic [ref=e222]: "0"
+                          - generic [ref=e223]: 25,000
+                          - generic [ref=e224]: 50,000
+                          - generic [ref=e225]: 75,000
+                        - generic [ref=e226]:
+                          - generic [ref=e227]: 0 %
+                          - generic [ref=e228]: 5 %
+                          - generic [ref=e229]: 10 %
+                          - generic [ref=e230]: 15 %
+                          - generic [ref=e231]: 20 %
+                        - generic [ref=e232]:
+                          - generic [ref=e233]: "17.3"
+                          - generic [ref=e234]: "18.3"
+                          - generic [ref=e235]: "19.3"
+                          - generic [ref=e236]: "20.3"
+                          - generic [ref=e237]: "21.3"
+                          - generic [ref=e238]: "22.3"
+                          - generic [ref=e239]: "23.3"
+                          - generic [ref=e240]: "24.3"
+                          - generic [ref=e241]: "25.3"
+                          - generic [ref=e242]: "26.3"
+                          - generic [ref=e243]: 27.3会
+                      - generic [ref=e244]:
+                        - region "Toggle series visibility, Chart":
+                          - list:
+                            - listitem:
+                              - button "Show 売上高" [pressed] [ref=e245] [cursor=pointer]
+                            - listitem:
+                              - button "Show 粗利率" [pressed] [ref=e246] [cursor=pointer]
+                            - listitem:
+                              - button "Show 営業利益率" [pressed] [ref=e247] [cursor=pointer]
+                            - listitem:
+                              - button "Show 純利益率" [pressed] [ref=e248] [cursor=pointer]
+                            - listitem:
+                              - button "Show ROE" [pressed] [ref=e249] [cursor=pointer]
+                    - generic [ref=e251]: End of interactive chart.
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]: 
+                  - text: 通期利益（百万円）
+                - generic [ref=e256]:
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: 営利5y CAGR･予想：26.3 %
+                    - generic [ref=e259]: 純利5y CAGR･予想：26.0 %
+                  - region "Chart. Highcharts interactive chart." [ref=e260]:
+                    - generic [ref=e261]:
+                      - heading "Chart" [level=6] [ref=e262]
+                      - generic [ref=e263]: Bar chart with 3 data series.
+                      - generic [ref=e264]: The chart has 1 X axis displaying categories.
+                      - generic [ref=e265]: The chart has 2 Y axes displaying values, and values.
+                    - generic [ref=e270]:
+                      - img "Interactive chart" [ref=e271]:
+                        - generic [ref=e278]:
+                          - region "売上総利益(左), bar series 1 of 3 with 11 bars. Y axis, values." [ref=e279]:
+                            - img "17.3, 7,544. 売上総利益(左)." [ref=e280]
+                            - img "18.3, 7,392. 売上総利益(左)." [ref=e281]
+                            - img "19.3, 7,166. 売上総利益(左)." [ref=e282]
+                            - img "20.3, 8,498. 売上総利益(左)." [ref=e283]
+                            - img "21.3, 7,720. 売上総利益(左)." [ref=e284]
+                            - img "22.3, 6,943. 売上総利益(左)." [ref=e285]
+                            - img "23.3, 7,030. 売上総利益(左)." [ref=e286]
+                            - img "24.3, 8,874. 売上総利益(左)." [ref=e287]
+                            - img "25.3, 10,368. 売上総利益(左)." [ref=e288]
+                            - img "26.3, 11,576. 売上総利益(左)." [ref=e289]
+                            - img "27.3会, 0. 売上総利益(左)."
+                          - region "営業利益(右), bar series 2 of 3 with 11 bars. Y axis, values." [ref=e290]:
+                            - img "17.3, 4,584. 営業利益(右)." [ref=e291]
+                            - img "18.3, 4,383. 営業利益(右)." [ref=e292]
+                            - img "19.3, 4,069. 営業利益(右)." [ref=e293]
+                            - img "20.3, 4,766. 営業利益(右)." [ref=e294]
+                            - img "21.3, 3,853. 営業利益(右)." [ref=e295]
+                            - img "22.3, 3,157. 営業利益(右)." [ref=e296]
+                            - img "23.3, 2,356. 営業利益(右)." [ref=e297]
+                            - img "24.3, 3,425. 営業利益(右)." [ref=e298]
+                            - img "25.3, 4,351. 営業利益(右)." [ref=e299]
+                            - img "26.3, 5,121. 営業利益(右)." [ref=e300]
+                            - img "27.3会, 6,000. 営業利益(右)." [ref=e301]
+                          - region "当期純利益(右), bar series 3 of 3 with 11 bars. Y axis, values." [ref=e302]:
+                            - img "17.3, 3,204. 当期純利益(右)." [ref=e303]
+                            - img "18.3, 3,284. 当期純利益(右)." [ref=e304]
+                            - img "19.3, 2,787. 当期純利益(右)." [ref=e305]
+                            - img "20.3, 3,126. 当期純利益(右)." [ref=e306]
+                            - img "21.3, 3,175. 当期純利益(右)." [ref=e307]
+                            - img "22.3, 2,246. 当期純利益(右)." [ref=e308]
+                            - img "23.3, 1,628. 当期純利益(右)." [ref=e309]
+                            - img "24.3, 2,209. 当期純利益(右)." [ref=e310]
+                            - img "25.3, 3,187. 当期純利益(右)." [ref=e311]
+                            - img "26.3, 3,870. 当期純利益(右)." [ref=e312]
+                            - img "27.3会, 4,100. 当期純利益(右)." [ref=e313]
+                        - generic [ref=e317]:
+                          - generic [ref=e319] [cursor=pointer]: 売上総利益(左)
+                          - generic [ref=e322] [cursor=pointer]: 営業利益(右)
+                          - generic [ref=e325] [cursor=pointer]: 当期純利益(右)
+                        - generic [ref=e327]:
+                          - generic [ref=e328]: "0"
+                          - generic [ref=e329]: 4,000
+                          - generic [ref=e330]: 8,000
+                          - generic [ref=e331]: 12,000
+                        - generic [ref=e332]:
+                          - generic [ref=e333]: "0"
+                          - generic [ref=e334]: 2,500
+                          - generic [ref=e335]: 5,000
+                          - generic [ref=e336]: 7,500
+                        - generic [ref=e337]:
+                          - generic [ref=e338]: "17.3"
+                          - generic [ref=e339]: "18.3"
+                          - generic [ref=e340]: "19.3"
+                          - generic [ref=e341]: "20.3"
+                          - generic [ref=e342]: "21.3"
+                          - generic [ref=e343]: "22.3"
+                          - generic [ref=e344]: "23.3"
+                          - generic [ref=e345]: "24.3"
+                          - generic [ref=e346]: "25.3"
+                          - generic [ref=e347]: "26.3"
+                          - generic [ref=e348]: 27.3会
+                      - generic [ref=e349]:
+                        - region "Toggle series visibility, Chart":
+                          - list:
+                            - listitem:
+                              - button "Show 売上総利益(左)" [pressed] [ref=e350] [cursor=pointer]
+                            - listitem:
+                              - button "Show 営業利益(右)" [pressed] [ref=e351] [cursor=pointer]
+                            - listitem:
+                              - button "Show 当期純利益(右)" [pressed] [ref=e352] [cursor=pointer]
+                    - generic [ref=e354]: End of interactive chart.
+            - generic [ref=e355]:
+              - table [ref=e357]:
+                - rowgroup [ref=e358]:
+                  - row "2024.3 2025.3 2026.3 2027.3E" [ref=e359]:
+                    - columnheader [ref=e360]
+                    - columnheader "2024.3" [ref=e361]:
+                      - link "2024.3" [ref=e362] [cursor=pointer]:
+                        - /url: /company/1930/library/92814ec896a28eb5ab3e7a/preview
+                    - columnheader "2025.3" [ref=e363]:
+                      - link "2025.3" [ref=e364] [cursor=pointer]:
+                        - /url: /company/1930/library/4e6180d0b9b2b83c9b1954/preview
+                    - columnheader "2026.3" [ref=e365]:
+                      - link "2026.3" [ref=e366] [cursor=pointer]:
+                        - /url: /company/1930/library/bd33c5887095adf74a0084/preview
+                    - columnheader "2027.3E" [ref=e367]
+                - rowgroup [ref=e368]:
+                  - row "売上 53,398 55,607 61,028 70,000" [ref=e369]:
+                    - rowheader "売上" [ref=e370]
+                    - cell "53,398" [ref=e371]:
+                      - link "53,398" [ref=e372] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "55,607" [ref=e373]:
+                      - link "55,607" [ref=e374] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "61,028" [ref=e375]:
+                      - link "61,028" [ref=e376] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "70,000" [ref=e377]:
+                      - link "70,000" [ref=e378] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                  - row "売上総利益 8,874 10,368 11,576 -" [ref=e379]:
+                    - rowheader "売上総利益" [ref=e380]
+                    - cell "8,874" [ref=e381]:
+                      - link "8,874" [ref=e382] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "10,368" [ref=e383]:
+                      - link "10,368" [ref=e384] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "11,576" [ref=e385]:
+                      - link "11,576" [ref=e386] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "-" [ref=e387]:
+                      - link "-" [ref=e388] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                  - row "粗利率 (%) 16.6 18.6 19.0 -" [ref=e389]:
+                    - rowheader "粗利率 (%)" [ref=e390]
+                    - cell "16.6" [ref=e391]:
+                      - link "16.6" [ref=e392] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "18.6" [ref=e393]:
+                      - link "18.6" [ref=e394] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "19.0" [ref=e395]:
+                      - link "19.0" [ref=e396] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "-" [ref=e397]:
+                      - link "-" [ref=e398] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                  - row "営業利益 3,425 4,351 5,121 6,000" [ref=e399]:
+                    - rowheader "営業利益" [ref=e400]
+                    - cell "3,425" [ref=e401]:
+                      - link "3,425" [ref=e402] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "4,351" [ref=e403]:
+                      - link "4,351" [ref=e404] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "5,121" [ref=e405]:
+                      - link "5,121" [ref=e406] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "6,000" [ref=e407]:
+                      - link "6,000" [ref=e408] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                  - row "営業利益率 (%) 6.4 7.8 8.4 8.6" [ref=e409]:
+                    - rowheader "営業利益率 (%)" [ref=e410]
+                    - cell "6.4" [ref=e411]:
+                      - link "6.4" [ref=e412] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "7.8" [ref=e413]:
+                      - link "7.8" [ref=e414] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "8.4" [ref=e415]:
+                      - link "8.4" [ref=e416] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "8.6" [ref=e417]:
+                      - link "8.6" [ref=e418] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                  - row "純利益 2,209 3,187 3,870 4,100" [ref=e419]:
+                    - rowheader "純利益" [ref=e420]
+                    - cell "2,209" [ref=e421]:
+                      - link "2,209" [ref=e422] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "3,187" [ref=e423]:
+                      - link "3,187" [ref=e424] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "3,870" [ref=e425]:
+                      - link "3,870" [ref=e426] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "4,100" [ref=e427]:
+                      - link "4,100" [ref=e428] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                  - row "純利益率 (%) 4.1 5.7 6.3 5.9" [ref=e429]:
+                    - rowheader "純利益率 (%)" [ref=e430]
+                    - cell "4.1" [ref=e431]:
+                      - link "4.1" [ref=e432] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "5.7" [ref=e433]:
+                      - link "5.7" [ref=e434] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "6.3" [ref=e435]:
+                      - link "6.3" [ref=e436] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+                    - cell "5.9" [ref=e437]:
+                      - link "5.9" [ref=e438] [cursor=pointer]:
+                        - /url: /company/1930/financial/pl
+              - link "もっと詳しく" [ref=e440] [cursor=pointer]:
+                - /url: /company/1930/financial/pl
+            - generic [ref=e441]:
+              - generic [ref=e443]:
+                - generic [ref=e444]:
+                  - generic [ref=e445]: 
+                  - text: EPS（円）BPS（円）
+                - region "Chart. Highcharts interactive chart." [ref=e447]:
+                  - generic [ref=e448]:
+                    - heading "Chart" [level=6] [ref=e449]
+                    - generic [ref=e450]: Line chart with 2 lines.
+                    - generic [ref=e451]: The chart has 1 X axis displaying categories.
+                    - generic [ref=e452]: The chart has 2 Y axes displaying values, and values.
+                  - generic [ref=e457]:
+                    - img "Interactive chart" [ref=e458]:
+                      - generic [ref=e465]:
+                        - region "EPS, line 1 of 2 with 11 data points. Y axis, values." [ref=e469]:
+                          - img "17.3, 114.5. EPS." [ref=e470]
+                          - img "18.3, 117.3. EPS." [ref=e471]
+                          - img "19.3, 99.6. EPS." [ref=e472]
+                          - img "20.3, 111.7. EPS." [ref=e473]
+                          - img "21.3, 113.4. EPS." [ref=e474]
+                          - img "22.3, 80.2. EPS." [ref=e475]
+                          - img "23.3, 58.2. EPS." [ref=e476]
+                          - img "24.3, 78.9. EPS." [ref=e477]
+                          - img "25.3, 113.9. EPS." [ref=e478]
+                          - img "26.3, 140.7. EPS." [ref=e479]
+                          - img "27.3会, 149.1. EPS." [ref=e480]
+                        - region "BPS, line 2 of 2 with 11 data points. Y axis, values." [ref=e484]:
+                          - img "17.3, 1,006.0. BPS." [ref=e485]
+                          - img "18.3, 1,111.4. BPS." [ref=e486]
+                          - img "19.3, 1,192.1. BPS." [ref=e487]
+                          - img "20.3, 1,282.0. BPS." [ref=e488]
+                          - img "21.3, 1,373.5. BPS." [ref=e489]
+                          - img "22.3, 1,424.1. BPS." [ref=e490]
+                          - img "23.3, 1,454.7. BPS." [ref=e491]
+                          - img "24.3, 1,495.7. BPS." [ref=e492]
+                          - img "25.3, 1,568.2. BPS." [ref=e493]
+                          - img "26.3, 1,675.7. BPS." [ref=e494]
+                          - img "27.3会, 0.0. BPS." [ref=e495]
+                      - generic [ref=e499]:
+                        - generic [ref=e502] [cursor=pointer]: EPS
+                        - generic [ref=e505] [cursor=pointer]: BPS
+                      - generic [ref=e506]:
+                        - generic [ref=e507]: "0.0"
+                        - generic [ref=e508]: "60.0"
+                        - generic [ref=e509]: "120.0"
+                        - generic [ref=e510]: "180.0"
+                      - generic [ref=e511]:
+                        - generic [ref=e512]: "0.0"
+                        - generic [ref=e513]: "600.0"
+                        - generic [ref=e514]: "1200.0"
+                        - generic [ref=e515]: "1800.0"
+                      - generic [ref=e516]:
+                        - generic [ref=e517]: "17.3"
+                        - generic [ref=e518]: "18.3"
+                        - generic [ref=e519]: "19.3"
+                        - generic [ref=e520]: "20.3"
+                        - generic [ref=e521]: "21.3"
+                        - generic [ref=e522]: "22.3"
+                        - generic [ref=e523]: "23.3"
+                        - generic [ref=e524]: "24.3"
+                        - generic [ref=e525]: "25.3"
+                        - generic [ref=e526]: "26.3"
+                        - generic [ref=e527]: 27.3会
+                    - generic [ref=e528]:
+                      - region "Toggle series visibility, Chart":
+                        - list:
+                          - listitem:
+                            - button "Show EPS" [pressed] [ref=e529] [cursor=pointer]
+                          - listitem:
+                            - button "Show BPS" [pressed] [ref=e530] [cursor=pointer]
+                  - generic [ref=e532]: End of interactive chart.
+              - generic [ref=e534]:
+                - generic [ref=e535]:
+                  - generic [ref=e536]: 
+                  - text: 配当（円、%）
+                - region "Chart. Highcharts interactive chart." [ref=e538]:
+                  - generic [ref=e539]:
+                    - heading "Chart" [level=6] [ref=e540]
+                    - generic [ref=e541]: Combination chart with 3 data series.
+                    - generic [ref=e542]: The chart has 1 X axis displaying categories.
+                    - generic [ref=e543]: The chart has 2 Y axes displaying values, and values.
+                  - generic [ref=e548]:
+                    - img "Interactive chart" [ref=e549]:
+                      - generic [ref=e556]:
+                        - region "配当, series 1 of 3. Bar series with 11 bars. Y axis, values." [ref=e557]:
+                          - img "17.3, 13.3. 配当." [ref=e558]
+                          - img "18.3, 15.0. 配当." [ref=e559]
+                          - img "19.3, 20.0. 配当." [ref=e560]
+                          - img "20.3, 20.8. 配当." [ref=e561]
+                          - img "21.3, 25.0. 配当." [ref=e562]
+                          - img "22.3, 28.3. 配当." [ref=e563]
+                          - img "23.3, 36.0. 配当." [ref=e564]
+                          - img "24.3, 40.0. 配当." [ref=e565]
+                          - img "25.3, 44.0. 配当." [ref=e566]
+                          - img "26.3, 48.0. 配当." [ref=e567]
+                          - img "27.3会, 48.0. 配当." [ref=e568]
+                        - region "配当性向, series 2 of 3. Line with 11 data points. Y axis, values." [ref=e572]:
+                          - img "17.3, 11.7. 配当性向." [ref=e573]
+                          - img "18.3, 12.8. 配当性向." [ref=e574]
+                          - img "19.3, 20.1. 配当性向." [ref=e575]
+                          - img "20.3, 18.7. 配当性向." [ref=e576]
+                          - img "21.3, 22.0. 配当性向." [ref=e577]
+                          - img "22.3, 35.3. 配当性向." [ref=e578]
+                          - img "23.3, 61.9. 配当性向." [ref=e579]
+                          - img "24.3, 50.7. 配当性向." [ref=e580]
+                          - img "25.3, 38.6. 配当性向." [ref=e581]
+                          - img "26.3, 34.1. 配当性向." [ref=e582]
+                          - img "27.3会, 0.0. 配当性向." [ref=e583]
+                        - region "株主資本配当率(DOE), series 3 of 3. Line with 11 data points. Y axis, values." [ref=e587]:
+                          - img "17.3, 1.3. 株主資本配当率(DOE)." [ref=e588]
+                          - img "18.3, 1.4. 株主資本配当率(DOE)." [ref=e589]
+                          - img "19.3, 1.7. 株主資本配当率(DOE)." [ref=e590]
+                          - img "20.3, 1.6. 株主資本配当率(DOE)." [ref=e591]
+                          - img "21.3, 1.8. 株主資本配当率(DOE)." [ref=e592]
+                          - img "22.3, 2.0. 株主資本配当率(DOE)." [ref=e593]
+                          - img "23.3, 2.5. 株主資本配当率(DOE)." [ref=e594]
+                          - img "24.3, 2.7. 株主資本配当率(DOE)." [ref=e595]
+                          - img "25.3, 2.8. 株主資本配当率(DOE)." [ref=e596]
+                          - img "26.3, 2.9. 株主資本配当率(DOE)." [ref=e597]
+                          - img "27.3会, 0.0. 株主資本配当率(DOE)." [ref=e598]
+                      - generic [ref=e600]:
+                        - generic [ref=e602]:
+                          - generic [ref=e603]: "13"
+                          - text: "13"
+                        - generic [ref=e605]:
+                          - generic [ref=e606]: "15"
+                          - text: "15"
+                        - generic [ref=e608]:
+                          - generic [ref=e609]: "20"
+                          - text: "20"
+                        - generic [ref=e611]:
+                          - generic [ref=e612]: "21"
+                          - text: "21"
+                        - generic [ref=e614]:
+                          - generic [ref=e615]: "25"
+                          - text: "25"
+                        - generic [ref=e617]:
+                          - generic [ref=e618]: "28"
+                          - text: "28"
+                        - generic [ref=e620]:
+                          - generic [ref=e621]: "36"
+                          - text: "36"
+                        - generic [ref=e623]:
+                          - generic [ref=e624]: "40"
+                          - text: "40"
+                        - generic [ref=e626]:
+                          - generic [ref=e627]: "44"
+                          - text: "44"
+                        - generic [ref=e629]:
+                          - generic [ref=e630]: "48"
+                          - text: "48"
+                        - generic [ref=e632]:
+                          - generic [ref=e633]: "48"
+                          - text: "48"
+                      - generic [ref=e637]:
+                        - generic [ref=e639] [cursor=pointer]: 配当
+                        - generic [ref=e642] [cursor=pointer]: 配当性向
+                        - generic [ref=e644] [cursor=pointer]: 株主資本配当率(DOE)
+                      - generic [ref=e645]:
+                        - generic [ref=e646]: "0"
+                        - generic [ref=e647]: "20"
+                        - generic [ref=e648]: "40"
+                        - generic [ref=e649]: "60"
+                      - generic [ref=e650]:
+                        - generic [ref=e651]: "0"
+                        - generic [ref=e652]: "25"
+                        - generic [ref=e653]: "50"
+                        - generic [ref=e654]: "75"
+                      - generic [ref=e655]:
+                        - generic [ref=e656]: "17.3"
+                        - generic [ref=e657]: "18.3"
+                        - generic [ref=e658]: "19.3"
+                        - generic [ref=e659]: "20.3"
+                        - generic [ref=e660]: "21.3"
+                        - generic [ref=e661]: "22.3"
+                        - generic [ref=e662]: "23.3"
+                        - generic [ref=e663]: "24.3"
+                        - generic [ref=e664]: "25.3"
+                        - generic [ref=e665]: "26.3"
+                        - generic [ref=e666]: 27.3会
+                    - generic [ref=e667]:
+                      - region "Toggle series visibility, Chart":
+                        - list:
+                          - listitem:
+                            - button "Show 配当" [pressed] [ref=e668] [cursor=pointer]
+                          - listitem:
+                            - button "Show 配当性向" [pressed] [ref=e669] [cursor=pointer]
+                          - listitem:
+                            - button "Show 株主資本配当率(DOE)" [pressed] [ref=e670] [cursor=pointer]
+                  - generic [ref=e672]: End of interactive chart.
+            - table [ref=e674]:
+              - rowgroup [ref=e675]:
+                - row "2024.3 2025.3 2026.3 2027.3E" [ref=e676]:
+                  - columnheader [ref=e677]
+                  - columnheader "2024.3" [ref=e678]:
+                    - link "2024.3" [ref=e679] [cursor=pointer]:
+                      - /url: /company/1930/library/92814ec896a28eb5ab3e7a/preview
+                  - columnheader "2025.3" [ref=e680]:
+                    - link "2025.3" [ref=e681] [cursor=pointer]:
+                      - /url: /company/1930/library/4e6180d0b9b2b83c9b1954/preview
+                  - columnheader "2026.3" [ref=e682]:
+                    - link "2026.3" [ref=e683] [cursor=pointer]:
+                      - /url: /company/1930/library/bd33c5887095adf74a0084/preview
+                  - columnheader "2027.3E" [ref=e684]
+              - rowgroup [ref=e685]:
+                - row "EPS (円) 78.9 113.9 140.7 149.1" [ref=e686]:
+                  - rowheader "EPS (円)" [ref=e687]
+                  - cell "78.9" [ref=e688]
+                  - cell "113.9" [ref=e689]
+                  - cell "140.7" [ref=e690]
+                  - cell "149.1" [ref=e691]
+                - row "BPS (円) 1,495.7 1,568.2 1,675.7 -" [ref=e692]:
+                  - rowheader "BPS (円)" [ref=e693]
+                  - cell "1,495.7" [ref=e694]
+                  - cell "1,568.2" [ref=e695]
+                  - cell "1,675.7" [ref=e696]
+                  - cell "-" [ref=e697]
+                - row "配当金 (円) 40.0 44.0 48.0 48.0" [ref=e698]:
+                  - rowheader "配当金 (円)" [ref=e699]
+                  - cell "40.0" [ref=e700]
+                  - cell "44.0" [ref=e701]
+                  - cell "48.0" [ref=e702]
+                  - cell "48.0" [ref=e703]
+                - row "配当利回り (%) 3.1 3.6 3.4 -" [ref=e704]:
+                  - rowheader "配当利回り (%)" [ref=e705]
+                  - cell "3.1" [ref=e706]
+                  - cell "3.6" [ref=e707]
+                  - cell "3.4" [ref=e708]
+                  - cell "-" [ref=e709]
+                - row "配当性向 (%) 50.7 38.6 34.1 -" [ref=e710]:
+                  - rowheader "配当性向 (%)" [ref=e711]
+                  - cell "50.7" [ref=e712]
+                  - cell "38.6" [ref=e713]
+                  - cell "34.1" [ref=e714]
+                  - cell "-" [ref=e715]
+            - generic [ref=e718]:
+              - generic [ref=e719]:
+                - generic [ref=e720]: 
+                - text: セグメント情報
+              - generic [ref=e722]: セグメント情報を取得できませんでした。
+            - generic [ref=e724]:
+              - generic [ref=e725]:
+                - generic [ref=e726]: 
+                - text: 比例縮尺財務諸表
+              - generic [ref=e728]:
+                - img [ref=e729]:
+                  - img [ref=e731]:
+                    - generic [ref=e812]:
+                      - generic [ref=e813]:
+                        - generic [ref=e815]:
+                          - generic [ref=e816]: 現預金
+                          - text: 現預金
+                        - generic [ref=e818]:
+                          - generic [ref=e819]: 現預金
+                          - text: 現預金
+                        - generic [ref=e821]:
+                          - generic [ref=e822]: 現預金
+                          - text: 現預金
+                        - generic [ref=e824]:
+                          - generic [ref=e825]: 現預金
+                          - text: 現預金
+                        - generic [ref=e827]:
+                          - generic [ref=e828]: 現預金
+                          - text: 現預金
+                      - generic [ref=e829]:
+                        - generic:
+                          - generic:
+                            - generic: その他流動資産
+                            - text: その他流動資産
+                        - generic:
+                          - generic:
+                            - generic: その他流動資産
+                            - text: その他流動資産
+                        - generic [ref=e831]:
+                          - generic [ref=e832]: その他流動資産
+                          - text: その他流動資産
+                        - generic:
+                          - generic:
+                            - generic: その他流動資産
+                            - text: その他流動資産
+                        - generic:
+                          - generic:
+                            - generic: その他流動資産
+                            - text: その他流動資産
+                      - generic [ref=e833]:
+                        - generic [ref=e835]:
+                          - generic [ref=e836]: 有形固定資産
+                          - text: 有形固定資産
+                        - generic [ref=e838]:
+                          - generic [ref=e839]: 有形固定資産
+                          - text: 有形固定資産
+                        - generic [ref=e841]:
+                          - generic [ref=e842]: 有形固定資産
+                          - text: 有形固定資産
+                        - generic [ref=e844]:
+                          - generic [ref=e845]: 有形固定資産
+                          - text: 有形固定資産
+                        - generic [ref=e847]:
+                          - generic [ref=e848]: 有形固定資産
+                          - text: 有形固定資産
+                      - generic [ref=e849]:
+                        - generic:
+                          - generic:
+                            - generic: その他固定資産
+                            - text: その他固定資産
+                        - generic:
+                          - generic:
+                            - generic: その他固定資産
+                            - text: その他固定資産
+                        - generic [ref=e851]:
+                          - generic [ref=e852]: その他固定資産
+                          - text: その他固定資産
+                        - generic [ref=e854]:
+                          - generic [ref=e855]: その他固定資産
+                          - text: その他固定資産
+                        - generic [ref=e857]:
+                          - generic [ref=e858]: その他固定資産
+                          - text: その他固定資産
+                      - generic [ref=e859]:
+                        - generic [ref=e861]:
+                          - generic [ref=e862]: 流動負債
+                          - text: 流動負債
+                        - generic [ref=e864]:
+                          - generic [ref=e865]: 流動負債
+                          - text: 流動負債
+                        - generic:
+                          - generic:
+                            - generic: 流動負債
+                            - text: 流動負債
+                        - generic [ref=e867]:
+                          - generic [ref=e868]: 流動負債
+                          - text: 流動負債
+                        - generic:
+                          - generic:
+                            - generic: 流動負債
+                            - text: 流動負債
+                      - generic [ref=e869]:
+                        - generic:
+                          - generic:
+                            - generic: 固定負債
+                            - text: 固定負債
+                        - generic:
+                          - generic:
+                            - generic: 固定負債
+                            - text: 固定負債
+                        - generic [ref=e871]:
+                          - generic [ref=e872]: 固定負債
+                          - text: 固定負債
+                        - generic:
+                          - generic:
+                            - generic: 固定負債
+                            - text: 固定負債
+                        - generic:
+                          - generic:
+                            - generic: 固定負債
+                            - text: 固定負債
+                      - generic [ref=e873]:
+                        - generic [ref=e875]:
+                          - generic [ref=e876]: その他負債
+                          - text: その他負債
+                        - generic:
+                          - generic:
+                            - generic: その他負債
+                            - text: その他負債
+                        - generic:
+                          - generic:
+                            - generic: その他負債
+                            - text: その他負債
+                        - generic [ref=e878]:
+                          - generic [ref=e879]: その他負債
+                          - text: その他負債
+                        - generic [ref=e881]:
+                          - generic [ref=e882]: その他負債
+                          - text: その他負債
+                      - generic [ref=e883]:
+                        - generic [ref=e885]:
+                          - generic [ref=e886]: 利益剰余金
+                          - text: 利益剰余金
+                        - generic [ref=e888]:
+                          - generic [ref=e889]: 利益剰余金
+                          - text: 利益剰余金
+                        - generic [ref=e891]:
+                          - generic [ref=e892]: 利益剰余金
+                          - text: 利益剰余金
+                        - generic [ref=e894]:
+                          - generic [ref=e895]: 利益剰余金
+                          - text: 利益剰余金
+                        - generic [ref=e897]:
+                          - generic [ref=e898]: 利益剰余金
+                          - text: 利益剰余金
+                      - generic [ref=e899]:
+                        - generic [ref=e901]:
+                          - generic [ref=e902]: その他純資産
+                          - text: その他純資産
+                        - generic [ref=e904]:
+                          - generic [ref=e905]: その他純資産
+                          - text: その他純資産
+                        - generic:
+                          - generic:
+                            - generic: その他純資産
+                            - text: その他純資産
+                        - generic:
+                          - generic:
+                            - generic: その他純資産
+                            - text: その他純資産
+                        - generic:
+                          - generic:
+                            - generic: その他純資産
+                            - text: その他純資産
+                      - generic [ref=e906]:
+                        - generic:
+                          - generic:
+                            - generic: 売上原価
+                            - text: 売上原価
+                        - generic:
+                          - generic:
+                            - generic: 売上原価
+                            - text: 売上原価
+                        - generic:
+                          - generic:
+                            - generic: 売上原価
+                            - text: 売上原価
+                        - generic [ref=e908]:
+                          - generic [ref=e909]: 売上原価
+                          - text: 売上原価
+                        - generic [ref=e911]:
+                          - generic [ref=e912]: 売上原価
+                          - text: 売上原価
+                      - generic [ref=e913]:
+                        - generic:
+                          - generic:
+                            - generic: 販管費
+                            - text: 販管費
+                        - generic:
+                          - generic:
+                            - generic: 販管費
+                            - text: 販管費
+                        - generic [ref=e915]:
+                          - generic [ref=e916]: 販管費
+                          - text: 販管費
+                        - generic [ref=e918]:
+                          - generic [ref=e919]: 販管費
+                          - text: 販管費
+                        - generic [ref=e921]:
+                          - generic [ref=e922]: 販管費
+                          - text: 販管費
+                      - generic [ref=e923]:
+                        - generic:
+                          - generic:
+                            - generic: その他
+                            - text: その他
+                        - generic:
+                          - generic:
+                            - generic: その他
+                            - text: その他
+                        - generic:
+                          - generic:
+                            - generic: その他
+                            - text: その他
+                        - generic:
+                          - generic:
+                            - generic: その他
+                            - text: その他
+                      - generic [ref=e924]:
+                        - generic:
+                          - generic:
+                            - generic: 営業利益
+                            - text: 営業利益
+                        - generic:
+                          - generic:
+                            - generic: 営業利益
+                            - text: 営業利益
+                        - generic:
+                          - generic:
+                            - generic: 営業利益
+                            - text: 営業利益
+                        - generic [ref=e926]:
+                          - generic [ref=e927]: 営業利益
+                          - text: 営業利益
+                        - generic [ref=e929]:
+                          - generic [ref=e930]: 営業利益
+                          - text: 営業利益
+                      - generic [ref=e931]:
+                        - generic [ref=e933]:
+                          - generic [ref=e934]: 売上高
+                          - text: 売上高
+                        - generic [ref=e936]:
+                          - generic [ref=e937]: 売上高
+                          - text: 売上高
+                        - generic [ref=e939]:
+                          - generic [ref=e940]: 売上高
+                          - text: 売上高
+                        - generic [ref=e942]:
+                          - generic [ref=e943]: 売上高
+                          - text: 売上高
+                        - generic [ref=e945]:
+                          - generic [ref=e946]: 売上高
+                          - text: 売上高
+                    - generic [ref=e947]:
+                      - generic [ref=e948]: "22.3"
+                      - generic [ref=e949]: "22.3"
+                      - generic [ref=e950]: "23.3"
+                      - generic [ref=e951]: "23.3"
+                      - generic [ref=e952]: "24.3"
+                      - generic [ref=e953]: "24.3"
+                      - generic [ref=e954]: "25.3"
+                      - generic [ref=e955]: "25.3"
+                      - generic [ref=e956]: "26.3"
+                      - generic [ref=e957]: "26.3"
+                    - generic [ref=e958]:
+                      - generic [ref=e959]: "0"
+                      - generic [ref=e960]: 20,000
+                      - generic [ref=e961]: 40,000
+                      - generic [ref=e962]: 60,000
+                      - generic [ref=e963]: 80,000
+                - generic [ref=e964]:
+                  - text: 粒度切り替え
+                  - group [ref=e965]:
+                    - radio "小"
+                    - button "小" [ref=e966] [cursor=pointer]
+                    - radio "中" [checked]
+                    - button "中" [pressed] [ref=e967]
+                    - radio "大"
+                    - button "大" [ref=e968] [cursor=pointer]
+            - generic [ref=e969]:
+              - table [ref=e971]:
+                - rowgroup [ref=e972]:
+                  - row "2024.3 2025.3 2026.3 2027.3E" [ref=e973]:
+                    - columnheader [ref=e974]
+                    - columnheader "2024.3" [ref=e975]:
+                      - link "2024.3" [ref=e976] [cursor=pointer]:
+                        - /url: /company/1930/library/92814ec896a28eb5ab3e7a/preview
+                    - columnheader "2025.3" [ref=e977]:
+                      - link "2025.3" [ref=e978] [cursor=pointer]:
+                        - /url: /company/1930/library/4e6180d0b9b2b83c9b1954/preview
+                    - columnheader "2026.3" [ref=e979]:
+                      - link "2026.3" [ref=e980] [cursor=pointer]:
+                        - /url: /company/1930/library/bd33c5887095adf74a0084/preview
+                    - columnheader "2027.3E" [ref=e981]
+                - rowgroup [ref=e982]:
+                  - row "総資産 62,749 60,707 61,992 -" [ref=e983]:
+                    - rowheader "総資産" [ref=e984]
+                    - cell "62,749" [ref=e985]:
+                      - link "62,749" [ref=e986] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "60,707" [ref=e987]:
+                      - link "60,707" [ref=e988] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "61,992" [ref=e989]:
+                      - link "61,992" [ref=e990] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-" [ref=e991]:
+                      - link "-" [ref=e992] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                  - row "現預金 19,495 22,761 20,012 -" [ref=e993]:
+                    - rowheader "現預金" [ref=e994]
+                    - cell "19,495" [ref=e995]:
+                      - link "19,495" [ref=e996] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "22,761" [ref=e997]:
+                      - link "22,761" [ref=e998] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "20,012" [ref=e999]:
+                      - link "20,012" [ref=e1000] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-" [ref=e1001]:
+                      - link "-" [ref=e1002] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                  - row "有利子負債 371 330 319 -" [ref=e1003]:
+                    - rowheader "有利子負債" [ref=e1004]
+                    - cell "371" [ref=e1005]:
+                      - link "371" [ref=e1006] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "330" [ref=e1007]:
+                      - link "330" [ref=e1008] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "319" [ref=e1009]:
+                      - link "319" [ref=e1010] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-" [ref=e1011]:
+                      - link "-" [ref=e1012] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                  - row "自己資本 41,865 43,893 46,085 -" [ref=e1013]:
+                    - rowheader "自己資本" [ref=e1014]
+                    - cell "41,865" [ref=e1015]:
+                      - link "41,865" [ref=e1016] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "43,893" [ref=e1017]:
+                      - link "43,893" [ref=e1018] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "46,085" [ref=e1019]:
+                      - link "46,085" [ref=e1020] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-" [ref=e1021]:
+                      - link "-" [ref=e1022] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+              - link "もっと詳しく" [ref=e1024] [cursor=pointer]:
+                - /url: /company/1930/financial/bs
+            - generic [ref=e1025]:
+              - generic [ref=e1026]:
+                - generic [ref=e1027]:
+                  - generic [ref=e1028]: 
+                  - text: キャッシュフロー（百万円）
+                - region "Chart. Highcharts interactive chart." [ref=e1030]:
+                  - generic [ref=e1031]:
+                    - heading "Chart" [level=6] [ref=e1032]
+                    - generic [ref=e1033]: Combination chart with 4 data series.
+                    - generic [ref=e1034]: The chart has 1 X axis displaying categories.
+                    - generic [ref=e1035]: The chart has 1 Y axis displaying values. Data ranges from -3418 to 7603.
+                  - generic [ref=e1040]:
+                    - img "Interactive chart" [ref=e1041]:
+                      - generic [ref=e1047]:
+                        - region "営業CF, series 1 of 4. Bar series with 10 bars." [ref=e1048]:
+                          - img "17.3, 4,186. 営業CF." [ref=e1049]
+                          - img "18.3, 3,533. 営業CF." [ref=e1050]
+                          - img "19.3, 5,291. 営業CF." [ref=e1051]
+                          - img "20.3, 4,193. 営業CF." [ref=e1052]
+                          - img "21.3, 4,005. 営業CF." [ref=e1053]
+                          - img "22.3, 199. 営業CF." [ref=e1054]
+                          - img "23.3, 3,314. 営業CF." [ref=e1055]
+                          - img "24.3, 2,255. 営業CF." [ref=e1056]
+                          - img "25.3, 7,603. 営業CF." [ref=e1057]
+                          - img "26.3, 554. 営業CF." [ref=e1058]
+                        - region "投資CF, series 2 of 4. Bar series with 10 bars." [ref=e1059]:
+                          - img "17.3, -639. 投資CF." [ref=e1060]
+                          - img "18.3, -1,086. 投資CF." [ref=e1061]
+                          - img "19.3, -2,721. 投資CF." [ref=e1062]
+                          - img "20.3, -1,373. 投資CF." [ref=e1063]
+                          - img "21.3, 17. 投資CF." [ref=e1064]
+                          - img "22.3, -3,035. 投資CF." [ref=e1065]
+                          - img "23.3, -2,935. 投資CF." [ref=e1066]
+                          - img "24.3, -1,444. 投資CF." [ref=e1067]
+                          - img "25.3, -3,418. 投資CF." [ref=e1068]
+                          - img "26.3, -3,304. 投資CF." [ref=e1069]
+                        - region "財務CF, series 3 of 4. Bar series with 10 bars." [ref=e1070]:
+                          - img "17.3, -491. 財務CF." [ref=e1071]
+                          - img "18.3, -497. 財務CF." [ref=e1072]
+                          - img "19.3, -513. 財務CF." [ref=e1073]
+                          - img "20.3, -575. 財務CF." [ref=e1074]
+                          - img "21.3, -593. 財務CF." [ref=e1075]
+                          - img "22.3, -943. 財務CF." [ref=e1076]
+                          - img "23.3, -900. 財務CF." [ref=e1077]
+                          - img "24.3, -1,289. 財務CF." [ref=e1078]
+                          - img "25.3, -1,393. 財務CF." [ref=e1079]
+                          - img "26.3, -2,118. 財務CF." [ref=e1080]
+                        - region "フリーCF, series 4 of 4. Line with 10 data points." [ref=e1084]:
+                          - img "17.3, 3,433. フリーCF." [ref=e1085]
+                          - img "18.3, 2,415. フリーCF." [ref=e1086]
+                          - img "19.3, 3,136. フリーCF." [ref=e1087]
+                          - img "20.3, 3,210. フリーCF." [ref=e1088]
+                          - img "21.3, 3,004. フリーCF." [ref=e1089]
+                          - img "22.3, -1,572. フリーCF." [ref=e1090]
+                          - img "23.3, 1,879. フリーCF." [ref=e1091]
+                          - img "24.3, 1,493. フリーCF." [ref=e1092]
+                          - img "25.3, 7,192. フリーCF." [ref=e1093]
+                          - img "26.3, 39. フリーCF." [ref=e1094]
+                      - generic [ref=e1098]:
+                        - generic [ref=e1100] [cursor=pointer]: 営業CF
+                        - generic [ref=e1103] [cursor=pointer]: 投資CF
+                        - generic [ref=e1106] [cursor=pointer]: 財務CF
+                        - generic [ref=e1110] [cursor=pointer]: フリーCF
+                      - generic [ref=e1111]:
+                        - generic [ref=e1112]: "-5000"
+                        - generic [ref=e1113]: "0"
+                        - generic [ref=e1114]: "5000"
+                        - generic [ref=e1115]: 10,000
+                      - generic [ref=e1116]:
+                        - generic [ref=e1117]: "17.3"
+                        - generic [ref=e1118]: "18.3"
+                        - generic [ref=e1119]: "19.3"
+                        - generic [ref=e1120]: "20.3"
+                        - generic [ref=e1121]: "21.3"
+                        - generic [ref=e1122]: "22.3"
+                        - generic [ref=e1123]: "23.3"
+                        - generic [ref=e1124]: "24.3"
+                        - generic [ref=e1125]: "25.3"
+                        - generic [ref=e1126]: "26.3"
+                    - generic [ref=e1127]:
+                      - region "Toggle series visibility, Chart":
+                        - list:
+                          - listitem:
+                            - button "Show 営業CF" [pressed] [ref=e1128] [cursor=pointer]
+                          - listitem:
+                            - button "Show 投資CF" [pressed] [ref=e1129] [cursor=pointer]
+                          - listitem:
+                            - button "Show 財務CF" [pressed] [ref=e1130] [cursor=pointer]
+                          - listitem:
+                            - button "Show フリーCF" [pressed] [ref=e1131] [cursor=pointer]
+                  - generic [ref=e1133]: End of interactive chart.
+              - table [ref=e1135]:
+                - rowgroup [ref=e1136]:
+                  - row "2024.3 2025.3 2026.3 2027.3E" [ref=e1137]:
+                    - columnheader [ref=e1138]
+                    - columnheader "2024.3" [ref=e1139]:
+                      - link "2024.3" [ref=e1140] [cursor=pointer]:
+                        - /url: /company/1930/library/92814ec896a28eb5ab3e7a/preview
+                    - columnheader "2025.3" [ref=e1141]:
+                      - link "2025.3" [ref=e1142] [cursor=pointer]:
+                        - /url: /company/1930/library/4e6180d0b9b2b83c9b1954/preview
+                    - columnheader "2026.3" [ref=e1143]:
+                      - link "2026.3" [ref=e1144] [cursor=pointer]:
+                        - /url: /company/1930/library/bd33c5887095adf74a0084/preview
+                    - columnheader "2027.3E" [ref=e1145]
+                - rowgroup [ref=e1146]:
+                  - row "営業CF 2,255 7,603 554 -" [ref=e1147]:
+                    - rowheader "営業CF" [ref=e1148]
+                    - cell "2,255" [ref=e1149]:
+                      - link "2,255" [ref=e1150] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "7,603" [ref=e1151]:
+                      - link "7,603" [ref=e1152] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "554" [ref=e1153]:
+                      - link "554" [ref=e1154] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-" [ref=e1155]:
+                      - link "-" [ref=e1156] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                  - row "財務CF -1,289 -1,393 -2,118 -" [ref=e1157]:
+                    - rowheader "財務CF" [ref=e1158]
+                    - cell "-1,289" [ref=e1159]:
+                      - link "-1,289" [ref=e1160] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-1,393" [ref=e1161]:
+                      - link "-1,393" [ref=e1162] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-2,118" [ref=e1163]:
+                      - link "-2,118" [ref=e1164] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-" [ref=e1165]:
+                      - link "-" [ref=e1166] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                  - row "投資CF -1,444 -3,418 -3,304 -" [ref=e1167]:
+                    - rowheader "投資CF" [ref=e1168]
+                    - cell "-1,444" [ref=e1169]:
+                      - link "-1,444" [ref=e1170] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-3,418" [ref=e1171]:
+                      - link "-3,418" [ref=e1172] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-3,304" [ref=e1173]:
+                      - link "-3,304" [ref=e1174] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+                    - cell "-" [ref=e1175]:
+                      - link "-" [ref=e1176] [cursor=pointer]:
+                        - /url: /company/1930/financial/bs
+            - generic [ref=e1177]:
+              - generic [ref=e1179]:
+                - generic [ref=e1180]:
+                  - generic [ref=e1181]: 
+                  - text: ROEデュポン分解
+                - region "Chart. Highcharts interactive chart." [ref=e1183]:
+                  - generic [ref=e1184]:
+                    - heading "Chart" [level=6] [ref=e1185]
+                    - generic [ref=e1186]: Line chart with 4 lines.
+                    - generic [ref=e1187]: The chart has 1 X axis displaying categories.
+                    - generic [ref=e1188]: The chart has 2 Y axes displaying values, and values.
+                  - generic [ref=e1193]:
+                    - img "Interactive chart" [ref=e1194]:
+                      - generic [ref=e1201]:
+                        - region "ROE(左), line 1 of 4 with 10 data points. Y axis, values." [ref=e1205]:
+                          - img "17.3, 11.38. ROE(左)." [ref=e1206]
+                          - img "18.3, 10.56. ROE(左)." [ref=e1207]
+                          - img "19.3, 8.35. ROE(左)." [ref=e1208]
+                          - img "20.3, 8.71. ROE(左)." [ref=e1209]
+                          - img "21.3, 8.26. ROE(左)." [ref=e1210]
+                          - img "22.3, 5.63. ROE(左)." [ref=e1211]
+                          - img "23.3, 4. ROE(左)." [ref=e1212]
+                          - img "24.3, 5.28. ROE(左)." [ref=e1213]
+                          - img "25.3, 7.26. ROE(左)." [ref=e1214]
+                          - img "26.3, 8.4. ROE(左)." [ref=e1215]
+                        - region "純利益率(左), line 2 of 4 with 10 data points. Y axis, values." [ref=e1219]:
+                          - img "17.3, 7.44. 純利益率(左)." [ref=e1220]
+                          - img "18.3, 7.78. 純利益率(左)." [ref=e1221]
+                          - img "19.3, 6.37. 純利益率(左)." [ref=e1222]
+                          - img "20.3, 6.26. 純利益率(左)." [ref=e1223]
+                          - img "21.3, 7.07. 純利益率(左)." [ref=e1224]
+                          - img "22.3, 4.89. 純利益率(左)." [ref=e1225]
+                          - img "23.3, 3.63. 純利益率(左)." [ref=e1226]
+                          - img "24.3, 4.14. 純利益率(左)." [ref=e1227]
+                          - img "25.3, 5.73. 純利益率(左)." [ref=e1228]
+                          - img "26.3, 6.34. 純利益率(左)." [ref=e1229]
+                        - region "財務レバレッジ(右), line 3 of 4 with 10 data points. Y axis, values." [ref=e1233]:
+                          - img "17.3, 1.54. 財務レバレッジ(右)." [ref=e1234]
+                          - img "18.3, 1.51. 財務レバレッジ(右)." [ref=e1235]
+                          - img "19.3, 1.5. 財務レバレッジ(右)." [ref=e1236]
+                          - img "20.3, 1.49. 財務レバレッジ(右)." [ref=e1237]
+                          - img "21.3, 1.4. 財務レバレッジ(右)." [ref=e1238]
+                          - img "22.3, 1.39. 財務レバレッジ(右)." [ref=e1239]
+                          - img "23.3, 1.35. 財務レバレッジ(右)." [ref=e1240]
+                          - img "24.3, 1.5. 財務レバレッジ(右)." [ref=e1241]
+                          - img "25.3, 1.38. 財務レバレッジ(右)." [ref=e1242]
+                          - img "26.3, 1.35. 財務レバレッジ(右)." [ref=e1243]
+                        - region "総資産回転率(右), line 4 of 4 with 10 data points. Y axis, values." [ref=e1247]:
+                          - img "17.3, 0.99. 総資産回転率(右)." [ref=e1248]
+                          - img "18.3, 0.9. 総資産回転率(右)." [ref=e1249]
+                          - img "19.3, 0.88. 総資産回転率(右)." [ref=e1250]
+                          - img "20.3, 0.94. 総資産回転率(右)." [ref=e1251]
+                          - img "21.3, 0.84. 総資産回転率(右)." [ref=e1252]
+                          - img "22.3, 0.83. 総資産回転率(右)." [ref=e1253]
+                          - img "23.3, 0.82. 総資産回転率(右)." [ref=e1254]
+                          - img "24.3, 0.85. 総資産回転率(右)." [ref=e1255]
+                          - img "25.3, 0.92. 総資産回転率(右)." [ref=e1256]
+                          - img "26.3, 0.98. 総資産回転率(右)." [ref=e1257]
+                      - generic [ref=e1261]:
+                        - generic [ref=e1263] [cursor=pointer]: ROE(左)
+                        - generic [ref=e1265] [cursor=pointer]: 純利益率(左)
+                        - generic [ref=e1267] [cursor=pointer]: 財務レバレッジ(右)
+                        - generic [ref=e1269] [cursor=pointer]: 総資産回転率(右)
+                      - generic [ref=e1270]:
+                        - generic [ref=e1271]: 3 %
+                        - generic [ref=e1272]: 6 %
+                        - generic [ref=e1273]: 9 %
+                        - generic [ref=e1274]: 12 %
+                      - generic [ref=e1275]:
+                        - generic [ref=e1276]: "0.40"
+                        - generic [ref=e1277]: "0.80"
+                        - generic [ref=e1278]: "1.20"
+                        - generic [ref=e1279]: "1.60"
+                      - generic [ref=e1280]:
+                        - generic [ref=e1281]: "17.3"
+                        - generic [ref=e1282]: "18.3"
+                        - generic [ref=e1283]: "19.3"
+                        - generic [ref=e1284]: "20.3"
+                        - generic [ref=e1285]: "21.3"
+                        - generic [ref=e1286]: "22.3"
+                        - generic [ref=e1287]: "23.3"
+                        - generic [ref=e1288]: "24.3"
+                        - generic [ref=e1289]: "25.3"
+                        - generic [ref=e1290]: "26.3"
+                    - generic [ref=e1291]:
+                      - region "Toggle series visibility, Chart":
+                        - list:
+                          - listitem:
+                            - button "Show ROE(左)" [pressed] [ref=e1292] [cursor=pointer]
+                          - listitem:
+                            - button "Show 純利益率(左)" [pressed] [ref=e1293] [cursor=pointer]
+                          - listitem:
+                            - button "Show 財務レバレッジ(右)" [pressed] [ref=e1294] [cursor=pointer]
+                          - listitem:
+                            - button "Show 総資産回転率(右)" [pressed] [ref=e1295] [cursor=pointer]
+                  - generic [ref=e1297]: End of interactive chart.
+              - generic [ref=e1299]:
+                - generic [ref=e1300]:
+                  - generic [ref=e1301]: 
+                  - text: 限界利益率
+                - region "Chart. Highcharts interactive chart." [ref=e1303]:
+                  - generic [ref=e1304]:
+                    - heading "Chart" [level=6] [ref=e1305]
+                    - generic [ref=e1306]: Combination chart with 2 data series.
+                    - generic [ref=e1307]: 限界利益率=25.589%通期固定費=10,204百万円R2=0.913
+                    - generic [ref=e1308]: The chart has 1 X axis displaying 売上高（百万円）. Data ranges from -14065 to 33678.344.
+                    - generic [ref=e1309]: The chart has 1 Y axis displaying 営業利益（百万円）. Data ranges from -2571.3628270177237 to 6067.004085596079.
+                  - generic [ref=e1314]:
+                    - img "Interactive chart" [ref=e1315]:
+                      - generic [ref=e1322]: 売上高（百万円）
+                      - generic [ref=e1324]: 営業利益（百万円）
+                      - generic [ref=e1325]:
+                        - region "全社, series 1 of 2, scatter plot with 12 points." [ref=e1326]:
+                          - img "x, 9163, -153. 全社." [ref=e1327]
+                          - img "x, 11465, 514. 全社." [ref=e1328]
+                          - img "x, 12676, 612. 全社." [ref=e1329]
+                          - img "x, 20094, 2,452. 全社." [ref=e1330]
+                          - img "x, 13079, 481. 全社." [ref=e1331]
+                          - img "x, 13292, 775. 全社." [ref=e1332]
+                          - img "x, 15004, 1,502. 全社." [ref=e1333]
+                          - img "x, 14232, 1,593. 全社." [ref=e1334]
+                          - img "x, 12071, 386. 全社." [ref=e1335]
+                          - img "x, 14636, 876. 全社." [ref=e1336]
+                          - img "x, 17204, 1,947. 全社." [ref=e1337]
+                          - img "x, 17117, 1,912. 全社." [ref=e1338]
+                        - region "回帰直線 (全社), series 2 of 2. Line with 100 data points." [ref=e1341]:
+                          - img "x, 402.68, -2,447.9575854089553. 回帰直線 (全社)." [ref=e1342]
+                          - img "x, 884.936, -2,324.5523438001865. 回帰直線 (全社)." [ref=e1343]
+                          - img "x, 1367.192, -2,201.147102191418. 回帰直線 (全社)." [ref=e1344]
+                          - img "x, 1849.448, -2,077.741860582649. 回帰直線 (全社)." [ref=e1345]
+                          - img "x, 2331.704, -1,954.3366189738806. 回帰直線 (全社)." [ref=e1346]
+                          - img "x, 2813.96, -1,830.931377365112. 回帰直線 (全社)." [ref=e1347]
+                          - img "x, 3296.216, -1,707.5261357563434. 回帰直線 (全社)." [ref=e1348]
+                          - img "x, 3778.472, -1,584.1208941475747. 回帰直線 (全社)." [ref=e1349]
+                          - img "x, 4260.728, -1,460.7156525388061. 回帰直線 (全社)." [ref=e1350]
+                          - img "x, 4742.984, -1,337.3104109300375. 回帰直線 (全社)." [ref=e1351]
+                          - img "x, 5225.24, -1,213.9051693212689. 回帰直線 (全社)." [ref=e1352]
+                          - img "x, 5707.496, -1,090.4999277125003. 回帰直線 (全社)." [ref=e1353]
+                          - img "x, 6189.752, -967.0946861037318. 回帰直線 (全社)." [ref=e1354]
+                          - img "x, 6672.008, -843.6894444949631. 回帰直線 (全社)." [ref=e1355]
+                          - img "x, 7154.264, -720.2842028861945. 回帰直線 (全社)." [ref=e1356]
+                          - img "x, 7636.52, -596.8789612774259. 回帰直線 (全社)." [ref=e1357]
+                          - img "x, 8118.776, -473.47371966865734. 回帰直線 (全社)." [ref=e1358]
+                          - img "x, 8601.032, -350.0684780598887. 回帰直線 (全社)." [ref=e1359]
+                          - img "x, 9083.288, -226.6632364511201. 回帰直線 (全社)." [ref=e1360]
+                          - img "x, 9565.544, -103.25799484235148. 回帰直線 (全社)." [ref=e1361]
+                          - img "x, 10047.8, 20.14724676641713. 回帰直線 (全社)." [ref=e1362]
+                          - img "x, 10530.056, 143.55248837518573. 回帰直線 (全社)." [ref=e1363]
+                          - img "x, 11012.312, 266.9577299839544. 回帰直線 (全社)." [ref=e1364]
+                          - img "x, 11494.568, 390.36297159272294. 回帰直線 (全社)." [ref=e1365]
+                          - img "x, 11976.824, 513.7682132014916. 回帰直線 (全社)." [ref=e1366]
+                          - img "x, 12459.08, 637.1734548102602. 回帰直線 (全社)." [ref=e1367]
+                          - img "x, 12941.336, 760.5786964190288. 回帰直線 (全社)." [ref=e1368]
+                          - img "x, 13423.592, 883.9839380277974. 回帰直線 (全社)." [ref=e1369]
+                          - img "x, 13905.848, 1,007.389179636566. 回帰直線 (全社)." [ref=e1370]
+                          - img "x, 14388.104, 1,130.7944212453347. 回帰直線 (全社)." [ref=e1371]
+                          - img "x, 14870.36, 1,254.1996628541033. 回帰直線 (全社)." [ref=e1372]
+                          - img "x, 15352.616, 1,377.604904462872. 回帰直線 (全社)." [ref=e1373]
+                          - img "x, 15834.872, 1,501.0101460716405. 回帰直線 (全社)." [ref=e1374]
+                          - img "x, 16317.128, 1,624.4153876804091. 回帰直線 (全社)." [ref=e1375]
+                          - img "x, 16799.384, 1,747.8206292891778. 回帰直線 (全社)." [ref=e1376]
+                          - img "x, 17281.64, 1,871.2258708979464. 回帰直線 (全社)." [ref=e1377]
+                          - img "x, 17763.896, 1,994.631112506715. 回帰直線 (全社)." [ref=e1378]
+                          - img "x, 18246.152, 2,118.0363541154834. 回帰直線 (全社)." [ref=e1379]
+                          - img "x, 18728.408, 2,241.4415957242522. 回帰直線 (全社)." [ref=e1380]
+                          - img "x, 19210.664, 2,364.8468373330206. 回帰直線 (全社)." [ref=e1381]
+                          - img "x, 19692.92, 2,488.2520789417895. 回帰直線 (全社)." [ref=e1382]
+                          - img "x, 20175.176, 2,611.657320550558. 回帰直線 (全社)." [ref=e1383]
+                          - img "x, 20657.432, 2,735.0625621593267. 回帰直線 (全社)." [ref=e1384]
+                          - img "x, 21139.688, 2,858.467803768095. 回帰直線 (全社)." [ref=e1385]
+                          - img "x, 21621.944, 2,981.873045376864. 回帰直線 (全社)." [ref=e1386]
+                          - img "x, 22104.2, 3,105.2782869856323. 回帰直線 (全社)." [ref=e1387]
+                          - img "x, 22586.456, 3,228.683528594401. 回帰直線 (全社)." [ref=e1388]
+                          - img "x, 23068.712, 3,352.0887702031696. 回帰直線 (全社)." [ref=e1389]
+                          - img "x, 23550.968, 3,475.4940118119384. 回帰直線 (全社)." [ref=e1390]
+                          - img "x, 24033.224, 3,598.899253420707. 回帰直線 (全社)." [ref=e1391]
+                          - img "x, 24515.48, 3,722.3044950294757. 回帰直線 (全社)." [ref=e1392]
+                          - img "x, 24997.736, 3,845.709736638244. 回帰直線 (全社)." [ref=e1393]
+                          - img "x, 25479.992, 3,969.114978247013. 回帰直線 (全社)." [ref=e1394]
+                          - img "x, 25962.248, 4,092.5202198557813. 回帰直線 (全社)." [ref=e1395]
+                          - img "x, 26444.504, 4,215.92546146455. 回帰直線 (全社)." [ref=e1396]
+                          - img "x, 26926.76, 4,339.330703073319. 回帰直線 (全社)." [ref=e1397]
+                          - img "x, 27409.016, 4,462.735944682087. 回帰直線 (全社)." [ref=e1398]
+                          - img "x, 27891.272, 4,586.141186290855. 回帰直線 (全社)." [ref=e1399]
+                          - img "x, 28373.528, 4,709.546427899624. 回帰直線 (全社)." [ref=e1400]
+                          - img "x, 28855.784, 4,832.951669508393. 回帰直線 (全社)." [ref=e1401]
+                          - img "x, 29338.04, 4,956.356911117162. 回帰直線 (全社)." [ref=e1402]
+                          - img "x, 29820.296, 5,079.76215272593. 回帰直線 (全社)." [ref=e1403]
+                          - img "x, 30302.552, 5,203.167394334699. 回帰直線 (全社)." [ref=e1404]
+                          - img "x, 30784.808, 5,326.5726359434675. 回帰直線 (全社)." [ref=e1405]
+                          - img "x, 31267.064, 5,449.977877552236. 回帰直線 (全社)." [ref=e1406]
+                          - img "x, 31749.32, 5,573.383119161004. 回帰直線 (全社)." [ref=e1407]
+                          - img "x, 32231.576, 5,696.788360769773. 回帰直線 (全社)." [ref=e1408]
+                          - img "x, 32713.832, 5,820.193602378542. 回帰直線 (全社)." [ref=e1409]
+                          - img "x, 33196.088, 5,943.598843987311. 回帰直線 (全社)." [ref=e1410]
+                          - img "x, 33678.344, 6,067.004085596079. 回帰直線 (全社)." [ref=e1411]
+                      - generic [ref=e1412]: 限界利益率=25.589%通期固定費=10,204百万円R2=0.913
+                      - generic [ref=e1419] [cursor=pointer]: 全社
+                      - generic [ref=e1420]:
+                        - generic [ref=e1421]: "0"
+                        - generic [ref=e1422]: "5000"
+                        - generic [ref=e1423]: 10,000
+                        - generic [ref=e1424]: 15,000
+                        - generic [ref=e1425]: 20,000
+                        - generic [ref=e1426]: 25,000
+                        - generic [ref=e1427]: 30,000
+                        - generic [ref=e1428]: 35,000
+                      - generic [ref=e1429]:
+                        - generic [ref=e1430]: "-5000"
+                        - generic [ref=e1431]: "-2500"
+                        - generic [ref=e1432]: "0"
+                        - generic [ref=e1433]: "2500"
+                        - generic [ref=e1434]: "5000"
+                        - generic [ref=e1435]: "7500"
+                    - generic [ref=e1436]:
+                      - region "Toggle series visibility, Chart":
+                        - list:
+                          - listitem:
+                            - button "Show 全社" [pressed] [ref=e1437] [cursor=pointer]
+                  - generic [ref=e1439]: End of interactive chart.
+            - table [ref=e1441]:
+              - rowgroup [ref=e1442]:
+                - row "2024.3 2025.3 2026.3 2027.3E" [ref=e1443]:
+                  - columnheader [ref=e1444]
+                  - columnheader "2024.3" [ref=e1445]:
+                    - link "2024.3" [ref=e1446] [cursor=pointer]:
+                      - /url: /company/1930/library/92814ec896a28eb5ab3e7a/preview
+                  - columnheader "2025.3" [ref=e1447]:
+                    - link "2025.3" [ref=e1448] [cursor=pointer]:
+                      - /url: /company/1930/library/4e6180d0b9b2b83c9b1954/preview
+                  - columnheader "2026.3" [ref=e1449]:
+                    - link "2026.3" [ref=e1450] [cursor=pointer]:
+                      - /url: /company/1930/library/bd33c5887095adf74a0084/preview
+                  - columnheader "2027.3E" [ref=e1451]
+              - rowgroup [ref=e1452]:
+                - row "ROA (%) 3.5 5.2 6.2 -" [ref=e1453]:
+                  - rowheader "ROA (%)" [ref=e1454]
+                  - cell "3.5" [ref=e1455]
+                  - cell "5.2" [ref=e1456]
+                  - cell "6.2" [ref=e1457]
+                  - cell "-" [ref=e1458]
+                - row "ROIC (%) 5.2 6.5 7.6 -" [ref=e1459]:
+                  - rowheader "ROIC (%)" [ref=e1460]
+                  - cell "5.2" [ref=e1461]
+                  - cell "6.5" [ref=e1462]
+                  - cell "7.6" [ref=e1463]
+                  - cell "-" [ref=e1464]
+                - row "ROE (%) 5.3 7.3 8.4 -" [ref=e1465]:
+                  - rowheader "ROE (%)" [ref=e1466]
+                  - cell "5.3" [ref=e1467]
+                  - cell "7.3" [ref=e1468]
+                  - cell "8.4" [ref=e1469]
+                  - cell "-" [ref=e1470]
+                - row "純利益率 (%) 4.1 5.7 6.3 5.9" [ref=e1471]:
+                  - rowheader "純利益率 (%)" [ref=e1472]
+                  - cell "4.1" [ref=e1473]
+                  - cell "5.7" [ref=e1474]
+                  - cell "6.3" [ref=e1475]
+                  - cell "5.9" [ref=e1476]
+                - row "総資産回転率 (回) 0.9 0.9 1.0 -" [ref=e1477]:
+                  - rowheader "総資産回転率 (回)" [ref=e1478]
+                  - cell "0.9" [ref=e1479]
+                  - cell "0.9" [ref=e1480]
+                  - cell "1.0" [ref=e1481]
+                  - cell "-" [ref=e1482]
+                - row "財務レバレッジ (倍) 1.5 1.4 1.3 -" [ref=e1483]:
+                  - rowheader "財務レバレッジ (倍)" [ref=e1484]
+                  - cell "1.5" [ref=e1485]
+                  - cell "1.4" [ref=e1486]
+                  - cell "1.3" [ref=e1487]
+                  - cell "-" [ref=e1488]
+                - row "限界利益率 (%) 23.9 24.8 25.6 -" [ref=e1489]:
+                  - rowheader "限界利益率 (%)" [ref=e1490]
+                  - cell "23.9" [ref=e1491]
+                  - cell "24.8" [ref=e1492]
+                  - cell "25.6" [ref=e1493]
+                  - cell "-" [ref=e1494]
+            - generic [ref=e1495]:
+              - generic [ref=e1497]:
+                - generic [ref=e1498]:
+                  - generic [ref=e1499]: 
+                  - text: 従業員数（連結優先）
+                - region "Chart. Highcharts interactive chart." [ref=e1501]:
+                  - generic [ref=e1502]:
+                    - heading "Chart" [level=6] [ref=e1503]
+                    - generic [ref=e1504]: Bar chart with 9 bars.
+                    - generic [ref=e1505]: The chart has 1 X axis displaying categories.
+                    - generic [ref=e1506]: The chart has 1 Y axis displaying values. Data ranges from 1026 to 1333.
+                  - img "Interactive chart" [ref=e1512]:
+                    - generic [ref=e1519]:
+                      - img "17.3, 1,026. 従業員数." [ref=e1520]
+                      - img "18.3, 1,049. 従業員数." [ref=e1521]
+                      - img "19.3, 1,055. 従業員数." [ref=e1522]
+                      - img "20.3, 1,082. 従業員数." [ref=e1523]
+                      - img "21.3, 1,141. 従業員数." [ref=e1524]
+                      - img "22.3, 1,160. 従業員数." [ref=e1525]
+                      - img "23.3, 1,231. 従業員数." [ref=e1526]
+                      - img "24.3, 1,330. 従業員数." [ref=e1527]
+                      - img "25.3, 1,333. 従業員数." [ref=e1528]
+                    - generic [ref=e1529]:
+                      - generic [ref=e1530]: "0"
+                      - generic [ref=e1531]: "500"
+                      - generic [ref=e1532]: "1000"
+                      - generic [ref=e1533]: "1500"
+                    - generic [ref=e1534]:
+                      - generic [ref=e1535]: "17.3"
+                      - generic [ref=e1536]: "18.3"
+                      - generic [ref=e1537]: "19.3"
+                      - generic [ref=e1538]: "20.3"
+                      - generic [ref=e1539]: "21.3"
+                      - generic [ref=e1540]: "22.3"
+                      - generic [ref=e1541]: "23.3"
+                      - generic [ref=e1542]: "24.3"
+                      - generic [ref=e1543]: "25.3"
+                  - generic [ref=e1545]: End of interactive chart.
+              - generic [ref=e1547]:
+                - generic [ref=e1548]:
+                  - generic [ref=e1549]: 
+                  - text: 月次従業員数（単体）
+                - generic [ref=e1550]:
+                  - img [ref=e1551]
+                  - generic [ref=e1552]:
+                    - link "法人プランでご利用いただけます " [ref=e1553] [cursor=pointer]:
+                      - /url: https://business.buffett-code.com/?utm_source=public_gyoseki_hc
+                      - text: 法人プランでご利用いただけます
+                      - generic [ref=e1554]: 
+                    - paragraph [ref=e1555]: 月次従業員数（単体）の推移を閲覧できます
+              - generic [ref=e1557]:
+                - generic [ref=e1558]:
+                  - generic [ref=e1559]: 
+                  - text: 従業員ひとりあたりの営利&売上（連結優先）
+                - region "Chart. Highcharts interactive chart." [ref=e1561]:
+                  - generic [ref=e1562]:
+                    - heading "Chart" [level=6] [ref=e1563]
+                    - generic [ref=e1564]: Line chart with 2 lines.
+                    - generic [ref=e1565]: The chart has 1 X axis displaying categories.
+                    - generic [ref=e1566]: The chart has 1 Y axis displaying values. Data ranges from 1913891.15 to 46147874.31.
+                  - img "Interactive chart" [ref=e1572]:
+                    - generic [ref=e1578]:
+                      - region "従業員ひとりあたり営業利益, line 1 of 2 with 10 data points." [ref=e1582]:
+                        - img "17.3, 4,467,836.26. 従業員ひとりあたり営業利益." [ref=e1583]
+                        - img "18.3, 4,178,265.01. 従業員ひとりあたり営業利益." [ref=e1584]
+                        - img "19.3, 3,856,872.04. 従業員ひとりあたり営業利益." [ref=e1585]
+                        - img "20.3, 4,404,805.91. 従業員ひとりあたり営業利益." [ref=e1586]
+                        - img "21.3, 3,376,862.4. 従業員ひとりあたり営業利益." [ref=e1587]
+                        - img "22.3, 2,721,551.72. 従業員ひとりあたり営業利益." [ref=e1588]
+                        - img "23.3, 1,913,891.15. 従業員ひとりあたり営業利益." [ref=e1589]
+                        - img "24.3, 2,575,187.97. 従業員ひとりあたり営業利益." [ref=e1590]
+                        - img "25.3, 3,264,066.02. 従業員ひとりあたり営業利益." [ref=e1591]
+                      - region "従業員ひとりあたり売上, line 2 of 2 with 10 data points." [ref=e1595]:
+                        - img "17.3, 41,971,734.89. 従業員ひとりあたり売上." [ref=e1596]
+                        - img "18.3, 40,224,976.17. 従業員ひとりあたり売上." [ref=e1597]
+                        - img "19.3, 41,447,393.36. 従業員ひとりあたり売上." [ref=e1598]
+                        - img "20.3, 46,147,874.31. 従業員ひとりあたり売上." [ref=e1599]
+                        - img "21.3, 39,340,929.01. 従業員ひとりあたり売上." [ref=e1600]
+                        - img "22.3, 39,593,103.45. 従業員ひとりあたり売上." [ref=e1601]
+                        - img "23.3, 36,430,544.27. 従業員ひとりあたり売上." [ref=e1602]
+                        - img "24.3, 40,148,872.18. 従業員ひとりあたり売上." [ref=e1603]
+                        - img "25.3, 41,715,678.92. 従業員ひとりあたり売上." [ref=e1604]
+                    - generic [ref=e1605]:
+                      - generic [ref=e1606]: "0"
+                      - generic [ref=e1607]: 1,000万
+                      - generic [ref=e1608]: 2,000万
+                      - generic [ref=e1609]: 3,000万
+                      - generic [ref=e1610]: 4,000万
+                      - generic [ref=e1611]: 5,000万
+                    - generic [ref=e1612]:
+                      - generic [ref=e1613]: "17.3"
+                      - generic [ref=e1614]: "18.3"
+                      - generic [ref=e1615]: "19.3"
+                      - generic [ref=e1616]: "20.3"
+                      - generic [ref=e1617]: "21.3"
+                      - generic [ref=e1618]: "22.3"
+                      - generic [ref=e1619]: "23.3"
+                      - generic [ref=e1620]: "24.3"
+                      - generic [ref=e1621]: "25.3"
+                      - generic [ref=e1622]: "26.3"
+                  - generic [ref=e1624]: End of interactive chart.
+            - table [ref=e1626]:
+              - rowgroup [ref=e1627]:
+                - row "2024.3 2025.3 2026.3 2027.3E" [ref=e1628]:
+                  - columnheader [ref=e1629]
+                  - columnheader "2024.3" [ref=e1630]:
+                    - link "2024.3" [ref=e1631] [cursor=pointer]:
+                      - /url: /company/1930/library/92814ec896a28eb5ab3e7a/preview
+                  - columnheader "2025.3" [ref=e1632]:
+                    - link "2025.3" [ref=e1633] [cursor=pointer]:
+                      - /url: /company/1930/library/4e6180d0b9b2b83c9b1954/preview
+                  - columnheader "2026.3" [ref=e1634]:
+                    - link "2026.3" [ref=e1635] [cursor=pointer]:
+                      - /url: /company/1930/library/bd33c5887095adf74a0084/preview
+                  - columnheader "2027.3E" [ref=e1636]
+              - rowgroup [ref=e1637]:
+                - row "従業員数 (人) 1,330 1,333 - -" [ref=e1638]:
+                  - rowheader "従業員数 (人)" [ref=e1639]
+                  - cell "1,330" [ref=e1640]
+                  - cell "1,333" [ref=e1641]
+                  - cell "-" [ref=e1642]
+                  - cell "-" [ref=e1643]
+                - row "売上/従業員 (千円) 40,149 41,716 - -" [ref=e1644]:
+                  - rowheader "売上/従業員 (千円)" [ref=e1645]
+                  - cell "40,149" [ref=e1646]
+                  - cell "41,716" [ref=e1647]
+                  - cell "-" [ref=e1648]
+                  - cell "-" [ref=e1649]
+                - row "営利/従業員 (千円) 2,575 3,264 - -" [ref=e1650]:
+                  - rowheader "営利/従業員 (千円)" [ref=e1651]
+                  - cell "2,575" [ref=e1652]
+                  - cell "3,264" [ref=e1653]
+                  - cell "-" [ref=e1654]
+                  - cell "-" [ref=e1655]
+                - row "発行済株式総数 (株) 27,989,760 27,989,385 27,502,538 -" [ref=e1656]:
+                  - rowheader "発行済株式総数 (株)" [ref=e1657]
+                  - cell "27,989,760" [ref=e1658]
+                  - cell "27,989,385" [ref=e1659]
+                  - cell "27,502,538" [ref=e1660]
+                  - cell "-" [ref=e1661]
+          - text:                          
+        - list [ref=e1664]:
+          - link "まとめ" [ref=e1665] [cursor=pointer]:
+            - /url: /company/1930/financial
+          - link "指標" [ref=e1666] [cursor=pointer]:
+            - /url: /company/1930/financial/indicator
+          - link "P/L" [ref=e1667] [cursor=pointer]:
+            - /url: /company/1930/financial/pl
+          - link "B/S" [ref=e1668] [cursor=pointer]:
+            - /url: /company/1930/financial/bs
+          - link "C/S" [ref=e1669] [cursor=pointer]:
+            - /url: /company/1930/financial/cs
+        - paragraph [ref=e1670]: ※(C)表記はコンセンサス予想、ないしはコンセンサス予想ベースの弊社算出指標になります。掲載されているコンセンサス予想は株式会社アイフィスジャパンの提供によるものです。
+  - generic [ref=e1672]:
+    - link "お問い合わせ" [ref=e1673] [cursor=pointer]:
+      - /url: /contacts
+    - link "採用" [ref=e1674] [cursor=pointer]:
+      - /url: https://career.buffett-code.com/
+    - link "ブログ" [ref=e1675] [cursor=pointer]:
+      - /url: https://blog.buffett-code.com/
+    - link "規約一覧" [ref=e1676] [cursor=pointer]:
+      - /url: /legal
+    - link "" [ref=e1677] [cursor=pointer]:
+      - /url: https://twitter.com/buffett_code
+      - generic [ref=e1678]: 

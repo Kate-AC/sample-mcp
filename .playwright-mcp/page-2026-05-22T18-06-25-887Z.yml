@@ -1,0 +1,119 @@
+- generic [ref=e1]:
+  - button "広告の背景(クリックで縮小)" [ref=e2] [cursor=pointer]:
+    - dialog [ref=e3]:
+      - button "あとで表示する" [ref=e6]
+  - navigation [ref=e10]:
+    - generic [ref=e11]:
+      - link "buffett code logo" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - img "buffett code logo" [ref=e13]
+      - link "バフェット・コード" [ref=e14] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e15]: バフェット・コード
+    - generic [ref=e16]:
+      - link "法人プラン" [ref=e20] [cursor=pointer]:
+        - /url: https://business.buffett-code.com/?utm_source=web_ui_nav
+      - generic [ref=e21]:
+        - link "ログイン" [ref=e22] [cursor=pointer]:
+          - /url: /auth/sign_in
+        - button "会員登録(無料)" [ref=e24] [cursor=pointer]
+        - link "お問い合わせ" [ref=e25] [cursor=pointer]:
+          - /url: https://business.buffett-code.com/contact?utm_source=web_ui_nav
+      - text: 
+  - text:             
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - link " 条件検索" [ref=e29] [cursor=pointer]:
+        - /url: /global_screening
+        - generic [ref=e30]: 
+        - generic [ref=e31]: 条件検索
+      - link " M&A検索" [ref=e32] [cursor=pointer]:
+        - /url: /ma_search
+        - generic [ref=e33]: 
+        - generic [ref=e34]: M&A検索
+      - link " 株主検索" [ref=e35] [cursor=pointer]:
+        - /url: /shareholder_search
+        - generic [ref=e36]: 
+        - generic [ref=e37]: 株主検索
+      - link " 企業比較" [ref=e38] [cursor=pointer]:
+        - /url: /comps
+        - generic [ref=e39]: 
+        - generic [ref=e40]: 企業比較
+      - link " 資料検索" [ref=e41] [cursor=pointer]:
+        - /url: /documents
+        - generic [ref=e42]: 
+        - generic [ref=e43]: 資料検索
+      - link " スライド検索" [ref=e44] [cursor=pointer]:
+        - /url: /slides/search
+        - generic [ref=e45]: 
+        - generic [ref=e46]: スライド検索
+      - link " 適時開示" [ref=e47] [cursor=pointer]:
+        - /url: /disclosures/financial_statements
+        - generic [ref=e48]: 
+        - generic [ref=e49]: 適時開示
+      - link " 決算予定" [ref=e50] [cursor=pointer]:
+        - /url: /calendar
+        - generic [ref=e51]: 
+        - generic [ref=e52]: 決算予定
+      - link " 株価DL" [ref=e53] [cursor=pointer]:
+        - /url: /download
+        - generic [ref=e54]: 
+        - generic [ref=e55]: 株価DL
+      - link " 登記簿" [ref=e56] [cursor=pointer]:
+        - /url: /registries
+        - generic [ref=e57]: 
+        - generic [ref=e58]: 登記簿
+      - generic [ref=e60]:
+        - generic [ref=e61]: 
+        - generic [ref=e62]: About
+    - generic [ref=e66]:
+      - generic [ref=e67]: 会社名・事業キーワード・銘柄コードで検索
+      - generic [ref=e68]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - textbox "会社名やキーワードや銘柄コードで検索" [active] [ref=e72]
+            - button [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+          - generic:
+            - list
+        - generic [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]: 
+          - text: 検索のヒント
+      - generic [ref=e80]:
+        - link "業種" [ref=e82] [cursor=pointer]:
+          - /url: /industries
+        - link "未上場" [ref=e84] [cursor=pointer]:
+          - /url: /unlisted_companies
+        - link "PTS" [ref=e86] [cursor=pointer]:
+          - /url: /pts
+        - link "ニュース" [ref=e88] [cursor=pointer]:
+          - /url: /news_topics
+        - link "マガジン" [ref=e90] [cursor=pointer]:
+          - /url: /articles/
+        - link "月次" [ref=e92] [cursor=pointer]:
+          - /url: /monthly_reports
+      - generic [ref=e93]:
+        - link "統合報告書" [ref=e95] [cursor=pointer]:
+          - /url: /annual_reports
+        - link "アナリストレポート" [ref=e97] [cursor=pointer]:
+          - /url: /analyst_reports
+        - link "リサーチレポート" [ref=e99] [cursor=pointer]:
+          - /url: /research_reports
+        - link "新着動画" [ref=e101] [cursor=pointer]:
+          - /url: /videos/recent
+        - link "米国" [ref=e103] [cursor=pointer]:
+          - /url: /company/us
+        - link "タグ" [ref=e105] [cursor=pointer]:
+          - /url: /tags
+  - generic [ref=e108]:
+    - link "お問い合わせ" [ref=e109] [cursor=pointer]:
+      - /url: /contacts
+    - link "採用" [ref=e110] [cursor=pointer]:
+      - /url: https://career.buffett-code.com/
+    - link "ブログ" [ref=e111] [cursor=pointer]:
+      - /url: https://blog.buffett-code.com/
+    - link "規約一覧" [ref=e112] [cursor=pointer]:
+      - /url: /legal
+    - link "" [ref=e113] [cursor=pointer]:
+      - /url: https://twitter.com/buffett_code
+      - generic [ref=e114]: 

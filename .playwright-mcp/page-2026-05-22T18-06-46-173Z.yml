@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "buffett code logo" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "buffett code logo" [ref=e5]
+      - link "バフェット・コード" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: バフェット・コード
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - link "ログイン" [ref=e10] [cursor=pointer]:
+          - /url: /auth/sign_in
+        - button "会員登録(無料)" [ref=e12] [cursor=pointer]
+      - text: 
+  - text:             
+  - generic [ref=e13]:
+    - heading "ログイン" [level=1] [ref=e14]
+    - generic [ref=e15]:
+      - paragraph [ref=e16]:
+        - text: ログインすることで、
+        - link "利用規約" [ref=e17] [cursor=pointer]:
+          - /url: /legal/terms_of_use
+        - text: および
+        - link "プライバシーポリシー" [ref=e18] [cursor=pointer]:
+          - /url: /legal/privacy_policy
+        - text: に同意したことになります。
+      - button "Google Googleでログイン" [ref=e20] [cursor=pointer]:
+        - img "Google" [ref=e21]
+        - generic [ref=e22]: Googleでログイン
+      - button "Facebook Facebookでログイン" [ref=e24] [cursor=pointer]:
+        - img "Facebook" [ref=e25]
+        - generic [ref=e26]: Facebookでログイン
+      - button "X Xでログイン" [ref=e28] [cursor=pointer]:
+        - img "X" [ref=e29]
+        - generic [ref=e30]: Xでログイン
+      - generic [ref=e32]: または
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: メールアドレス
+          - textbox "メールアドレス" [ref=e36]:
+            - /placeholder: example@domain.com
+        - button "メールアドレスでログイン" [ref=e38] [cursor=pointer]
+        - paragraph [ref=e39]: ログイン用のリンクをメールでお送りします
+      - generic [ref=e40]:
+        - paragraph [ref=e41]:
+          - text: アカウントをお持ちでないですか？
+          - button "アカウント作成" [ref=e42] [cursor=pointer]
+        - paragraph [ref=e43]:
+          - text: アカウントが登録済みかご不明な場合は
+          - link "こちら" [ref=e44] [cursor=pointer]:
+            - /url: /users/status_mails

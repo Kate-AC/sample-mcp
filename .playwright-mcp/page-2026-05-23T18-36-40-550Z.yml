@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - progressbar [ref=e6]
+      - main [ref=e169]:
+        - generic [ref=e170]:
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - generic [ref=e180]: Google でログイン
+            - img "バフェット・コード" [ref=e181]
+          - generic [ref=e182]:
+            - heading "2 段階認証プロセス" [level=1] [ref=e183]
+            - generic [ref=e184]: アカウントを安全に保つため、ログインするには本人確認を行う必要があります
+            - generic [ref=e191]: mkiym.tkt@gmail.com
+        - generic [ref=e200]:
+          - heading "ログイン方法を選択してください" [level=2] [ref=e202]:
+            - generic [ref=e203]: ログイン方法を選択してください
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "スマートフォンまたはタブレットで [はい] をタップしてください 現在、デバイスにアクセスできません" [disabled]:
+                - generic:
+                  - img
+                - generic:
+                  - text: スマートフォンまたはタブレットで [
+                  - strong: はい
+                  - text: "] をタップしてください"
+                  - generic: 現在、デバイスにアクセスできません
+            - listitem [ref=e209]:
+              - link "スマートフォンやタブレットを使用してセキュリティ コードを取得（スマートフォンやタブレットがオフラインの場合も含む）" [ref=e210] [cursor=pointer]:
+                - img [ref=e212]
+                - generic [ref=e214]: スマートフォンやタブレットを使用してセキュリティ コードを取得（スマートフォンやタブレットがオフラインの場合も含む）
+            - listitem [ref=e215]:
+              - link "•••-••••-••88 で確認コードを取得してください 2 段階認証プロセスの電話番号 通常の料金が発生します" [ref=e216] [cursor=pointer]:
+                - img [ref=e218]
+                - generic [ref=e220]:
+                  - generic [ref=e221]:
+                    - generic [ref=e222]: •••-••••-••88
+                    - text: で確認コードを取得してください
+                  - generic [ref=e223]:
+                    - text: 2 段階認証プロセスの電話番号
+                    - generic [ref=e224]: 通常の料金が発生します
+            - listitem [ref=e225]:
+              - link "パスキーを使用" [ref=e226] [cursor=pointer]:
+                - img [ref=e228]
+                - generic [ref=e230]: パスキーを使用
+            - listitem [ref=e231]:
+              - link "別の方法を試す" [ref=e232] [cursor=pointer]:
+                - img [ref=e234]
+                - generic [ref=e236]: 別の方法を試す
+    - contentinfo [ref=e75]:
+      - combobox "言語の変更 日本語" [ref=e79] [cursor=pointer]:
+        - generic:
+          - generic: 日本語
+        - generic:
+          - img
+      - list [ref=e81]:
+        - listitem [ref=e82]:
+          - link "ヘルプ" [ref=e83] [cursor=pointer]:
+            - /url: https://support.google.com/accounts?hl=ja&p=account_iph
+        - listitem [ref=e84]:
+          - link "プライバシー" [ref=e85] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=JP&hl=ja&privacy=true
+        - listitem [ref=e86]:
+          - link "規約" [ref=e87] [cursor=pointer]:
+            - /url: https://accounts.google.com/TOS?loc=JP&hl=ja
+  - iframe [ref=e88]:
+    
+  - generic [ref=e238]: 2 段階認証プロセス アカウントを安全に保つため、ログインするには本人確認を行う必要があります
